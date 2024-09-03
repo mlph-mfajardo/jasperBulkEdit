@@ -1,0 +1,1983 @@
+File Name,Found Lines
+"
+APPROVAL_FISHING_VESSELS.jrxml
+","Line 451: <textFieldExpression><![CDATA[""To be completely manned by Filipino officers and crew except where a supernumerary is allowed by the proper authorities;""]]></textFieldExpression>
+Line 22: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 74: ""Please be informed that your request for authority to acquire through importation of one (1) unit ""+$F{yearBuilt}+"" ""+$F{grossTonnage}+"" ""+$F{vesselType}+"" named, <b>“""+$F{vesselName}+""”</b> from the Seller, ""+$P{otherInfo.companySellerOwnerName}+"" of ""+$P{otherInfo.countryOfCompanySellerOwnerName}+"", is hereby <b><u>GRANTED</u></b>, subject to strict compliance with the following conditions:""]]></textFieldExpression>
+Line 23: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 74: ""Please be informed that your request for authority to acquire through importation of one (1) unit ""+$F{yearBuilt}+"" ""+$F{grossTonnage}+"" ""+$F{vesselType}+"" named, <b>“""+$F{vesselName}+""”</b> from the Seller, ""+$P{otherInfo.companySellerOwnerName}+"" of ""+$P{otherInfo.countryOfCompanySellerOwnerName}+"", is hereby <b><u>GRANTED</u></b>, subject to strict compliance with the following conditions:""]]></textFieldExpression>"
+"
+APPROVAL_LARGE_VESSELS.jrxml
+","Line 570: <textFieldExpression><![CDATA[""To be completely manned by Filipino officers and crew except where a supernumerary is allowed by the proper authorities, and each shall comply with the relevant regulations of the IMO Convention on STCW;""]]></textFieldExpression>
+Line 34: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 85: ""Please be informed that your request for authority to acquire through importation of one (1) unit ""+$F{yearBuilt}+"" ""+$F{grossTonnage}+"" ""+$F{vesselType}+"" named, <b>“""+$F{vesselName}+""”</b> from the Seller, ""+$P{otherInfo.companySellerOwnerName}+"" of ""+$P{otherInfo.countryOfCompanySellerOwnerName}+"", is hereby <b><u>GRANTED</u></b>, subject to strict compliance with the following conditions:""]]></textFieldExpression>
+Line 35: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 85: ""Please be informed that your request for authority to acquire through importation of one (1) unit ""+$F{yearBuilt}+"" ""+$F{grossTonnage}+"" ""+$F{vesselType}+"" named, <b>“""+$F{vesselName}+""”</b> from the Seller, ""+$P{otherInfo.companySellerOwnerName}+"" of ""+$P{otherInfo.countryOfCompanySellerOwnerName}+"", is hereby <b><u>GRANTED</u></b>, subject to strict compliance with the following conditions:""]]></textFieldExpression>"
+"
+APPROVAL_SMALL_VESSELS_MISCELLANEOUS.jrxml
+","Line 22: <parameter name=""vesselUpdateInfo.classification.value"" class=""java.lang.String""/>
+Line 29: <parameter name=""classification.value"" class=""java.lang.String""/>
+Line 92: ""This refers to your request for authority to acquire thru importation of one (1) unit ""+($P{vesselUpdateInfo.yearBuilt}!=null?$P{vesselUpdateInfo.yearBuilt}:$P{yearBuilt})+"" of ""+($P{vesselUpdateInfo.classification.value}!=null?$P{vesselUpdateInfo.classification.value}:$P{classification.value})+"", ""+($P{vesselUpdateInfo.type.value}!=null?$P{vesselUpdateInfo.type.value}:$P{type.value})+"" from the Seller, ""+$P{otherInfo.companySellerOwnerName}+"" of ""+$P{otherInfo.countryOfCompanySellerOwnerName}+"".<br/><br/>""+
+Line 23: <parameter name=""vesselUpdateInfo.type.value"" class=""java.lang.String""/>
+Line 30: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 92: ""This refers to your request for authority to acquire thru importation of one (1) unit ""+($P{vesselUpdateInfo.yearBuilt}!=null?$P{vesselUpdateInfo.yearBuilt}:$P{yearBuilt})+"" of ""+($P{vesselUpdateInfo.classification.value}!=null?$P{vesselUpdateInfo.classification.value}:$P{classification.value})+"", ""+($P{vesselUpdateInfo.type.value}!=null?$P{vesselUpdateInfo.type.value}:$P{type.value})+"" from the Seller, ""+$P{otherInfo.companySellerOwnerName}+"" of ""+$P{otherInfo.countryOfCompanySellerOwnerName}+"".<br/><br/>""+
+Line 24: <parameter name=""vesselUpdateInfo.yearBuilt"" class=""java.lang.Integer""/>
+Line 31: <parameter name=""yearBuilt"" class=""java.lang.Integer""/>
+Line 92: ""This refers to your request for authority to acquire thru importation of one (1) unit ""+($P{vesselUpdateInfo.yearBuilt}!=null?$P{vesselUpdateInfo.yearBuilt}:$P{yearBuilt})+"" of ""+($P{vesselUpdateInfo.classification.value}!=null?$P{vesselUpdateInfo.classification.value}:$P{classification.value})+"", ""+($P{vesselUpdateInfo.type.value}!=null?$P{vesselUpdateInfo.type.value}:$P{type.value})+"" from the Seller, ""+$P{otherInfo.companySellerOwnerName}+"" of ""+$P{otherInfo.countryOfCompanySellerOwnerName}+"".<br/><br/>""+"
+"
+BAREBOAT_IN_APPROVAL.jrxml
+","Line 417: <textFieldExpression><![CDATA[""To be completely manned by Filipino officers and crew except where a supernumerary is allowed by the proper authorities, and each shall comply with the relevant regulations of the IMO Convention on STCW;""]]></textFieldExpression>
+Line 28: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 65: ""This has reference to your request for authority to acquire thru bareboat charter under PD 760, as amended, of the ""+$F{yearBuilt}+"" ""+$F{grossTonnage}+"", foreign-registered ""+$F{vesselType}+"" named, <b>“""+$F{vesselName}+""”</b>, from the registered Owner, ""+$P{otherInfo.companySellerOwnerName}+"" of ""+$P{otherInfo.countryOfCompanySellerOwnerName}+"", valid for a period of ""+$P{otherInfo.noOfYears}+"" years or from ""+$P{otherInfo.validityOfConsentFrom}+"" to ""+$P{otherInfo.validityOfConsentTo}+"".<br/><br/>""+
+Line 29: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 65: ""This has reference to your request for authority to acquire thru bareboat charter under PD 760, as amended, of the ""+$F{yearBuilt}+"" ""+$F{grossTonnage}+"", foreign-registered ""+$F{vesselType}+"" named, <b>“""+$F{vesselName}+""”</b>, from the registered Owner, ""+$P{otherInfo.companySellerOwnerName}+"" of ""+$P{otherInfo.countryOfCompanySellerOwnerName}+"", valid for a period of ""+$P{otherInfo.noOfYears}+"" years or from ""+$P{otherInfo.validityOfConsentFrom}+"" to ""+$P{otherInfo.validityOfConsentTo}+"".<br/><br/>""+
+Line 14: <parameter name=""otherInfo.flagState"" class=""java.lang.String""/>
+Line 521: <textFieldExpression><![CDATA[""Original and one (1) copy to be certified as true copy by the DSS, MRO of the ship’s Consent/Suspension of Registry from the Maritime Administration of the "" + $P{otherInfo.flagState} + "";""]]></textFieldExpression>"
+"
+BAREBOAT_IN_RENEWAL.jrxml
+","Line 28: <parameter name=""vesselUpdateInfo.shipName"" class=""java.lang.String""/>
+Line 79: ""This refers to your letter dated ""+($P{otherInfo.companyApplicationRequestDate}!=null?$P{otherInfo.companyApplicationRequestDate}:""____________"")+"" requesting the extension of the bareboat charter authority under PD 760, as amended, for the ""+($P{vesselUpdateInfo.type.value}!=null?$P{vesselUpdateInfo.type.value}:""____________"")+"" named <b>""+($P{vesselUpdateInfo.shipName}!=null?$P{vesselUpdateInfo.shipName}.toUpperCase():""____________"")+""</b> for another period of <b>""+($P{otherInfo.periodOfExtensionInMonths}!=null?$P{otherInfo.periodOfExtensionInMonths}:""____________"")+"" months, from ""+($P{otherInfo.periodOfExtensionFrom}!=null?$P{otherInfo.periodOfExtensionFrom}:""____________"")+"" to ""+($P{otherInfo.periodOfExtensionTo}!=null?$P{otherInfo.periodOfExtensionTo}:""____________"")+""</b>, pursuant to the notarized and apostilled ""+($P{otherInfo.addendumToTheOriginalBareboatCharterAgreement}!=null?$P{otherInfo.addendumToTheOriginalBareboatCharterAgreement}:""____________"")+"" dated ""+($P{otherInfo.dateOfOriginalCharterAgreement}!=null?$P{otherInfo.dateOfOriginalCharterAgreement}:""____________"")+"", which was made on ""+($P{otherInfo.dateOfAddendum}!=null?$P{otherInfo.dateOfAddendum}:""____________"")+"" by and between the Owner, ""+($P{otherInfo.companySellerOwnerName}!=null?$P{otherInfo.companySellerOwnerName}:""____________"")+"", and the Charterer, ""+($P{applicant.companyName}!=null?$P{applicant.companyName}:""____________"")+"" and co-terminus with the Letter of Consent/Certification issued on ""+($P{otherInfo.dateOfConsent}!=null?$P{otherInfo.dateOfConsent}:""____________"")+"" by the ""+($P{otherInfo.issuingAuthority}!=null?$P{otherInfo.issuingAuthority}:""____________"")+"".<br/><br/>""+
+Line 29: <parameter name=""vesselUpdateInfo.type.value"" class=""java.lang.String""/>
+Line 79: ""This refers to your letter dated ""+($P{otherInfo.companyApplicationRequestDate}!=null?$P{otherInfo.companyApplicationRequestDate}:""____________"")+"" requesting the extension of the bareboat charter authority under PD 760, as amended, for the ""+($P{vesselUpdateInfo.type.value}!=null?$P{vesselUpdateInfo.type.value}:""____________"")+"" named <b>""+($P{vesselUpdateInfo.shipName}!=null?$P{vesselUpdateInfo.shipName}.toUpperCase():""____________"")+""</b> for another period of <b>""+($P{otherInfo.periodOfExtensionInMonths}!=null?$P{otherInfo.periodOfExtensionInMonths}:""____________"")+"" months, from ""+($P{otherInfo.periodOfExtensionFrom}!=null?$P{otherInfo.periodOfExtensionFrom}:""____________"")+"" to ""+($P{otherInfo.periodOfExtensionTo}!=null?$P{otherInfo.periodOfExtensionTo}:""____________"")+""</b>, pursuant to the notarized and apostilled ""+($P{otherInfo.addendumToTheOriginalBareboatCharterAgreement}!=null?$P{otherInfo.addendumToTheOriginalBareboatCharterAgreement}:""____________"")+"" dated ""+($P{otherInfo.dateOfOriginalCharterAgreement}!=null?$P{otherInfo.dateOfOriginalCharterAgreement}:""____________"")+"", which was made on ""+($P{otherInfo.dateOfAddendum}!=null?$P{otherInfo.dateOfAddendum}:""____________"")+"" by and between the Owner, ""+($P{otherInfo.companySellerOwnerName}!=null?$P{otherInfo.companySellerOwnerName}:""____________"")+"", and the Charterer, ""+($P{applicant.companyName}!=null?$P{applicant.companyName}:""____________"")+"" and co-terminus with the Letter of Consent/Certification issued on ""+($P{otherInfo.dateOfConsent}!=null?$P{otherInfo.dateOfConsent}:""____________"")+"" by the ""+($P{otherInfo.issuingAuthority}!=null?$P{otherInfo.issuingAuthority}:""____________"")+"".<br/><br/>""+"
+"
+BAREBOAT_OUT_CONSENT.jrxml
+","Line 14: <field name=""imo"" class=""java.lang.String""/>
+Line 173: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 12: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 157: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 16: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 189: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 13: <field name=""callSign"" class=""java.lang.String""/>
+Line 165: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 15: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 181: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 199: ""During the charter period, the Philippine nationality of the vessel shall be suspended and the vessel shall not fly the Philippine flag.<br/><br/>""+"
+"
+BAY_AND_RIVER_LICENSE.jrxml
+","Line 28: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 123: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$P{shipName}]]></textFieldExpression>
+Line 11: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 123: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$P{shipName}]]></textFieldExpression>
+Line 15: <parameter name=""formerName"" class=""java.lang.String""/>
+Line 131: <textFieldExpression><![CDATA[$P{formerName} != null && !$P{formerName}.equals("""") ? $P{formerName} : ""N/A""]]></textFieldExpression>
+Line 14: <parameter name=""imo"" class=""java.lang.String""/>
+Line 32: <parameter name=""officialNumber"" class=""java.lang.String""/>
+Line 328: <textFieldExpression><![CDATA[$P{officialNumber} != null && !$P{officialNumber}.equals("""") ? $P{officialNumber} : ""N/A""]]></textFieldExpression>
+Line 17: <parameter name=""homeport"" class=""java.lang.String""/>
+Line 33: <parameter name=""homeport.name"" class=""java.lang.String""/>
+Line 34: <parameter name=""homeport.shortAddress"" class=""java.lang.String""/>
+Line 352: <textFieldExpression><![CDATA[$P{homeport.shortAddress} != null ? $P{homeport.shortAddress} : ($P{homeport.name} != null ? $P{homeport.name} : ""N/A"")]]></textFieldExpression>
+Line 16: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 336: <textFieldExpression><![CDATA[$P{type.value} != null && !$P{type.value}.equals("""") ? $P{type.value} : ""N/A""]]></textFieldExpression>
+Line 13: <parameter name=""portOfRegistry"" class=""java.lang.String""/>
+Line 344: <textFieldExpression><![CDATA[$P{portOfRegistry} != null && !$P{portOfRegistry}.equals("""") ? $P{portOfRegistry} : ""N/A""]]></textFieldExpression>
+Line 18: <parameter name=""lengthInM"" class=""java.lang.String""/>
+Line 36: <parameter name=""lengthInMDouble"" class=""java.lang.Double""/>
+Line 386: <textFieldExpression><![CDATA[($P{lengthInMDouble}!=null? String.format(""%,.2f"",$P{lengthInMDouble}):""N/A"")]]></textFieldExpression>
+Line 36: <parameter name=""lengthInMDouble"" class=""java.lang.Double""/>
+Line 386: <textFieldExpression><![CDATA[($P{lengthInMDouble}!=null? String.format(""%,.2f"",$P{lengthInMDouble}):""N/A"")]]></textFieldExpression>
+Line 20: <parameter name=""breadthInM"" class=""java.lang.String""/>
+Line 37: <parameter name=""breadthInMDouble"" class=""java.lang.Double""/>
+Line 396: <textFieldExpression><![CDATA[($P{breadthInMDouble}!=null? String.format(""%,.2f"",$P{breadthInMDouble}):""N/A"")]]></textFieldExpression>
+Line 37: <parameter name=""breadthInMDouble"" class=""java.lang.Double""/>
+Line 396: <textFieldExpression><![CDATA[($P{breadthInMDouble}!=null? String.format(""%,.2f"",$P{breadthInMDouble}):""N/A"")]]></textFieldExpression>
+Line 22: <parameter name=""depthInM"" class=""java.lang.String""/>
+Line 35: <parameter name=""depthInMDouble"" class=""java.lang.Double""/>
+Line 406: <textFieldExpression><![CDATA[($P{depthInMDouble}!=null? String.format(""%,.2f"",$P{depthInMDouble}):""N/A"")]]></textFieldExpression>
+Line 35: <parameter name=""depthInMDouble"" class=""java.lang.Double""/>
+Line 406: <textFieldExpression><![CDATA[($P{depthInMDouble}!=null? String.format(""%,.2f"",$P{depthInMDouble}):""N/A"")]]></textFieldExpression>
+Line 12: <parameter name=""grossTonnage"" class=""java.lang.Double""/>
+Line 360: <textFieldExpression><![CDATA[($P{grossTonnage}!=null? String.format(""%,.2f"",$P{grossTonnage}):""N/A"")]]></textFieldExpression>
+Line 21: <parameter name=""netTonnage"" class=""java.lang.Double""/>
+Line 368: <textFieldExpression><![CDATA[($P{netTonnage}!=null? String.format(""%,.2f"",$P{netTonnage}):""N/A"")]]></textFieldExpression>
+Line 19: <parameter name=""hullMaterial.value"" class=""java.lang.String""/>
+Line 376: <textFieldExpression><![CDATA[$P{hullMaterial.value} != null && !$P{hullMaterial.value}.equals("""") ? $P{hullMaterial.value} : ""N/A""]]></textFieldExpression>"
+"
+BOI_ENDORSEMENT_LETTER.jrxml
+","Line 39: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 114: <textFieldExpression><![CDATA[""Please be informed that this Authority is favorably endorsing the letter-request dated "" + $F{letterDate} + "" of "" + $F{companyName} +"", for the registration of ""+$F{numberOfUnits}+"", ""+$F{grossTonnage}+"" GT, ""+$F{vesselType}+"", with Hull No. "" + $F{hullNumber} +  "",  (TBN: M/V “"" + $F{vesselName}.toUpperCase() + ""”), under the "" + $F{ippYear}+ "" Investment Priorities Plan (IPP) of Executive Order No. 226, in order to qualify for the availment of tax Incentives granted to companies.""]]></textFieldExpression>"
+"
+CARGO_SECURING_MANUAL_COMPLIANCE_CERTIFICATE_CSMCC.jrxml
+","Line 37: <field name=""imo"" class=""java.lang.String""/>
+Line 534: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 29: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 527: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 38: <field name=""homeport"" class=""java.lang.String""/>
+Line 548: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 34: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 569: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 30: <field name=""callSign"" class=""java.lang.String""/>
+Line 541: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 31: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 555: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 32: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 562: <textFieldExpression><![CDATA[$F{netRegisterTonnage}.contains(""____________"") ? """" : $F{netRegisterTonnage}]]></textFieldExpression>
+Line 39: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 576: <textFieldExpression><![CDATA[$F{kilowatt}]]></textFieldExpression>"
+"
+CARGO_SHIP_SAFETY_CERTIFICATE_CSSC.jrxml
+","Line 38: <field name=""imo"" class=""java.lang.String""/>
+Line 636: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 571: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 35: <field name=""homeport"" class=""java.lang.String""/>
+Line 584: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 36: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 597: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 41: <field name=""callSign"" class=""java.lang.String""/>
+Line 688: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 28: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 649: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 29: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 701: <textFieldExpression><![CDATA[$F{netRegisterTonnage}]]></textFieldExpression>
+Line 39: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 662: <textFieldExpression><![CDATA[$F{kilowatt}]]></textFieldExpression>"
+"
+CARGO_SHIP_SAFETY_CONSTRUCTION_CERTIFICATE.jrxml
+","Line 38: <field name=""imo"" class=""java.lang.String""/>
+Line 540: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 475: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 35: <field name=""homeport"" class=""java.lang.String""/>
+Line 488: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 36: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 501: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 41: <field name=""callSign"" class=""java.lang.String""/>
+Line 592: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 28: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 553: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 29: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 605: <textFieldExpression><![CDATA[$F{netRegisterTonnage}]]></textFieldExpression>
+Line 39: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 566: <textFieldExpression><![CDATA[$F{kilowatt}]]></textFieldExpression>"
+"
+CARGO_SHIP_SAFETY_EQUIPMENT_CERTIFICATE.jrxml
+","Line 38: <field name=""imo"" class=""java.lang.String""/>
+Line 635: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 570: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 35: <field name=""homeport"" class=""java.lang.String""/>
+Line 583: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 36: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 596: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 41: <field name=""callSign"" class=""java.lang.String""/>
+Line 687: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 28: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 648: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 29: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 700: <textFieldExpression><![CDATA[$F{netRegisterTonnage}]]></textFieldExpression>
+Line 39: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 661: <textFieldExpression><![CDATA[$F{kilowatt}]]></textFieldExpression>"
+"
+CERTIFICATE_OF_ACCREDITATION_ASSESSOR.jrxml
+","Line 24: <parameter name=""serialNumber"" class=""java.lang.String""/>"
+"
+CERTIFICATE_OF_ACCREDITATION_INSTRUCTOR.jrxml
+","Line 26: <parameter name=""serialNumber"" class=""java.lang.String""/>"
+"
+CERTIFICATE_OF_ACCREDITATION_MC_NO_2006_01.jrxml
+","Line 347: <text><![CDATA[That the MARINA reserves the right to conduct spot inspection/audits to the office facilities and operations of companies/entities, as well as conduct random testing of manufactured products.]]></text>"
+"
+CERTIFICATE_OF_COMPETENCY.jrxml
+","Line 20: <parameter name=""serialNumber"" class=""java.lang.String""/>
+Line 523: <textFieldExpression><![CDATA[""SN: "" + $P{serialNumber}]]></textFieldExpression>"
+"
+CERTIFICATE_OF_COMPLIANCE_COC.jrxml
+","Line 18: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 146: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 16: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 147: $P{shipName}]]></textFieldExpression>
+Line 38: <field name=""grossTonnageRange"" class=""java.lang.String""/>
+Line 167: <textFieldExpression><![CDATA[""in recognition of the compliance with the minimum requirement of "" + $F{requirement} + "" on the safety features of a vessel "" + $F{grossTonnageRange} + ""under "" + $F{marinaCircularNo} + ($F{requirement}.equals(""safety film"") ? "", as amended"":"""") + "", and thereby granting all the rights, privileges and honors hereunto appertaining.""]]></textFieldExpression>"
+"
+CERTIFICATE_OF_FITNESS.jrxml
+","Line 38: <field name=""imo"" class=""java.lang.String""/>
+Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 410: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 35: <field name=""homeport"" class=""java.lang.String""/>
+Line 423: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 36: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 436: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 41: <field name=""callSign"" class=""java.lang.String""/>
+Line 501: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 28: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 462: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 29: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 39: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 475: <textFieldExpression><![CDATA[$F{kilowatt}]]></textFieldExpression>"
+"
+CERTIFICATE_OF_OWNERSHIP.jrxml
+","Line 136: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 645: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 97: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 646: ($P{shipName} != null && !$P{shipName}.isEmpty() ? $P{shipName}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 101: <parameter name=""formerName"" class=""java.lang.String""/>
+Line 676: <textFieldExpression><![CDATA[($P{formerName} != null && !$P{formerName}.isEmpty() ? $P{formerName} : ""N/A"")]]></textFieldExpression>
+Line 102: <parameter name=""formerOwner"" class=""java.lang.String""/>
+Line 686: <textFieldExpression><![CDATA[($P{formerOwner} != null && !$P{formerOwner}.isEmpty() ? $P{formerOwner} : ""N/A"")]]></textFieldExpression>
+Line 100: <parameter name=""vesselUpdateInfo.imo"" class=""java.lang.String""/>
+Line 666: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.imo} != null && !$P{vesselUpdateInfo.imo}.isEmpty() ? $P{vesselUpdateInfo.imo} : ""N/A"")]]></textFieldExpression>
+Line 89: <field name=""serialNumber"" class=""java.lang.String""/>
+Line 122: <parameter name=""serialNumberString"" class=""java.lang.String""/>
+Line 1022: <textFieldExpression><![CDATA[$F{serialNumber}]]></textFieldExpression>
+Line 99: <parameter name=""officialNumber"" class=""java.lang.String""/>
+Line 656: <textFieldExpression><![CDATA[($P{officialNumber} != null && !$P{officialNumber}.isEmpty() ? $P{officialNumber} : ""N/A"")]]></textFieldExpression>
+Line 103: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 696: <textFieldExpression><![CDATA[($P{type.value} != null && !$P{type.value}.isEmpty() ? $P{type.value} : ""N/A"")]]></textFieldExpression>
+Line 105: <parameter name=""builder"" class=""java.lang.String""/>
+Line 812: <textFieldExpression><![CDATA[($P{builder} != null && !$P{builder}.isEmpty() ? $P{builder} : ""N/A"")]]></textFieldExpression>
+Line 107: <parameter name=""yearBuilt"" class=""java.lang.Integer""/>
+Line 712: <textFieldExpression><![CDATA[($P{yearBuilt} != null ? $P{yearBuilt} : ""N/A"")]]></textFieldExpression>
+Line 106: <parameter name=""placeBuilt"" class=""java.lang.String""/>
+Line 722: <textFieldExpression><![CDATA[($P{placeBuilt} != null && !$P{placeBuilt}.isEmpty() ? $P{placeBuilt} : ""N/A"")]]></textFieldExpression>
+Line 108: <parameter name=""lengthInM"" class=""java.lang.String""/>
+Line 131: <parameter name=""lengthInMDouble"" class=""java.lang.Double""/>
+Line 732: <textFieldExpression><![CDATA[($P{lengthInMDouble} != null
+Line 734: String.format(""%,.2f"", $P{lengthInMDouble})
+Line 131: <parameter name=""lengthInMDouble"" class=""java.lang.Double""/>
+Line 732: <textFieldExpression><![CDATA[($P{lengthInMDouble} != null
+Line 734: String.format(""%,.2f"", $P{lengthInMDouble})
+Line 111: <parameter name=""breadthInM"" class=""java.lang.String""/>
+Line 133: <parameter name=""breadthInMDouble"" class=""java.lang.Double""/>
+Line 746: <textFieldExpression><![CDATA[($P{breadthInMDouble} != null
+Line 748: String.format(""%,.2f"", $P{breadthInMDouble})
+Line 133: <parameter name=""breadthInMDouble"" class=""java.lang.Double""/>
+Line 746: <textFieldExpression><![CDATA[($P{breadthInMDouble} != null
+Line 748: String.format(""%,.2f"", $P{breadthInMDouble})
+Line 113: <parameter name=""depthInM"" class=""java.lang.String""/>
+Line 132: <parameter name=""depthInMDouble"" class=""java.lang.Double""/>
+Line 760: <textFieldExpression><![CDATA[($P{depthInMDouble} != null
+Line 762: String.format(""%,.2f"", $P{depthInMDouble})
+Line 132: <parameter name=""depthInMDouble"" class=""java.lang.Double""/>
+Line 760: <textFieldExpression><![CDATA[($P{depthInMDouble} != null
+Line 762: String.format(""%,.2f"", $P{depthInMDouble})
+Line 98: <parameter name=""grossTonnage"" class=""java.lang.Double""/>
+Line 774: <textFieldExpression><![CDATA[($P{grossTonnage} != null
+Line 776: new java.text.DecimalFormat(""#,##0.00"").format($P{grossTonnage})
+Line 112: <parameter name=""netTonnage"" class=""java.lang.Double""/>
+Line 788: <textFieldExpression><![CDATA[($P{netTonnage} != null
+Line 790: new java.text.DecimalFormat(""#,##0.00"").format($P{netTonnage})
+Line 116: <parameter name=""dwt"" class=""java.lang.String""/>
+Line 134: <parameter name=""dwtDouble"" class=""java.lang.Double""/>
+Line 839: <textFieldExpression><![CDATA[($P{dwtDouble} != null
+Line 841: String.format(""%,.2f"", $P{dwtDouble})
+Line 134: <parameter name=""dwtDouble"" class=""java.lang.Double""/>
+Line 839: <textFieldExpression><![CDATA[($P{dwtDouble} != null
+Line 841: String.format(""%,.2f"", $P{dwtDouble})
+Line 110: <parameter name=""hullMaterial.value"" class=""java.lang.String""/>
+Line 802: <textFieldExpression><![CDATA[($P{hullMaterial.value} != null && !$P{hullMaterial.value}.isEmpty() ? $P{hullMaterial.value} : ""N/A"")]]></textFieldExpression>
+Line 90: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 121: <parameter name=""kilowattString"" class=""java.lang.String""/>
+Line 974: <textFieldExpression><![CDATA[new java.text.DecimalFormat(""#,##0.00"").format(Double.parseDouble($F{kilowatt}))]]></textFieldExpression>
+Line 104: <parameter name=""tradingArea.value"" class=""java.lang.String""/>
+Line 704: <textFieldExpression><![CDATA[($P{tradingArea.value} != null && !$P{tradingArea.value}.isEmpty() ? $P{tradingArea.value} : ""N/A"")]]></textFieldExpression>
+Line 118: <parameter name=""stemType.value"" class=""java.lang.String""/>
+Line 864: <textFieldExpression><![CDATA[($P{stemType.value} != null && !$P{stemType.value}.isEmpty() ? $P{stemType.value} : ""N/A"")]]></textFieldExpression>
+Line 119: <parameter name=""sternType.value"" class=""java.lang.String""/>
+Line 874: <textFieldExpression><![CDATA[($P{sternType.value} != null && !$P{sternType.value}.isEmpty() ? $P{sternType.value} : ""N/A"")]]></textFieldExpression>
+Line 114: <parameter name=""noOfDecks"" class=""java.lang.String""/>
+Line 828: <textFieldExpression><![CDATA[($P{noOfDecks} != null && !$P{noOfMasts}.isEmpty() ? $P{noOfDecks} : ""N/A"")]]></textFieldExpression>
+Line 109: <parameter name=""noOfMasts"" class=""java.lang.String""/>
+Line 820: <textFieldExpression><![CDATA[($P{noOfMasts} != null && !$P{noOfMasts}.isEmpty() ? $P{noOfMasts} : ""N/A"")]]></textFieldExpression>
+Line 828: <textFieldExpression><![CDATA[($P{noOfDecks} != null && !$P{noOfMasts}.isEmpty() ? $P{noOfDecks} : ""N/A"")]]></textFieldExpression>"
+"
+CERTIFICATE_OF_PHILIPPINE_REGISTRY.jrxml
+","Line 151: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 453: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 1012: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 106: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 454: $P{shipName}.toUpperCase()]]></textFieldExpression>
+Line 1013: $P{shipName}.toUpperCase()]]></textFieldExpression>
+Line 111: <parameter name=""formerName"" class=""java.lang.String""/>
+Line 860: <textFieldExpression><![CDATA[($P{formerName} != null && !$P{formerName}.isEmpty() ? $P{formerName} : ""N/A"")]]></textFieldExpression>
+Line 112: <parameter name=""formerOwner"" class=""java.lang.String""/>
+Line 873: <textFieldExpression><![CDATA[($P{formerOwner} != null && !$P{formerOwner}.isEmpty() ? $P{formerOwner} : ""N/A"")]]></textFieldExpression>
+Line 110: <parameter name=""vesselUpdateInfo.imo"" class=""java.lang.String""/>
+Line 480: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.imo} != null ? $P{vesselUpdateInfo.imo} : ""N/A""]]></textFieldExpression>
+Line 96: <field name=""serialNumber"" class=""java.lang.String""/>
+Line 135: <parameter name=""engines[0].serialNumber"" class=""java.lang.String""/>
+Line 1281: <textFieldExpression><![CDATA[$F{serialNumber}]]></textFieldExpression>
+Line 108: <parameter name=""officialNumber"" class=""java.lang.String""/>
+Line 467: <textFieldExpression><![CDATA[($P{officialNumber} != null && !$P{officialNumber}.isEmpty() ? $P{officialNumber}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 116: <parameter name=""homeport"" class=""java.lang.String""/>
+Line 138: <parameter name=""homeport.shortAddress"" class=""java.lang.String""/>
+Line 809: <textFieldExpression><![CDATA[$P{homeport.shortAddress} != null ? $P{homeport.shortAddress} : ""N/A""]]></textFieldExpression>
+Line 113: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 784: <textFieldExpression><![CDATA[$P{type.value}]]></textFieldExpression>
+Line 117: <parameter name=""builder"" class=""java.lang.String""/>
+Line 822: <textFieldExpression><![CDATA[($P{builder} != null && !$P{builder}.isEmpty() ? $P{builder} : ""N/A"")]]></textFieldExpression>
+Line 119: <parameter name=""yearBuilt"" class=""java.lang.Integer""/>
+Line 848: <textFieldExpression><![CDATA[($P{yearBuilt} != null ? $P{yearBuilt} : ""N/A"")]]></textFieldExpression>
+Line 118: <parameter name=""placeBuilt"" class=""java.lang.String""/>
+Line 835: <textFieldExpression><![CDATA[($P{placeBuilt} != null && !$P{placeBuilt}.isEmpty() ? $P{placeBuilt} : ""N/A"")]]></textFieldExpression>
+Line 109: <parameter name=""callSign"" class=""java.lang.String""/>
+Line 155: <parameter name=""yearConverted"" class=""java.lang.Integer""/>
+Line 1068: <textFieldExpression><![CDATA[($P{yearConverted} != null ? $P{yearConverted} : ""N/A"")]]></textFieldExpression>
+Line 154: <parameter name=""placeConverted"" class=""java.lang.String""/>
+Line 1054: <textFieldExpression><![CDATA[($P{placeConverted} != null && !$P{placeConverted}.isEmpty() ? $P{placeConverted} : ""N/A"")]]></textFieldExpression>
+Line 120: <parameter name=""lengthInM"" class=""java.lang.String""/>
+Line 148: <parameter name=""lengthInMDouble"" class=""java.lang.Double""/>
+Line 920: <textFieldExpression><![CDATA[($P{lengthInMDouble} != null
+Line 922: String.format(""%,.2f"", $P{lengthInMDouble})
+Line 148: <parameter name=""lengthInMDouble"" class=""java.lang.Double""/>
+Line 920: <textFieldExpression><![CDATA[($P{lengthInMDouble} != null
+Line 922: String.format(""%,.2f"", $P{lengthInMDouble})
+Line 123: <parameter name=""breadthInM"" class=""java.lang.String""/>
+Line 147: <parameter name=""breadthInMDouble"" class=""java.lang.Double""/>
+Line 936: <textFieldExpression><![CDATA[($P{breadthInMDouble} != null
+Line 938: String.format(""%,.2f"", $P{breadthInMDouble})
+Line 147: <parameter name=""breadthInMDouble"" class=""java.lang.Double""/>
+Line 936: <textFieldExpression><![CDATA[($P{breadthInMDouble} != null
+Line 938: String.format(""%,.2f"", $P{breadthInMDouble})
+Line 125: <parameter name=""depthInM"" class=""java.lang.String""/>
+Line 146: <parameter name=""depthInMDouble"" class=""java.lang.Double""/>
+Line 952: <textFieldExpression><![CDATA[($P{depthInMDouble} != null
+Line 954: String.format(""%,.2f"", $P{depthInMDouble})
+Line 146: <parameter name=""depthInMDouble"" class=""java.lang.Double""/>
+Line 952: <textFieldExpression><![CDATA[($P{depthInMDouble} != null
+Line 954: String.format(""%,.2f"", $P{depthInMDouble})
+Line 107: <parameter name=""grossTonnage"" class=""java.lang.Double""/>
+Line 967: <textFieldExpression><![CDATA[($P{grossTonnage} != null
+Line 969: new java.text.DecimalFormat(""#,##0.00"").format($P{grossTonnage})
+Line 124: <parameter name=""netTonnage"" class=""java.lang.Double""/>
+Line 984: <textFieldExpression><![CDATA[($P{netTonnage} != null
+Line 986: new java.text.DecimalFormat(""#,##0.00"").format($P{netTonnage})
+Line 128: <parameter name=""dwt"" class=""java.lang.String""/>
+Line 149: <parameter name=""dwtDouble"" class=""java.lang.Double""/>
+Line 999: <textFieldExpression><![CDATA[($P{dwtDouble} != null
+Line 1001: String.format(""%,.2f"", $P{dwtDouble})
+Line 149: <parameter name=""dwtDouble"" class=""java.lang.Double""/>
+Line 999: <textFieldExpression><![CDATA[($P{dwtDouble} != null
+Line 1001: String.format(""%,.2f"", $P{dwtDouble})
+Line 122: <parameter name=""hullMaterial.value"" class=""java.lang.String""/>
+Line 908: <textFieldExpression><![CDATA[($P{hullMaterial.value} != null && !$P{hullMaterial.value}.isEmpty() ? $P{hullMaterial.value} : ""N/A"")]]></textFieldExpression>
+Line 97: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 134: <parameter name=""engines[0].kilowatt"" class=""java.lang.Double""/>
+Line 173: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 1305: <textFieldExpression><![CDATA[new java.text.DecimalFormat(""#,##0.00"").format(Double.parseDouble($F{kilowatt}))]]></textFieldExpression>
+Line 115: <parameter name=""tradingArea.value"" class=""java.lang.String""/>
+Line 797: <textFieldExpression><![CDATA[$P{tradingArea.value} != null ? $P{tradingArea.value} : ""N/A""]]></textFieldExpression>
+Line 131: <parameter name=""stemType.value"" class=""java.lang.String""/>
+Line 132: <parameter name=""sternType.value"" class=""java.lang.String""/>
+Line 126: <parameter name=""noOfDecks"" class=""java.lang.String""/>
+Line 896: <textFieldExpression><![CDATA[($P{noOfDecks} != null && !$P{noOfDecks}.isEmpty() ? $P{noOfDecks} : ""N/A"")]]></textFieldExpression>
+Line 121: <parameter name=""noOfMasts"" class=""java.lang.String""/>
+Line 885: <textFieldExpression><![CDATA[($P{noOfMasts} != null && !$P{noOfMasts}.isEmpty() ? $P{noOfMasts} : ""N/A"")]]></textFieldExpression>"
+"
+CERTIFICATE_OF_PROFICIENCY.jrxml
+","Line 19: <parameter name=""serialNumber"" class=""java.lang.String""/>
+Line 134: <textFieldExpression><![CDATA[""SN: "" + $P{serialNumber}]]></textFieldExpression>"
+"
+CERTIFICATE_OF_SHIP_SURVEY.jrxml
+","Line 9: <field name=""shipName"" class=""java.lang.String""/>
+Line 438: <textFieldExpression><![CDATA[$F{shipName}]]></textFieldExpression>
+Line 11: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 452: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 23: <field name=""builder"" class=""java.lang.String""/>
+Line 529: <textFieldExpression><![CDATA[$F{builder}]]></textFieldExpression>
+Line 21: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 522: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 22: <field name=""placeBuilt"" class=""java.lang.String""/>
+Line 557: <textFieldExpression><![CDATA[$F{placeBuilt}]]></textFieldExpression>
+Line 12: <field name=""callSign"" class=""java.lang.String""/>
+Line 459: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 13: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 466: <textFieldExpression><![CDATA[$F{lengthInM}]]></textFieldExpression>
+Line 14: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 473: <textFieldExpression><![CDATA[$F{breadthInM}]]></textFieldExpression>
+Line 15: <field name=""depthInM"" class=""java.lang.String""/>
+Line 480: <textFieldExpression><![CDATA[$F{depthInM}]]></textFieldExpression>
+Line 16: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 487: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>"
+"
+CERTIFICATION_OF_NON_ENCUMBRANCES.jrxml
+","Line 12: <parameter name=""yearBuilt"" class=""java.lang.Integer""/>
+Line 60: <textFieldExpression><![CDATA[""This is to certify that based on records, the ""+$P{yearBuilt}+"", ""+$P{grossTonnage}+"" ""+$P{shipType}+"" named, ""+$P{vesselName}.toUpperCase()+"", with Official No. ""+$P{shipOfficialNo}+"" owned by ""+$P{companyName}+"" with business address at ""+$P{companyAddress}+"", <b>is free from all and any form of mortgages, liens, and encumbrances as of this date.</b><br><br>This Certification is issued upon the request of ""+$P{name}+"" of ""+$P{companyName}+"", for whatever legal purpose it may serve.<br><br>Witness my hand and the Official Seal of the Maritime Industry Authority at ""+$P{placeWitnessed}+"" this ""+$P{dateWitnessed}+"".""]]></textFieldExpression>
+Line 13: <parameter name=""grossTonnage"" class=""java.lang.String""/>
+Line 60: <textFieldExpression><![CDATA[""This is to certify that based on records, the ""+$P{yearBuilt}+"", ""+$P{grossTonnage}+"" ""+$P{shipType}+"" named, ""+$P{vesselName}.toUpperCase()+"", with Official No. ""+$P{shipOfficialNo}+"" owned by ""+$P{companyName}+"" with business address at ""+$P{companyAddress}+"", <b>is free from all and any form of mortgages, liens, and encumbrances as of this date.</b><br><br>This Certification is issued upon the request of ""+$P{name}+"" of ""+$P{companyName}+"", for whatever legal purpose it may serve.<br><br>Witness my hand and the Official Seal of the Maritime Industry Authority at ""+$P{placeWitnessed}+"" this ""+$P{dateWitnessed}+"".""]]></textFieldExpression>"
+"
+CIVIL_LIABILITY_CERTIFICATE.jrxml
+","Line 59: <field name=""imo"" class=""java.lang.String""/>
+Line 219: ""IMO No.: ""+$F{imo}]]></textFieldExpression>
+Line 60: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 217: <textFieldExpression><![CDATA[""Official No.: ""+$F{officialNumber}+""<br>""+
+Line 55: <field name=""portOfRegistry"" class=""java.lang.String""/>
+Line 163: <textFieldExpression><![CDATA[$F{portOfRegistry}]]></textFieldExpression>
+Line 56: <field name=""callSign"" class=""java.lang.String""/>
+Line 218: ""Call Sign: ""+$F{callSign}+""<br>""+"
+"
+COASTWISE_LICENSE.jrxml
+","Line 37: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 376: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$P{shipName}]]></textFieldExpression>
+Line 20: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 376: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$P{shipName}]]></textFieldExpression>
+Line 24: <parameter name=""formerName"" class=""java.lang.String""/>
+Line 386: <textFieldExpression><![CDATA[$P{formerName} != null && !$P{formerName}.equals("""") ? $P{formerName} : ""N/A""]]></textFieldExpression>
+Line 23: <parameter name=""imo"" class=""java.lang.String""/>
+Line 41: <parameter name=""officialNumber"" class=""java.lang.String""/>
+Line 393: <textFieldExpression><![CDATA[$P{officialNumber} != null && !$P{officialNumber}.equals("""") ? $P{officialNumber} : ""N/A""]]></textFieldExpression>
+Line 26: <parameter name=""homeport"" class=""java.lang.String""/>
+Line 42: <parameter name=""homeport.name"" class=""java.lang.String""/>
+Line 43: <parameter name=""homeport.shortAddress"" class=""java.lang.String""/>
+Line 419: <textFieldExpression><![CDATA[$P{homeport.shortAddress} != null ? $P{homeport.shortAddress} : ($P{homeport.name} != null ? $P{homeport.name} : ""N/A"")]]></textFieldExpression>
+Line 25: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 402: <textFieldExpression><![CDATA[$P{type.value} != null && !$P{type.value}.equals("""") ? $P{type.value} : ""N/A""]]></textFieldExpression>
+Line 22: <parameter name=""portOfRegistry"" class=""java.lang.String""/>
+Line 409: <textFieldExpression><![CDATA[$P{portOfRegistry} != null && !$P{portOfRegistry}.equals("""") ? $P{portOfRegistry} : ""N/A""]]></textFieldExpression>
+Line 27: <parameter name=""lengthInM"" class=""java.lang.String""/>
+Line 45: <parameter name=""lengthInMDouble"" class=""java.lang.Double""/>
+Line 459: <textFieldExpression><![CDATA[($P{lengthInMDouble}!=null? String.format(""%,.2f"",$P{lengthInMDouble}):""N/A"")]]></textFieldExpression>
+Line 45: <parameter name=""lengthInMDouble"" class=""java.lang.Double""/>
+Line 459: <textFieldExpression><![CDATA[($P{lengthInMDouble}!=null? String.format(""%,.2f"",$P{lengthInMDouble}):""N/A"")]]></textFieldExpression>
+Line 29: <parameter name=""breadthInM"" class=""java.lang.String""/>
+Line 46: <parameter name=""breadthInMDouble"" class=""java.lang.Double""/>
+Line 469: <textFieldExpression><![CDATA[($P{breadthInMDouble}!=null? String.format(""%,.2f"",$P{breadthInMDouble}):""N/A"")]]></textFieldExpression>
+Line 46: <parameter name=""breadthInMDouble"" class=""java.lang.Double""/>
+Line 469: <textFieldExpression><![CDATA[($P{breadthInMDouble}!=null? String.format(""%,.2f"",$P{breadthInMDouble}):""N/A"")]]></textFieldExpression>
+Line 31: <parameter name=""depthInM"" class=""java.lang.String""/>
+Line 44: <parameter name=""depthInMDouble"" class=""java.lang.Double""/>
+Line 479: <textFieldExpression><![CDATA[($P{depthInMDouble}!=null? String.format(""%,.2f"",$P{depthInMDouble}):""N/A"")]]></textFieldExpression>
+Line 44: <parameter name=""depthInMDouble"" class=""java.lang.Double""/>
+Line 479: <textFieldExpression><![CDATA[($P{depthInMDouble}!=null? String.format(""%,.2f"",$P{depthInMDouble}):""N/A"")]]></textFieldExpression>
+Line 21: <parameter name=""grossTonnage"" class=""java.lang.Double""/>
+Line 429: <textFieldExpression><![CDATA[($P{grossTonnage}!=null? String.format(""%,.2f"",$P{grossTonnage}):""N/A"")]]></textFieldExpression>
+Line 30: <parameter name=""netTonnage"" class=""java.lang.Double""/>
+Line 439: <textFieldExpression><![CDATA[($P{netTonnage}!=null? String.format(""%,.2f"",$P{netTonnage}):""N/A"")]]></textFieldExpression>
+Line 28: <parameter name=""hullMaterial.value"" class=""java.lang.String""/>
+Line 449: <textFieldExpression><![CDATA[$P{hullMaterial.value} != null && !$P{hullMaterial.value}.equals("""") ? $P{hullMaterial.value} : ""N/A""]]></textFieldExpression>"
+"
+CONSTRUCTION_CERTIFICATE.jrxml
+","Line 112: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 305: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 103: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 306: $P{shipName}.toUpperCase()]]></textFieldExpression>
+Line 105: <parameter name=""vesselUpdateInfo.type.value"" class=""java.lang.String""/>
+Line 423: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.type.value}]]></textFieldExpression>
+Line 108: <parameter name=""vesselUpdateInfo.builder"" class=""java.lang.String""/>
+Line 391: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.builder}.toUpperCase()]]></textFieldExpression>
+Line 104: <parameter name=""vesselUpdateInfo.yearBuilt"" class=""java.lang.Integer""/>
+Line 336: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.yearBuilt}]]></textFieldExpression>
+Line 109: <parameter name=""vesselUpdateInfo.placeBuilt"" class=""java.lang.String""/>
+Line 408: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.placeBuilt}.toUpperCase()]]></textFieldExpression>
+Line 110: <parameter name=""vesselUpdateInfo.lengthOverallInM"" class=""java.lang.String""/>
+Line 507: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.lengthOverallInM} != null ? $P{vesselUpdateInfo.lengthOverallInM} + "" M"" : """"]]></textFieldExpression>
+Line 111: <parameter name=""vesselUpdateInfo.breadthInM"" class=""java.lang.String""/>
+Line 477: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.breadthInM} != null ? $P{vesselUpdateInfo.breadthInM} + "" M"" : """"]]></textFieldExpression>
+Line 113: <parameter name=""vesselUpdateInfo.depthInM"" class=""java.lang.String""/>
+Line 448: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.depthInM} != null ? $P{vesselUpdateInfo.depthInM} + "" M"" : """"]]></textFieldExpression>"
+"
+CONTINUOUS_SYNOPSIS_RECORD.jrxml
+","Line 84: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 135: <field name=""imo"" class=""java.lang.String""/>
+Line 293: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 106: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 105: <field name=""portOfRegistry"" class=""java.lang.String""/>
+Line 72: <parameter name=""otherInfo.flagState"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 103: <field name=""flagState"" class=""java.lang.String""/>"
+"
+CONTINUOUS_SYNOPSIS_RECORD_APPROVAL.jrxml
+","Line 12: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 80: <textFieldExpression><![CDATA[""This refers to your letter dated "" + $F{requestLetterDate} + "", officially received by this Office on "" + $F{requestLetterReceivedDate} + "", requesting issuance of Continuous Synopsis Record (CSR) for the ship, <b>\"""" + ($P{rigType.value}!=null ? $P{rigType.value}: """") + "" "" + $F{vesselName}.toUpperCase()+""\""</b>.<br/><br/>""+"
+"
+DELETION_CERTIFICATE_FROM_PHILIPPINE_REGISTRY.jrxml
+","Line 178: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 767: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$P{shipName}]]></textFieldExpression>
+Line 128: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 767: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$P{shipName}]]></textFieldExpression>
+Line 139: <parameter name=""formerName"" class=""java.lang.String"">
+Line 760: <textFieldExpression><![CDATA[$P{formerName} != null && !$P{formerName}.equals("""") ? $P{formerName} : ""N/A""]]></textFieldExpression>
+Line 136: <parameter name=""imo"" class=""java.lang.String"">
+Line 746: <textFieldExpression><![CDATA[$P{imo} != null && !$P{imo}.equals("""") ? $P{imo} : ""N/A""]]></textFieldExpression>
+Line 118: <field name=""serialNumber"" class=""java.lang.String""/>
+Line 163: <parameter name=""engines[0].serialNumber"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 130: <parameter name=""officialNumber"" class=""java.lang.String"">
+Line 711: <textFieldExpression><![CDATA[$P{officialNumber} != null && !$P{officialNumber}.equals("""") ? $P{officialNumber} : ""N/A""]]></textFieldExpression>
+Line 148: <parameter name=""homeport"" class=""java.lang.String""/>
+Line 175: <parameter name=""homeport.name"" class=""java.lang.String""/>
+Line 176: <parameter name=""homeport.shortAddress"" class=""java.lang.String""/>
+Line 732: <textFieldExpression><![CDATA[$P{homeport.shortAddress} != null ? $P{homeport.shortAddress} : ($P{homeport.name} != null ? $P{homeport.name} : ""N/A"")]]></textFieldExpression>
+Line 142: <parameter name=""type.value"" class=""java.lang.String"">
+Line 718: <textFieldExpression><![CDATA[$P{type.value} != null && !$P{type.value}.equals("""") ? $P{type.value} : ""N/A""]]></textFieldExpression>
+Line 149: <parameter name=""portOfRegistry"" class=""java.lang.String"">
+Line 725: <textFieldExpression><![CDATA[$P{portOfRegistry} != null && !$P{portOfRegistry}.equals("""") ? $P{portOfRegistry} : ""N/A""]]></textFieldExpression>
+Line 152: <parameter name=""builder"" class=""java.lang.String""/>
+Line 788: <textFieldExpression><![CDATA[$P{builder} != null && !$P{builder}.equals("""") ? $P{builder} : ""N/A""]]></textFieldExpression>
+Line 154: <parameter name=""yearBuilt"" class=""java.lang.Integer""/>
+Line 809: <textFieldExpression><![CDATA[$P{yearBuilt} != null && !$P{yearBuilt}.equals("""") ? $P{yearBuilt} : ""N/A""]]></textFieldExpression>
+Line 153: <parameter name=""placeBuilt"" class=""java.lang.String""/>
+Line 830: <textFieldExpression><![CDATA[$P{placeBuilt} != null && !$P{placeBuilt}.equals("""") ? $P{placeBuilt} : ""N/A""]]></textFieldExpression>
+Line 133: <parameter name=""callSign"" class=""java.lang.String"">
+Line 753: <textFieldExpression><![CDATA[$P{callSign} != null && !$P{callSign}.equals("""") ? $P{callSign} : ""N/A""]]></textFieldExpression>
+Line 155: <parameter name=""lengthInM"" class=""java.lang.String""/>
+Line 795: <textFieldExpression><![CDATA[$P{lengthInM} != null && !$P{lengthInM}.equals("""") ? $P{lengthInM} : ""N/A""]]></textFieldExpression>
+Line 156: <parameter name=""breadthInM"" class=""java.lang.String""/>
+Line 816: <textFieldExpression><![CDATA[$P{breadthInM} != null && !$P{breadthInM}.equals("""") ? $P{breadthInM} : ""N/A""]]></textFieldExpression>
+Line 158: <parameter name=""depthInM"" class=""java.lang.String""/>
+Line 837: <textFieldExpression><![CDATA[$P{depthInM} != null && !$P{depthInM}.equals("""") ? $P{depthInM} : ""N/A""]]></textFieldExpression>
+Line 129: <parameter name=""grossTonnage"" class=""java.lang.Double""/>
+Line 823: <textFieldExpression><![CDATA[$P{grossTonnage} != null && !$P{grossTonnage}.equals("""") ? $P{grossTonnage} : ""N/A""]]></textFieldExpression>
+Line 157: <parameter name=""netTonnage"" class=""java.lang.Double""/>
+Line 844: <textFieldExpression><![CDATA[$P{netTonnage} != null && !$P{netTonnage}.equals("""") ? $P{netTonnage} : ""N/A""]]></textFieldExpression>
+Line 159: <parameter name=""dwt"" class=""java.lang.String""/>
+Line 802: <textFieldExpression><![CDATA[$P{dwt} != null && !$P{dwt}.equals("""") ? $P{dwt} : ""N/A""]]></textFieldExpression>
+Line 119: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 162: <parameter name=""engines[0].kilowatt"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 173: <parameter name=""kilowattString"" class=""java.lang.String""/>
+Line 1011: <textFieldExpression><![CDATA[$F{kilowatt} != null && !$F{kilowatt}.equals("""") ? (new java.text.DecimalFormat(""#,##0.00"").format(Double.parseDouble($F{kilowatt}))) : ""N/A""]]></textFieldExpression>
+Line 145: <parameter name=""tradingArea.value"" class=""java.lang.String"">
+Line 739: <textFieldExpression><![CDATA[$P{tradingArea.value} != null && !$P{tradingArea.value}.equals("""") ? $P{tradingArea.value} : ""N/A""]]></textFieldExpression>"
+"
+DFA_ENDORSEMENT_LETTER.jrxml
+","Line 25: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 61: <textFieldExpression><![CDATA[""Respectfully referred to the Honorable Secretary, Department of Foreign Affairs, Pasay City, the herein letter-request dated "" + $F{transactionSubmitDate} + "" of <b> "" + $F{companyName}.toUpperCase() + ""</b>, a company duly organized and existing under the laws of the Philippines, for issuance of Provisional Certificate of Philippine Registry (PCPR) to the "" + $F{yearBuilt} + "" "" + $F{vesselType} + "" named "" + ""\""<b>"" +$F{vesselName}.toUpperCase() +""\""</b>"" + "", which was authorized to be imported by this Authority on ""  +  $F{dateOfImportationApproval} + "" and assigned Official Number "" +  $F{officialNumber} + "" with the request that the same be transmitted to the nearest Philippine Embassy/Consulate in "" + $F{country}+"", advising said Office to issue the necessary PCPR, as requested.""]]></textFieldExpression>
+Line 17: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 61: <textFieldExpression><![CDATA[""Respectfully referred to the Honorable Secretary, Department of Foreign Affairs, Pasay City, the herein letter-request dated "" + $F{transactionSubmitDate} + "" of <b> "" + $F{companyName}.toUpperCase() + ""</b>, a company duly organized and existing under the laws of the Philippines, for issuance of Provisional Certificate of Philippine Registry (PCPR) to the "" + $F{yearBuilt} + "" "" + $F{vesselType} + "" named "" + ""\""<b>"" +$F{vesselName}.toUpperCase() +""\""</b>"" + "", which was authorized to be imported by this Authority on ""  +  $F{dateOfImportationApproval} + "" and assigned Official Number "" +  $F{officialNumber} + "" with the request that the same be transmitted to the nearest Philippine Embassy/Consulate in "" + $F{country}+"", advising said Office to issue the necessary PCPR, as requested.""]]></textFieldExpression>"
+"
+DISPENSATION_PERMIT.jrxml
+","Line 46: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 287: <textFieldExpression><![CDATA[""That the ship officer designated to act in the vacant post shall be duly qualified and experienced;""]]></textFieldExpression>
+Line 24: <parameter name=""vesselUpdateInfo.grossTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 41: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 464: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.grossTonnage}]]></textFieldExpression>
+Line 23: <parameter name=""vesselUpdateInfo.netTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 42: <field name=""netTonnage"" class=""java.lang.String""/>
+Line 480: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.netTonnage}]]></textFieldExpression>
+Line 43: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 25: <parameter name=""vesselUpdateInfo.horsepower"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 49: <field name=""horsepower"" class=""java.lang.String""/>
+Line 493: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.horsepower}]]></textFieldExpression>"
+"
+DOCUMENT_OF_COMPLIANCE_DOC.jrxml
+","Line 49: <field name=""imo"" class=""java.lang.String""/>
+Line 42: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 46: <field name=""homeport"" class=""java.lang.String""/>
+Line 47: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 52: <field name=""callSign"" class=""java.lang.String""/>
+Line 55: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 39: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 40: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 50: <field name=""kilowatt"" class=""java.lang.String""/>"
+"
+DOCUMENT_OF_COMPLIANCE_INTERIM_ISM_DOC.jrxml
+","Line 43: <field name=""imo"" class=""java.lang.String""/>
+Line 36: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 40: <field name=""homeport"" class=""java.lang.String""/>
+Line 41: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 46: <field name=""callSign"" class=""java.lang.String""/>
+Line 49: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 33: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 34: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 44: <field name=""kilowatt"" class=""java.lang.String""/>"
+"
+ES_COMPLAINT_FORM.jrxml
+","Line 61: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 62: <field name=""grossTonnage"" class=""java.lang.String""/>"
+"
+ES_SHIP_COMPLIANCE_MONITORING_FORM.jrxml
+","Line 59: <field name=""vessel.shipName"" class=""java.lang.String""/>
+Line 178: <textFieldExpression><![CDATA[""Name of Ship:<br></br>""+$F{vessel.shipName}]]></textFieldExpression>
+Line 78: <field name=""vessel.formerName"" class=""java.lang.String""/>
+Line 60: <field name=""vessel.formerOwner"" class=""java.lang.String""/>
+Line 194: <textFieldExpression><![CDATA[""Name of Owner / Operator:<br></br>""+($F{vessel.formerOwner} != null ? $F{vessel.formerOwner} : """")]]></textFieldExpression>
+Line 77: <field name=""vessel.serialNumber"" class=""java.lang.String""/>
+Line 64: <field name=""vessel.officialNumber"" class=""java.lang.String""/>
+Line 418: <textFieldExpression><![CDATA[""Official Number:""+$F{vessel.officialNumber}]]></textFieldExpression>
+Line 63: <field name=""vessel.homeport"" class=""java.lang.String""/>
+Line 402: <textFieldExpression><![CDATA[""Homeport:""+$F{vessel.homeport}]]></textFieldExpression>
+Line 65: <field name=""vessel.yearBuilt"" class=""java.lang.String""/>
+Line 434: <textFieldExpression><![CDATA[""Year Built:""+($F{vessel.yearBuilt} != null ? $F{vessel.yearBuilt} : """")]]></textFieldExpression>
+Line 67: <field name=""vessel.callSign"" class=""java.lang.String""/>
+Line 466: <textFieldExpression><![CDATA[""Call SIgn:""+($F{vessel.callSign} != null ? $F{vessel.callSign} : """")]]></textFieldExpression>
+Line 68: <field name=""vessel.lengthInM"" class=""java.lang.String""/>
+Line 556: <textFieldExpression><![CDATA[""Length:""+$F{vessel.lengthInM}]]></textFieldExpression>
+Line 69: <field name=""vessel.breadthInM"" class=""java.lang.String""/>
+Line 572: <textFieldExpression><![CDATA[""Breadth:""+($F{vessel.breadthInM} != null ? $F{vessel.breadthInM} : """")]]></textFieldExpression>
+Line 588: <textFieldExpression><![CDATA[""Depth:""+($F{vessel.breadthInM} != null ? $F{vessel.breadthInM} : """")]]></textFieldExpression>
+Line 70: <field name=""vessel.depthInM"" class=""java.lang.String""/>
+Line 62: <field name=""vessel.grossTonnage"" class=""java.lang.String""/>
+Line 492: <textFieldExpression><![CDATA[""Gross Tonnage:<br></br>""+($F{vessel.grossTonnage} != null ? $F{vessel.grossTonnage} : """")]]></textFieldExpression>
+Line 61: <field name=""vessel.netTonnage"" class=""java.lang.String""/>
+Line 508: <textFieldExpression><![CDATA[""Net Tonnage:<br></br>""+($F{vessel.netTonnage} != null ? $F{vessel.netTonnage} : """")]]></textFieldExpression>
+Line 73: <field name=""vessel.kilowatt"" class=""java.lang.String""/>
+Line 647: <textFieldExpression><![CDATA[""BHP/KW:""+$F{vessel.kilowatt}]]></textFieldExpression>"
+"
+EXEMPTION_CERTIFICATE.jrxml
+","Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 28: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 243: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 29: <field name=""netRegisterTonnage"" class=""java.lang.String""/>"
+"
+EXEMPTION_CERTIFICATE_FOR_FISHING.jrxml
+","Line 38: <field name=""imo"" class=""java.lang.String""/>
+Line 467: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 402: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 35: <field name=""homeport"" class=""java.lang.String""/>
+Line 415: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 36: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 428: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 41: <field name=""callSign"" class=""java.lang.String""/>
+Line 519: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 28: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 480: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 29: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 532: <textFieldExpression><![CDATA[$F{netRegisterTonnage}]]></textFieldExpression>
+Line 39: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 493: <textFieldExpression><![CDATA[$F{kilowatt}]]></textFieldExpression>"
+"
+EXPORTATION.jrxml
+","Line 15: <parameter name=""vesselUpdateInfo.shipName"" class=""java.lang.String""/>
+Line 71: ""Reference is made to your letter request dated ""+$P{otherInfo.companyApplicationRequestDate}+"", officially received by this Office ""+$P{otherInfo.companyApplicationRequestReceivedOn}+"", requesting authority to sell/export "" + $P{otherInfo.noOfUnit}  + "" unit/s "" +$P{vesselUpdateInfo.yearBuilt}+"" ""+$P{vesselUpdateInfo.grossTonnage}+"" GT ""+$P{vesselUpdateInfo.type.value}+"" named, <b>“""+$P{vesselUpdateInfo.shipName}.toUpperCase()+""”</b>, with Official No. ""+$P{vesselUpdateInfo.officialNumber}+"".<br/><br/>""+
+Line 18: <parameter name=""vesselUpdateInfo.officialNumber"" class=""java.lang.String""/>
+Line 71: ""Reference is made to your letter request dated ""+$P{otherInfo.companyApplicationRequestDate}+"", officially received by this Office ""+$P{otherInfo.companyApplicationRequestReceivedOn}+"", requesting authority to sell/export "" + $P{otherInfo.noOfUnit}  + "" unit/s "" +$P{vesselUpdateInfo.yearBuilt}+"" ""+$P{vesselUpdateInfo.grossTonnage}+"" GT ""+$P{vesselUpdateInfo.type.value}+"" named, <b>“""+$P{vesselUpdateInfo.shipName}.toUpperCase()+""”</b>, with Official No. ""+$P{vesselUpdateInfo.officialNumber}+"".<br/><br/>""+
+Line 19: <parameter name=""vesselUpdateInfo.type.value"" class=""java.lang.String""/>
+Line 71: ""Reference is made to your letter request dated ""+$P{otherInfo.companyApplicationRequestDate}+"", officially received by this Office ""+$P{otherInfo.companyApplicationRequestReceivedOn}+"", requesting authority to sell/export "" + $P{otherInfo.noOfUnit}  + "" unit/s "" +$P{vesselUpdateInfo.yearBuilt}+"" ""+$P{vesselUpdateInfo.grossTonnage}+"" GT ""+$P{vesselUpdateInfo.type.value}+"" named, <b>“""+$P{vesselUpdateInfo.shipName}.toUpperCase()+""”</b>, with Official No. ""+$P{vesselUpdateInfo.officialNumber}+"".<br/><br/>""+
+Line 16: <parameter name=""vesselUpdateInfo.yearBuilt"" class=""java.lang.Integer""/>
+Line 71: ""Reference is made to your letter request dated ""+$P{otherInfo.companyApplicationRequestDate}+"", officially received by this Office ""+$P{otherInfo.companyApplicationRequestReceivedOn}+"", requesting authority to sell/export "" + $P{otherInfo.noOfUnit}  + "" unit/s "" +$P{vesselUpdateInfo.yearBuilt}+"" ""+$P{vesselUpdateInfo.grossTonnage}+"" GT ""+$P{vesselUpdateInfo.type.value}+"" named, <b>“""+$P{vesselUpdateInfo.shipName}.toUpperCase()+""”</b>, with Official No. ""+$P{vesselUpdateInfo.officialNumber}+"".<br/><br/>""+
+Line 17: <parameter name=""vesselUpdateInfo.grossTonnage"" class=""java.lang.Double""/>
+Line 71: ""Reference is made to your letter request dated ""+$P{otherInfo.companyApplicationRequestDate}+"", officially received by this Office ""+$P{otherInfo.companyApplicationRequestReceivedOn}+"", requesting authority to sell/export "" + $P{otherInfo.noOfUnit}  + "" unit/s "" +$P{vesselUpdateInfo.yearBuilt}+"" ""+$P{vesselUpdateInfo.grossTonnage}+"" GT ""+$P{vesselUpdateInfo.type.value}+"" named, <b>“""+$P{vesselUpdateInfo.shipName}.toUpperCase()+""”</b>, with Official No. ""+$P{vesselUpdateInfo.officialNumber}+"".<br/><br/>""+"
+"
+FISHING_VESSEL_SAFETY_CERTIFICATE_FVSC.jrxml
+","Line 41: <field name=""imo"" class=""java.lang.String""/>
+Line 551: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 34: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 486: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 38: <field name=""homeport"" class=""java.lang.String""/>
+Line 499: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 39: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 512: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 44: <field name=""callSign"" class=""java.lang.String""/>
+Line 603: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 31: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 564: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 32: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 616: <textFieldExpression><![CDATA[$F{netRegisterTonnage}]]></textFieldExpression>
+Line 13: <parameter name=""otherInfo.kilowatt"" class=""java.lang.String""/>
+Line 42: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 577: <textFieldExpression><![CDATA[$P{otherInfo.kilowatt} == null ? ""____________"" : $P{otherInfo.kilowatt}]]></textFieldExpression>"
+"
+IMPORATATION_CERTIFICATE.jrxml
+","Line 21: <parameter name=""yearBuilt"" class=""java.lang.Integer""/>
+Line 68: <textFieldExpression><![CDATA[""Dear Mr. / Ms. ""+$P{name}+"", <br><br>Reference is made to your letter request dated ""+$P{requestedDate}+"", officially received by this Office ""+$P{receiveDate}+"", requesting authority for a clearance/certification on the importation of ""+$P{noOfUnits}+"", ""+$P{yearBuilt}+"" ""+$P{grossTonnage}+"" ""+$P{shipType}+"" as described in the submitted ""+$P{submittedInvoiceOrPackingList}+"" with Invoice/Packing List No. ""+$P{invoiceOrPackingListNo}+"" dated ""+$P{invoiceOrPackingListDate}+"" by/from ""+$P{companyOwner}+"" of ""+$P{country}+"", as required by the Bureau of Customs (BOC).<br><br> Relative thereto, please be informed that after careful evaluation of the submitted documents, it was noted that the subject units are merely ""+$P{typeOfImportedUnit}+"". Hence, it does not require securing a MARINA authority to import a vessel under Memorandum Circular No. 104.<br><br>  Please be guided accordingly.<br><br><br><br>  Very truly yours,<br><br><br><br><br><b>""+$P{signatoryName}.toUpperCase()+""</b><br>""+$P{signatoryPosition}]]></textFieldExpression>
+Line 27: <parameter name=""grossTonnage"" class=""java.lang.String""/>
+Line 68: <textFieldExpression><![CDATA[""Dear Mr. / Ms. ""+$P{name}+"", <br><br>Reference is made to your letter request dated ""+$P{requestedDate}+"", officially received by this Office ""+$P{receiveDate}+"", requesting authority for a clearance/certification on the importation of ""+$P{noOfUnits}+"", ""+$P{yearBuilt}+"" ""+$P{grossTonnage}+"" ""+$P{shipType}+"" as described in the submitted ""+$P{submittedInvoiceOrPackingList}+"" with Invoice/Packing List No. ""+$P{invoiceOrPackingListNo}+"" dated ""+$P{invoiceOrPackingListDate}+"" by/from ""+$P{companyOwner}+"" of ""+$P{country}+"", as required by the Bureau of Customs (BOC).<br><br> Relative thereto, please be informed that after careful evaluation of the submitted documents, it was noted that the subject units are merely ""+$P{typeOfImportedUnit}+"". Hence, it does not require securing a MARINA authority to import a vessel under Memorandum Circular No. 104.<br><br>  Please be guided accordingly.<br><br><br><br>  Very truly yours,<br><br><br><br><br><b>""+$P{signatoryName}.toUpperCase()+""</b><br>""+$P{signatoryPosition}]]></textFieldExpression>"
+"
+IMPORTATION_CERTIFICATE.jrxml
+","Line 27: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 76: ""Reference is made to your letter request dated ""+$F{requestLetterDate}+"", officially received by this Office ""+$F{requestLetterReceivedDate}+"", requesting authority for a clearance/certification on the importation of ""+$F{numberOfUnits}+"", ""+$F{yearBuilt}+"" ""+$F{grossTonnage}+"" ""+$F{vesselType}+"" as described in the submitted ""+$F{submittedInvoiceOrPackingList}+"" with Invoice/Packing List No. ""+$F{invoiceOrPackingListNo}+"" dated ""+$F{invoiceOrPackingListDate}+"" by/from ""+$F{seller}+"" of ""+$F{country}+"", as required by the Bureau of Customs (BOC).<br/><br/>"" +
+Line 33: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 76: ""Reference is made to your letter request dated ""+$F{requestLetterDate}+"", officially received by this Office ""+$F{requestLetterReceivedDate}+"", requesting authority for a clearance/certification on the importation of ""+$F{numberOfUnits}+"", ""+$F{yearBuilt}+"" ""+$F{grossTonnage}+"" ""+$F{vesselType}+"" as described in the submitted ""+$F{submittedInvoiceOrPackingList}+"" with Invoice/Packing List No. ""+$F{invoiceOrPackingListNo}+"" dated ""+$F{invoiceOrPackingListDate}+"" by/from ""+$F{seller}+"" of ""+$F{country}+"", as required by the Bureau of Customs (BOC).<br/><br/>"" +"
+"
+IMPORTATION_EXTENSION.jrxml
+","Line 11: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 69: ""Please be informed that your request for renewal/extension of authority to acquire thru importation dated ""+$F{requestLetterDate}+"", of "" + $F{numberOfUnits} + "" "" +$F{yearBuilt}+"" ""+$F{grossTonnage}+"" ""+$F{vesselType}+"" named <b>“""+$F{vesselName}.toUpperCase()+""”</b> from the Seller, ""+$F{seller}+"" of ""+$F{country}+"", is hereby <b><u>GRANTED</u></b>, for another period of ""+$F{duration}+"" valid from ""+$F{fromDate}+"" until ""+$F{toDate}+"".<br/><br/>"" +
+Line 12: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 69: ""Please be informed that your request for renewal/extension of authority to acquire thru importation dated ""+$F{requestLetterDate}+"", of "" + $F{numberOfUnits} + "" "" +$F{yearBuilt}+"" ""+$F{grossTonnage}+"" ""+$F{vesselType}+"" named <b>“""+$F{vesselName}.toUpperCase()+""”</b> from the Seller, ""+$F{seller}+"" of ""+$F{country}+"", is hereby <b><u>GRANTED</u></b>, for another period of ""+$F{duration}+"" valid from ""+$F{fromDate}+"" until ""+$F{toDate}+"".<br/><br/>"" +"
+"
+MDS_LICENSING_CERTIFICATE_OF_MARINE_PROFESSION_CMP.jrxml
+","Line 126: <textFieldExpression><![CDATA[""In testimony whereof, this Certificate is issued on ""+$F{dateOfIssue}]]></textFieldExpression>"
+"
+MINIMUM_SAFE_MANNING_CERTIFICATE.jrxml
+","Line 39: <field name=""imo"" class=""java.lang.String""/>
+Line 330: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 32: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 291: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 36: <field name=""homeport"" class=""java.lang.String""/>
+Line 304: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 37: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 42: <field name=""callSign"" class=""java.lang.String""/>
+Line 382: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 29: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 343: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 30: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 40: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 356: <textFieldExpression><![CDATA[$F{kilowatt}]]></textFieldExpression>"
+"
+MISSIONARY_ROUTE_STATUS_APPROVAL.jrxml
+","Line 15: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 63: ""Pursuant to PD 474, Executive Order 125, as amended and RA 9295, your company’s application for the grant of Missionary Route Status for the ship <b>\""""+$P{shipName}.toUpperCase()+""\""</b> intended to operate in the proposed Missionary Route ""+$P{otherInfo.route}+"" and vice versa under Memorandum Circular DS-2021-01 as filed with MARINA is hereby <b><u>GRANTED</u>.</b><br/><br/>""+
+Line 65: ""As a grantee of Missionary Status, your ship \""""+$P{shipName}.toUpperCase()+""\"" may avail the following incentives / privileges, to wit:<br/><br/>""+"
+"
+MSS_CARGO_SHIP_SAFETY_CERTIFICATE_CSSC.jrxml
+","Line 90: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 450: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 96: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 451: ($P{shipName} != null && !$P{shipName}.isEmpty() ? $P{shipName}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 79: <parameter name=""imo"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 118: <field name=""imo"" class=""java.lang.String""/>
+Line 543: <textFieldExpression><![CDATA[($P{imo} != null && !$P{imo}.isEmpty() ? $P{imo} : ""N/A"")]]></textFieldExpression>
+Line 86: <parameter name=""officialNumber"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 113: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 466: <textFieldExpression><![CDATA[($P{officialNumber} != null && !$P{officialNumber}.isEmpty() ? $P{officialNumber} : ""N/A"")]]></textFieldExpression>
+Line 77: <parameter name=""homeport.shortAddress"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 114: <field name=""homeport"" class=""java.lang.String""/>
+Line 481: <textFieldExpression><![CDATA[($P{homeport.shortAddress} != null && !$P{homeport.shortAddress}.isEmpty() ? $P{homeport.shortAddress} : ""N/A"")]]></textFieldExpression>
+Line 17: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 666: <textFieldExpression><![CDATA[($P{type.value} != null && !$P{type.value}.isEmpty() ? $P{type.value} : ""N/A"")]]></textFieldExpression>
+Line 115: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 83: <parameter name=""callSign"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 122: <field name=""callSign"" class=""java.lang.String""/>
+Line 617: <textFieldExpression><![CDATA[($P{callSign} != null && !$P{callSign}.isEmpty() ? $P{callSign} : ""N/A"")]]></textFieldExpression>
+Line 11: <parameter name=""lengthOverallInMDouble"" class=""java.lang.Double""/>
+Line 597: <textFieldExpression><![CDATA[($P{lengthOverallInMDouble} != null
+Line 599: new java.text.DecimalFormat(""#,##0.00"").format($P{lengthOverallInMDouble})
+Line 11: <parameter name=""lengthOverallInMDouble"" class=""java.lang.Double""/>
+Line 597: <textFieldExpression><![CDATA[($P{lengthOverallInMDouble} != null
+Line 599: new java.text.DecimalFormat(""#,##0.00"").format($P{lengthOverallInMDouble})
+Line 76: <parameter name=""grossTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 119: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 558: <textFieldExpression><![CDATA[($P{grossTonnage} != null
+Line 560: new java.text.DecimalFormat(""#,##0.00"").format($P{grossTonnage})
+Line 85: <parameter name=""netTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 632: <textFieldExpression><![CDATA[($P{netTonnage} != null
+Line 634: new java.text.DecimalFormat(""#,##0.00"").format($P{netTonnage})
+Line 123: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 9: <parameter name=""otherInfo.kilowatt"" class=""java.lang.String""/>
+Line 81: <parameter name=""kilowatt"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 120: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 577: <textFieldExpression><![CDATA[($P{kilowatt} != null
+Line 579: new java.text.DecimalFormat(""#,##0.00"").format($P{kilowatt})
+Line 16: <parameter name=""tradingArea.value"" class=""java.lang.String""/>
+Line 679: <textFieldExpression><![CDATA[($P{tradingArea.value} != null && !$P{tradingArea.value}.isEmpty() ? $P{tradingArea.value} : ""N/A"")]]></textFieldExpression>
+Line 7: <parameter name=""dateKeelLaid"" class=""java.lang.String""/>
+Line 497: <textFieldExpression><![CDATA[($P{dateKeelLaid} != null && !$P{dateKeelLaid}.isEmpty() ?
+Line 498: java.time.LocalDate.parse($P{dateKeelLaid}).format(java.time.format.DateTimeFormatter.ofPattern(""d MMMM yyyy""))"
+"
+MSS_CARGO_SHIP_SAFETY_CONSTRUCTION_CERTIFICATE_CSSCC.jrxml
+","Line 90: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 452: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 96: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 453: ($P{shipName} != null && !$P{shipName}.isEmpty() ? $P{shipName}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 79: <parameter name=""imo"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 120: <field name=""imo"" class=""java.lang.String""/>
+Line 545: <textFieldExpression><![CDATA[($P{imo} != null && !$P{imo}.isEmpty() ? $P{imo} : ""N/A"")]]></textFieldExpression>
+Line 86: <parameter name=""officialNumber"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 115: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 468: <textFieldExpression><![CDATA[($P{officialNumber} != null && !$P{officialNumber}.isEmpty() ? $P{officialNumber} : ""N/A"")]]></textFieldExpression>
+Line 77: <parameter name=""homeport.shortAddress"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 116: <field name=""homeport"" class=""java.lang.String""/>
+Line 483: <textFieldExpression><![CDATA[($P{homeport.shortAddress} != null && !$P{homeport.shortAddress}.isEmpty() ? $P{homeport.shortAddress} : ""N/A"")]]></textFieldExpression>
+Line 17: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 668: <textFieldExpression><![CDATA[($P{type.value} != null && !$P{type.value}.isEmpty() ? $P{type.value} : ""N/A"")]]></textFieldExpression>
+Line 117: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 83: <parameter name=""callSign"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 124: <field name=""callSign"" class=""java.lang.String""/>
+Line 619: <textFieldExpression><![CDATA[($P{callSign} != null && !$P{callSign}.isEmpty() ? $P{callSign} : ""N/A"")]]></textFieldExpression>
+Line 11: <parameter name=""lengthOverallInMDouble"" class=""java.lang.Double""/>
+Line 599: <textFieldExpression><![CDATA[($P{lengthOverallInMDouble} != null
+Line 601: new java.text.DecimalFormat(""#,##0.00"").format($P{lengthOverallInMDouble})
+Line 11: <parameter name=""lengthOverallInMDouble"" class=""java.lang.Double""/>
+Line 599: <textFieldExpression><![CDATA[($P{lengthOverallInMDouble} != null
+Line 601: new java.text.DecimalFormat(""#,##0.00"").format($P{lengthOverallInMDouble})
+Line 76: <parameter name=""grossTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 121: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 560: <textFieldExpression><![CDATA[($P{grossTonnage} != null
+Line 562: new java.text.DecimalFormat(""#,##0.00"").format($P{grossTonnage})
+Line 85: <parameter name=""netTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 634: <textFieldExpression><![CDATA[($P{netTonnage} != null
+Line 636: new java.text.DecimalFormat(""#,##0.00"").format($P{netTonnage})
+Line 125: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 9: <parameter name=""otherInfo.kilowatt"" class=""java.lang.String""/>
+Line 81: <parameter name=""kilowatt"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 122: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 579: <textFieldExpression><![CDATA[($P{kilowatt} != null
+Line 581: new java.text.DecimalFormat(""#,##0.00"").format($P{kilowatt})
+Line 16: <parameter name=""tradingArea.value"" class=""java.lang.String""/>
+Line 681: <textFieldExpression><![CDATA[($P{tradingArea.value} != null && !$P{tradingArea.value}.isEmpty() ? $P{tradingArea.value} : ""N/A"")]]></textFieldExpression>
+Line 7: <parameter name=""dateKeelLaid"" class=""java.lang.String""/>
+Line 499: <textFieldExpression><![CDATA[($P{dateKeelLaid} != null && !$P{dateKeelLaid}.isEmpty() ?
+Line 500: java.time.LocalDate.parse($P{dateKeelLaid}).format(java.time.format.DateTimeFormatter.ofPattern(""d MMMM yyyy""))"
+"
+MSS_CARGO_SHIP_SAFETY_EQUIPMENT_CERTIFICATE_CSSEC.jrxml
+","Line 93: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 454: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 99: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 455: ($P{shipName} != null && !$P{shipName}.isEmpty() ? $P{shipName}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 82: <parameter name=""imo"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 122: <field name=""imo"" class=""java.lang.String""/>
+Line 547: <textFieldExpression><![CDATA[($P{imo} != null && !$P{imo}.isEmpty() ? $P{imo} : ""N/A"")]]></textFieldExpression>
+Line 89: <parameter name=""officialNumber"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 117: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 470: <textFieldExpression><![CDATA[($P{officialNumber} != null && !$P{officialNumber}.isEmpty() ? $P{officialNumber} : ""N/A"")]]></textFieldExpression>
+Line 80: <parameter name=""homeport.shortAddress"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 118: <field name=""homeport"" class=""java.lang.String""/>
+Line 485: <textFieldExpression><![CDATA[($P{homeport.shortAddress} != null && !$P{homeport.shortAddress}.isEmpty() ? $P{homeport.shortAddress} : ""N/A"")]]></textFieldExpression>
+Line 20: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 670: <textFieldExpression><![CDATA[($P{type.value} != null && !$P{type.value}.isEmpty() ? $P{type.value} : ""N/A"")]]></textFieldExpression>
+Line 119: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 86: <parameter name=""callSign"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 126: <field name=""callSign"" class=""java.lang.String""/>
+Line 621: <textFieldExpression><![CDATA[($P{callSign} != null && !$P{callSign}.isEmpty() ? $P{callSign} : ""N/A"")]]></textFieldExpression>
+Line 14: <parameter name=""lengthOverallInMDouble"" class=""java.lang.Double""/>
+Line 601: <textFieldExpression><![CDATA[($P{lengthOverallInMDouble} != null
+Line 603: new java.text.DecimalFormat(""#,##0.00"").format($P{lengthOverallInMDouble})
+Line 14: <parameter name=""lengthOverallInMDouble"" class=""java.lang.Double""/>
+Line 601: <textFieldExpression><![CDATA[($P{lengthOverallInMDouble} != null
+Line 603: new java.text.DecimalFormat(""#,##0.00"").format($P{lengthOverallInMDouble})
+Line 79: <parameter name=""grossTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 123: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 562: <textFieldExpression><![CDATA[($P{grossTonnage} != null
+Line 564: new java.text.DecimalFormat(""#,##0.00"").format($P{grossTonnage})
+Line 88: <parameter name=""netTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 636: <textFieldExpression><![CDATA[($P{netTonnage} != null
+Line 638: new java.text.DecimalFormat(""#,##0.00"").format($P{netTonnage})
+Line 127: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 12: <parameter name=""otherInfo.kilowatt"" class=""java.lang.String""/>
+Line 84: <parameter name=""kilowatt"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 124: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 581: <textFieldExpression><![CDATA[($P{kilowatt} != null
+Line 583: new java.text.DecimalFormat(""#,##0.00"").format($P{kilowatt})
+Line 19: <parameter name=""tradingArea.value"" class=""java.lang.String""/>
+Line 683: <textFieldExpression><![CDATA[($P{tradingArea.value} != null && !$P{tradingArea.value}.isEmpty() ? $P{tradingArea.value} : ""N/A"")]]></textFieldExpression>
+Line 10: <parameter name=""dateKeelLaid"" class=""java.lang.String""/>
+Line 501: <textFieldExpression><![CDATA[($P{dateKeelLaid} != null && !$P{dateKeelLaid}.isEmpty() ?
+Line 502: java.time.LocalDate.parse($P{dateKeelLaid}).format(java.time.format.DateTimeFormatter.ofPattern(""d MMMM yyyy""))"
+"
+MSS_CERTIFICATE_OF_FITNESS_COF.jrxml
+","Line 67: <field name=""imo"" class=""java.lang.String""/>
+Line 494: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 62: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 421: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 63: <field name=""homeport"" class=""java.lang.String""/>
+Line 434: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 64: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 449: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 71: <field name=""callSign"" class=""java.lang.String""/>
+Line 554: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 68: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 509: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 72: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 576: <textFieldExpression><![CDATA[$F{netRegisterTonnage}.contains(""____________"") ? """" : $F{netRegisterTonnage}]]></textFieldExpression>
+Line 69: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 524: <textFieldExpression><![CDATA[$F{kilowatt}]]></textFieldExpression>"
+"
+MSS_CERTIFICATION_FOR_BUREAU_OF_CUSTOMS_RELEASE.jrxml
+","Line 27: <field name=""formerOwner"" class=""java.lang.String""/>
+Line 58: <textFieldExpression><![CDATA[""&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is to certify that ""+ ""<b>one (1) unit ""+java.time.LocalDate.parse($F{yearBuilt}, java.time.format.DateTimeFormatter.ofPattern(""yyyy-MM-dd"")).getYear()+""-Launched, ""+$F{grossTonnage}+"" GT ""+ $F{classification}+"" named ""+$F{vesselName}+""</b>  and acquired through importation from the Seller, <b>""+$F{formerOwner}+""</b>, acquired by <b>""+$F{companyName}+""</b> per Maritime Industry Authority (MARINA) letter-approval dated <b>""+ $P{otherInfo.letterApprovalDate}.replaceAll(""(\\w+) (\\d+), (\\d+)"", ""$2 $1 $3"")+""</b> was inspected/surveyed by MARINA surveyor on <b>""+ $F{surveyDateDDMMMMyyyy}+""</b> at <b>""+$F{inspectedAt}+""</b>.""]]></textFieldExpression>
+Line 25: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 58: <textFieldExpression><![CDATA[""&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is to certify that ""+ ""<b>one (1) unit ""+java.time.LocalDate.parse($F{yearBuilt}, java.time.format.DateTimeFormatter.ofPattern(""yyyy-MM-dd"")).getYear()+""-Launched, ""+$F{grossTonnage}+"" GT ""+ $F{classification}+"" named ""+$F{vesselName}+""</b>  and acquired through importation from the Seller, <b>""+$F{formerOwner}+""</b>, acquired by <b>""+$F{companyName}+""</b> per Maritime Industry Authority (MARINA) letter-approval dated <b>""+ $P{otherInfo.letterApprovalDate}.replaceAll(""(\\w+) (\\d+), (\\d+)"", ""$2 $1 $3"")+""</b> was inspected/surveyed by MARINA surveyor on <b>""+ $F{surveyDateDDMMMMyyyy}+""</b> at <b>""+$F{inspectedAt}+""</b>.""]]></textFieldExpression>
+Line 26: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 58: <textFieldExpression><![CDATA[""&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is to certify that ""+ ""<b>one (1) unit ""+java.time.LocalDate.parse($F{yearBuilt}, java.time.format.DateTimeFormatter.ofPattern(""yyyy-MM-dd"")).getYear()+""-Launched, ""+$F{grossTonnage}+"" GT ""+ $F{classification}+"" named ""+$F{vesselName}+""</b>  and acquired through importation from the Seller, <b>""+$F{formerOwner}+""</b>, acquired by <b>""+$F{companyName}+""</b> per Maritime Industry Authority (MARINA) letter-approval dated <b>""+ $P{otherInfo.letterApprovalDate}.replaceAll(""(\\w+) (\\d+), (\\d+)"", ""$2 $1 $3"")+""</b> was inspected/surveyed by MARINA surveyor on <b>""+ $F{surveyDateDDMMMMyyyy}+""</b> at <b>""+$F{inspectedAt}+""</b>.""]]></textFieldExpression>"
+"
+MSS_FISHING_VESSEL_SAFETY_CERTIFICATE_INTERNATIONAL.jrxml
+","Line 38: <field name=""imo"" class=""java.lang.String""/>
+Line 539: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 474: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 35: <field name=""homeport"" class=""java.lang.String""/>
+Line 487: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 36: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 500: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 41: <field name=""callSign"" class=""java.lang.String""/>
+Line 591: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 28: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 552: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 29: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 604: <textFieldExpression><![CDATA[$F{netRegisterTonnage}]]></textFieldExpression>
+Line 39: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 565: <textFieldExpression><![CDATA[$F{kilowatt}]]></textFieldExpression>"
+"
+MSS_FVSC_CERTIFICATE.jrxml
+","Line 23: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 504: <textFieldExpression><![CDATA[($P{rigType.value} != null && !$P{rigType.value}.isEmpty() ? $P{rigType.value} + "" "" : """" ) +$P{shipName}]]></textFieldExpression>
+Line 21: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 504: <textFieldExpression><![CDATA[($P{rigType.value} != null && !$P{rigType.value}.isEmpty() ? $P{rigType.value} + "" "" : """" ) +$P{shipName}]]></textFieldExpression>
+Line 16: <parameter name=""imo"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 80: <field name=""imo"" class=""java.lang.String""/>
+Line 588: <textFieldExpression><![CDATA[$P{imo}]]></textFieldExpression>
+Line 27: <parameter name=""officialNumber"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 72: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 517: <textFieldExpression><![CDATA[$P{officialNumber}]]></textFieldExpression>
+Line 15: <parameter name=""homeport.shortAddress"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 77: <field name=""homeport"" class=""java.lang.String""/>
+Line 530: <textFieldExpression><![CDATA[$P{homeport.shortAddress}]]></textFieldExpression>
+Line 7: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 627: <textFieldExpression><![CDATA[$P{type.value}]]></textFieldExpression>
+Line 78: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 19: <parameter name=""callSign"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 83: <field name=""callSign"" class=""java.lang.String""/>
+Line 640: <textFieldExpression><![CDATA[$P{callSign}]]></textFieldExpression>
+Line 20: <parameter name=""lengthOverallInMDouble"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 20: <parameter name=""lengthOverallInMDouble"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 13: <parameter name=""grossTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 69: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 601: <textFieldExpression><![CDATA[($P{grossTonnage}!=null? String.format(""%,.2f"",$P{grossTonnage}):""N/A"")]]></textFieldExpression>
+Line 14: <parameter name=""netTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 70: <field name=""netTonnage"" class=""java.lang.String""/>
+Line 653: <textFieldExpression><![CDATA[($P{netTonnage}!=null? String.format(""%,.2f"",$P{netTonnage}):""N/A"")]]></textFieldExpression>
+Line 22: <parameter name=""hullMaterial.value"" class=""java.lang.String""/>
+Line 679: <textFieldExpression><![CDATA[$P{hullMaterial.value}]]></textFieldExpression>
+Line 5: <parameter name=""otherInfo.kilowatt"" class=""java.lang.String""/>
+Line 18: <parameter name=""kilowatt"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 81: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 614: <textFieldExpression><![CDATA[$P{kilowatt}]]></textFieldExpression>
+Line 6: <parameter name=""tradingArea.value"" class=""java.lang.String""/>
+Line 708: <textFieldExpression><![CDATA[$P{tradingArea.value}]]></textFieldExpression>
+Line 17: <parameter name=""dateKeelLaid"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 543: <textFieldExpression><![CDATA[$P{dateKeelLaid}]]></textFieldExpression>"
+"
+MSS_FVSC_SIV_CERTIFICATE.jrxml
+","Line 22: <parameter name=""vesselUpdateInfo.imo"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 66: <field name=""imo"" class=""java.lang.String""/>
+Line 594: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.imo}]]></textFieldExpression>
+Line 28: <parameter name=""vesselUpdateInfo.officialNumber"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 59: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 523: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.officialNumber}]]></textFieldExpression>
+Line 21: <parameter name=""vesselUpdateInfo.homeport"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 63: <field name=""homeport"" class=""java.lang.String""/>
+Line 536: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.homeport}]]></textFieldExpression>
+Line 64: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 25: <parameter name=""vesselUpdateInfo.callSign"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 69: <field name=""callSign"" class=""java.lang.String""/>
+Line 646: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.callSign}]]></textFieldExpression>
+Line 26: <parameter name=""vesselUpdateInfo.lengthOverallInM"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 685: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.lengthOverallInM}]]></textFieldExpression>
+Line 20: <parameter name=""vesselUpdateInfo.grossTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 56: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 607: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.grossTonnage}]]></textFieldExpression>
+Line 27: <parameter name=""vesselUpdateInfo.netTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 659: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.netTonnage}]]></textFieldExpression>
+Line 57: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 13: <parameter name=""otherInfo.kilowatt"" class=""java.lang.String""/>
+Line 24: <parameter name=""vesselUpdateInfo.kilowatt"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 67: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 620: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.kilowatt}]]></textFieldExpression>
+Line 23: <parameter name=""vesselUpdateInfo.dateKeelLaid"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 549: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.dateKeelLaid}]]></textFieldExpression>"
+"
+MSS_INTERIM_DOCUMENT_OF_COMPLIANCE.jrxml
+","Line 38: <field name=""imo"" class=""java.lang.String""/>
+Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 35: <field name=""homeport"" class=""java.lang.String""/>
+Line 266: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 36: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 41: <field name=""callSign"" class=""java.lang.String""/>
+Line 44: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 28: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 29: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 39: <field name=""kilowatt"" class=""java.lang.String""/>"
+"
+MSS_INTERIM_SAFETY_MANAGEMENT_CERTIFICATE.jrxml
+","Line 38: <field name=""imo"" class=""java.lang.String""/>
+Line 436: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 458: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 35: <field name=""homeport"" class=""java.lang.String""/>
+Line 414: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 36: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 41: <field name=""callSign"" class=""java.lang.String""/>
+Line 44: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 28: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 447: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 29: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 39: <field name=""kilowatt"" class=""java.lang.String""/>"
+"
+MSS_MINIMUM_SAFE_MANNING_CERTIFICATE_MSMC.jrxml
+","Line 108: <field name=""rigType.value"" class=""java.lang.String""/>
+Line 263: <textFieldExpression><![CDATA[($F{rigType.value}!=null?$F{rigType.value}+"" "":"""") +($F{vesselName}!=null?$F{vesselName}:""N/A"")]]></textFieldExpression>
+Line 49: <parameter name=""imo"" class=""java.lang.String"">
+Line 95: <field name=""imo"" class=""java.lang.String""/>
+Line 315: <textFieldExpression><![CDATA[$P{imo} !=null? $P{imo}: ""N/A""]]></textFieldExpression>
+Line 58: <parameter name=""officialNumber"" class=""java.lang.String"" isForPrompting=""false"">
+Line 88: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 276: <textFieldExpression><![CDATA[$P{officialNumber}!=null?$P{officialNumber}:""N/A""]]></textFieldExpression>
+Line 46: <parameter name=""homeport.shortAddress"" class=""java.lang.String"" isForPrompting=""false"">
+Line 92: <field name=""homeport"" class=""java.lang.String""/>
+Line 289: <textFieldExpression><![CDATA[$P{homeport.shortAddress}!=null?$P{homeport.shortAddress}:""N/A""]]></textFieldExpression>
+Line 40: <parameter name=""classification.value"" class=""java.lang.String"">
+Line 354: <textFieldExpression><![CDATA[$P{classification.value}!=null?$P{classification.value}:""N/A""]]></textFieldExpression>
+Line 93: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 37: <parameter name=""callSign"" class=""java.lang.String"" isForPrompting=""false"">
+Line 98: <field name=""callSign"" class=""java.lang.String""/>
+Line 367: <textFieldExpression><![CDATA[$P{callSign}!=null?$P{callSign}:""N/A""]]></textFieldExpression>
+Line 43: <parameter name=""grossTonnage"" class=""java.lang.Double"" isForPrompting=""false"">
+Line 85: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 328: <textFieldExpression><![CDATA[$P{grossTonnage}!=null?$P{grossTonnage}:""N/A""]]></textFieldExpression>
+Line 86: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 52: <parameter name=""kilowatt"" class=""java.lang.Double"" isForPrompting=""false"">
+Line 96: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 341: <textFieldExpression><![CDATA[$P{kilowatt}!=null?$P{kilowatt}:""N/A""]]></textFieldExpression>
+Line 55: <parameter name=""tradingArea.value"" class=""java.lang.String"">
+Line 599: <textFieldExpression><![CDATA[$P{tradingArea.value}!=null?$P{tradingArea.value}:""N/A""]]></textFieldExpression>"
+"
+MSS_MSMC_SIV.jrxml
+","Line 49: <parameter name=""vesselUpdateInfo.imo"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 80: <field name=""imo"" class=""java.lang.String""/>
+Line 295: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.imo}]]></textFieldExpression>
+Line 52: <parameter name=""vesselUpdateInfo.officialNumber"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 73: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 256: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.officialNumber}]]></textFieldExpression>
+Line 48: <parameter name=""vesselUpdateInfo.homeport"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 77: <field name=""homeport"" class=""java.lang.String""/>
+Line 269: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.homeport}]]></textFieldExpression>
+Line 46: <parameter name=""vesselUpdateInfo.classification.value"" class=""java.lang.String""/>
+Line 334: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.classification.value}]]></textFieldExpression>
+Line 78: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 45: <parameter name=""vesselUpdateInfo.callSign"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 83: <field name=""callSign"" class=""java.lang.String""/>
+Line 347: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.callSign}]]></textFieldExpression>
+Line 47: <parameter name=""vesselUpdateInfo.grossTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 70: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 308: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.grossTonnage}]]></textFieldExpression>
+Line 71: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 50: <parameter name=""vesselUpdateInfo.kilowatt"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 81: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 321: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.kilowatt}]]></textFieldExpression>
+Line 51: <parameter name=""vesselUpdateInfo.tradingArea.value"" class=""java.lang.String""/>"
+"
+MSS_MSMC_SOLAS_CONDUCTION.jrxml
+","Line 48: <parameter name=""vesselUpdateInfo.imo"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 79: <field name=""imo"" class=""java.lang.String""/>
+Line 294: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.imo}]]></textFieldExpression>
+Line 51: <parameter name=""vesselUpdateInfo.officialNumber"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 72: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 255: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.officialNumber}]]></textFieldExpression>
+Line 47: <parameter name=""vesselUpdateInfo.homeport"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 76: <field name=""homeport"" class=""java.lang.String""/>
+Line 268: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.homeport}]]></textFieldExpression>
+Line 45: <parameter name=""vesselUpdateInfo.classification.value"" class=""java.lang.String""/>
+Line 333: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.classification.value}]]></textFieldExpression>
+Line 77: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 44: <parameter name=""vesselUpdateInfo.callSign"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 82: <field name=""callSign"" class=""java.lang.String""/>
+Line 346: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.callSign}]]></textFieldExpression>
+Line 46: <parameter name=""vesselUpdateInfo.grossTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 69: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 307: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.grossTonnage}]]></textFieldExpression>
+Line 70: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 49: <parameter name=""vesselUpdateInfo.kilowatt"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 80: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 320: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.kilowatt}]]></textFieldExpression>
+Line 50: <parameter name=""vesselUpdateInfo.tradingArea.value"" class=""java.lang.String""/>
+Line 578: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.tradingArea.value}]]></textFieldExpression>"
+"
+MSS_PASSENGER_SHIP_SAFETY_CERTIFICATE_PSSC.jrxml
+","Line 94: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 446: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 99: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 447: ($P{shipName} != null && !$P{shipName}.isEmpty() ? $P{shipName}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 83: <parameter name=""imo"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 117: <field name=""imo"" class=""java.lang.String""/>
+Line 542: <textFieldExpression><![CDATA[($P{imo} != null && !$P{imo}.isEmpty() ? $P{imo} : ""N/A"")]]></textFieldExpression>
+Line 90: <parameter name=""officialNumber"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 112: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 463: <textFieldExpression><![CDATA[($P{officialNumber} != null && !$P{officialNumber}.isEmpty() ? $P{officialNumber} : ""N/A"")]]></textFieldExpression>
+Line 81: <parameter name=""homeport.shortAddress"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 113: <field name=""homeport"" class=""java.lang.String""/>
+Line 479: <textFieldExpression><![CDATA[($P{homeport.shortAddress} != null && !$P{homeport.shortAddress}.isEmpty() ? $P{homeport.shortAddress} : ""N/A"")]]></textFieldExpression>
+Line 21: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 665: <textFieldExpression><![CDATA[($P{type.value} != null && !$P{type.value}.isEmpty() ? $P{type.value} : ""N/A"")]]></textFieldExpression>
+Line 114: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 87: <parameter name=""callSign"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 121: <field name=""callSign"" class=""java.lang.String""/>
+Line 616: <textFieldExpression><![CDATA[($P{callSign} != null && !$P{callSign}.isEmpty() ? $P{callSign} : ""N/A"")]]></textFieldExpression>
+Line 15: <parameter name=""lengthOverallInMDouble"" class=""java.lang.Double""/>
+Line 596: <textFieldExpression><![CDATA[($P{lengthOverallInMDouble} != null
+Line 598: new java.text.DecimalFormat(""#,##0.00"").format($P{lengthOverallInMDouble})
+Line 15: <parameter name=""lengthOverallInMDouble"" class=""java.lang.Double""/>
+Line 596: <textFieldExpression><![CDATA[($P{lengthOverallInMDouble} != null
+Line 598: new java.text.DecimalFormat(""#,##0.00"").format($P{lengthOverallInMDouble})
+Line 80: <parameter name=""grossTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 118: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 557: <textFieldExpression><![CDATA[($P{grossTonnage} != null
+Line 559: new java.text.DecimalFormat(""#,##0.00"").format($P{grossTonnage})
+Line 89: <parameter name=""netTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 631: <textFieldExpression><![CDATA[($P{netTonnage} != null
+Line 633: new java.text.DecimalFormat(""#,##0.00"").format($P{netTonnage})
+Line 122: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 13: <parameter name=""otherInfo.kilowatt"" class=""java.lang.String""/>
+Line 85: <parameter name=""kilowatt"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 119: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 576: <textFieldExpression><![CDATA[($P{kilowatt} != null
+Line 578: new java.text.DecimalFormat(""#,##0.00"").format($P{kilowatt})
+Line 20: <parameter name=""tradingArea.value"" class=""java.lang.String""/>
+Line 680: <textFieldExpression><![CDATA[($P{tradingArea.value} != null && !$P{tradingArea.value}.isEmpty() ? $P{tradingArea.value} : ""N/A"")]]></textFieldExpression>
+Line 11: <parameter name=""dateKeelLaid"" class=""java.lang.String""/>
+Line 496: <textFieldExpression><![CDATA[($P{dateKeelLaid} != null && !$P{dateKeelLaid}.isEmpty() ?
+Line 497: java.time.LocalDate.parse($P{dateKeelLaid}).format(java.time.format.DateTimeFormatter.ofPattern(""d MMMM yyyy""))"
+"
+MSS_SAFETY_MANAGEMENT_CERTIFICATE.jrxml
+","Line 16: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 276: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 18: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 277: ($P{shipName} != null && !$P{shipName}.isEmpty() ? $P{shipName}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 47: <field name=""imo"" class=""java.lang.String""/>
+Line 328: <textFieldExpression><![CDATA[($F{imo} != null && !$F{imo}.isEmpty() ? $F{imo}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 40: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 358: <textFieldExpression><![CDATA[($F{officialNumber} != null && !$F{officialNumber}.isEmpty() ? $F{officialNumber}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 10: <parameter name=""homeport.shortAddress"" class=""java.lang.String""/>
+Line 44: <field name=""homeport"" class=""java.lang.String""/>
+Line 302: <textFieldExpression><![CDATA[($P{homeport.shortAddress} != null && !$P{homeport.shortAddress}.isEmpty() ? $P{homeport.shortAddress}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 45: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 50: <field name=""callSign"" class=""java.lang.String""/>
+Line 53: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 21: <parameter name=""grossTonnage"" class=""java.lang.Double""/>
+Line 37: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 341: <textFieldExpression><![CDATA[($P{grossTonnage} != null
+Line 343: new java.text.DecimalFormat(""#,##0.00"").format($P{grossTonnage})
+Line 38: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 48: <field name=""kilowatt"" class=""java.lang.String""/>"
+"
+MSS_SAFETY_MANAGEMENT_CERTIFICATE_INTERIM_ISM_SMC.jrxml
+","Line 15: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 276: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 17: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 277: ($P{shipName} != null && !$P{shipName}.isEmpty() ? $P{shipName}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 47: <field name=""imo"" class=""java.lang.String""/>
+Line 328: <textFieldExpression><![CDATA[($F{imo} != null && !$F{imo}.isEmpty() ? $F{imo}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 40: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 358: <textFieldExpression><![CDATA[($F{officialNumber} != null && !$F{officialNumber}.isEmpty() ? $F{officialNumber}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 9: <parameter name=""homeport.shortAddress"" class=""java.lang.String""/>
+Line 44: <field name=""homeport"" class=""java.lang.String""/>
+Line 302: <textFieldExpression><![CDATA[($P{homeport.shortAddress} != null && !$P{homeport.shortAddress}.isEmpty() ? $P{homeport.shortAddress}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 45: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 50: <field name=""callSign"" class=""java.lang.String""/>
+Line 53: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 20: <parameter name=""grossTonnage"" class=""java.lang.Double""/>
+Line 37: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 341: <textFieldExpression><![CDATA[($P{grossTonnage} != null
+Line 343: new java.text.DecimalFormat(""#,##0.00"").format($P{grossTonnage})
+Line 38: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 48: <field name=""kilowatt"" class=""java.lang.String""/>"
+"
+MSS_SAFE_MANNING_CERTIFICATE_SMC.jrxml
+","Line 69: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 92: <field name=""rigType.value"" class=""java.lang.String""/>
+Line 265: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 68: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 266: ($P{shipName} != null && !$P{shipName}.isEmpty() ? $P{shipName}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 50: <parameter name=""imo"" class=""java.lang.String"" isForPrompting=""false"">
+Line 98: <field name=""imo"" class=""java.lang.String""/>
+Line 318: <textFieldExpression><![CDATA[$P{imo}!=null?$P{imo}:""N/A""]]></textFieldExpression>
+Line 59: <parameter name=""officialNumber"" class=""java.lang.String"" isForPrompting=""false"">
+Line 90: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 279: <textFieldExpression><![CDATA[$P{officialNumber}!=null?$P{officialNumber}:""N/A""]]></textFieldExpression>
+Line 47: <parameter name=""homeport.shortAddress"" class=""java.lang.String"" isForPrompting=""false"">
+Line 95: <field name=""homeport"" class=""java.lang.String""/>
+Line 292: <textFieldExpression><![CDATA[$P{homeport.shortAddress}!=null?$P{homeport.shortAddress}:""N/A""]]></textFieldExpression>
+Line 41: <parameter name=""classification.value"" class=""java.lang.String"">
+Line 357: <textFieldExpression><![CDATA[$P{classification.value}!=null?$P{classification.value}:""N/A""]]></textFieldExpression>
+Line 96: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 38: <parameter name=""callSign"" class=""java.lang.String"" isForPrompting=""false"">
+Line 101: <field name=""callSign"" class=""java.lang.String""/>
+Line 383: <textFieldExpression><![CDATA[$P{callSign}!=null?$P{callSign}:""N/A""]]></textFieldExpression>
+Line 44: <parameter name=""grossTonnage"" class=""java.lang.Double"" isForPrompting=""false"">
+Line 87: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 331: <textFieldExpression><![CDATA[$P{grossTonnage} != null ? String.format(""%.2f"", $P{grossTonnage}) : ""N/A""]]></textFieldExpression>
+Line 88: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 53: <parameter name=""kilowatt"" class=""java.lang.Double"" isForPrompting=""false"">
+Line 99: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 344: <textFieldExpression><![CDATA[$P{kilowatt} != null ? String.format(""%.2f"", $P{kilowatt}) : ""N/A""]]></textFieldExpression>
+Line 56: <parameter name=""tradingArea.value"" class=""java.lang.String"">
+Line 602: <textFieldExpression><![CDATA[$P{tradingArea.value}!=null?$P{tradingArea.value}:""N/A""]]></textFieldExpression>"
+"
+MSS_SHIP_SAFETY_EC_SOLAS_CONDUCTION_CERTIFICATE.jrxml
+","Line 44: <field name=""imo"" class=""java.lang.String""/>
+Line 39: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 25: <parameter name=""vesselUpdateInfo.homeport"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 40: <field name=""homeport"" class=""java.lang.String""/>
+Line 24: <parameter name=""vesselUpdateInfo.portOfRegistry"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 342: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.portOfRegistry}]]></textFieldExpression>
+Line 41: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 48: <field name=""callSign"" class=""java.lang.String""/>
+Line 23: <parameter name=""vesselUpdateInfo.grossTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 45: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 430: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.grossTonnage}]]></textFieldExpression>
+Line 49: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 46: <field name=""kilowatt"" class=""java.lang.String""/>"
+"
+MSS_SPECIAL_PERMIT_TO_NAVIGATE.jrxml
+","Line 14: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 161: <textFieldExpression><![CDATA[""<b>PERMISSION IS HEREBY GRANTED</b> to the ship <b><u>""+($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$F{vesselName}+""</u></b> owned and operated by ""+$F{companyName}+"" to navigate during fair weather conditions to be towed by <u>""+($P{otherInfo.toBeTowedBy} != null && !$P{otherInfo.toBeTowedBy}.equals("""") ? $P{otherInfo.toBeTowedBy} : ""N/A"")+""</u> from <u>""+($P{otherInfo.towedFrom} != null && !$P{otherInfo.towedFrom}.equals("""") ? $P{otherInfo.towedFrom} : ""N/A"")+""</u> to <u>""+($P{otherInfo.towedTo} != null && !$P{otherInfo.towedTo}.equals("""") ? $P{otherInfo.towedTo} : ""N/A"")+""</u> for <u>""+($P{otherInfo.towedForPurpose} != null && !$P{otherInfo.towedForPurpose}.equals("""") ? $P{otherInfo.towedForPurpose} : ""N/A"")+""</u> purposes only,subject to the following conditions:""]]></textFieldExpression>"
+"
+NOTICE_OF_HEARING.jrxml
+","Line 40: <field name=""shipName"" class=""java.lang.String""/>
+Line 194: <textFieldExpression><![CDATA[$F{shipName}]]></textFieldExpression>
+Line 41: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 215: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 45: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 299: <textFieldExpression><![CDATA[$F{yearBuilt} !=null && $F{yearBuilt} != """" ? ($F{yearBuilt}.length() == 4 ? $F{yearBuilt} : new SimpleDateFormat(""yyyy"").format(new java.text.SimpleDateFormat(""yyyy-mm-dd"").parse($F{yearBuilt}))) : """"]]></textFieldExpression>
+Line 46: <field name=""placeBuilt"" class=""java.lang.String""/>
+Line 320: <textFieldExpression><![CDATA[$F{placeBuilt}]]></textFieldExpression>
+Line 43: <field name=""grossTonnage"" class=""java.lang.Double""/>
+Line 257: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>"
+"
+OSS_APPROVAL_BBC_NEW.jrxml
+","Line 37: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 83: ""This refers to your letter of ""+$F{requestLetterDate}+"" requesting the Maritime Industry Authority (MARINA) for the temporary Philippine registration under the bareboat chartering scheme of the ""+$F{yearBuilt}+""-built, ""+$F{dwt}+""-dwt, ""+$F{vesselType}+"" ship, “""+$F{vesselType2}+"" ""+$F{vesselName}+""”.  This is within the context of Presidential Decree No. 760, as amended, Executive Order No. 667 and MARINA Circular No. 182, as amended.  From your letter, the ship will be chartered from_______________ of ""+$F{country}+"" at the rate of US$""+$F{monthlyHireRate}+"" /dwt/month for a period of ""+$F{duration}+"" years.<br/><br/>""+
+Line 38: <field name=""dwt"" class=""java.lang.String""/>
+Line 83: ""This refers to your letter of ""+$F{requestLetterDate}+"" requesting the Maritime Industry Authority (MARINA) for the temporary Philippine registration under the bareboat chartering scheme of the ""+$F{yearBuilt}+""-built, ""+$F{dwt}+""-dwt, ""+$F{vesselType}+"" ship, “""+$F{vesselType2}+"" ""+$F{vesselName}+""”.  This is within the context of Presidential Decree No. 760, as amended, Executive Order No. 667 and MARINA Circular No. 182, as amended.  From your letter, the ship will be chartered from_______________ of ""+$F{country}+"" at the rate of US$""+$F{monthlyHireRate}+"" /dwt/month for a period of ""+$F{duration}+"" years.<br/><br/>""+"
+"
+OSS_APPROVAL_BBC_RENEWAL.jrxml
+","Line 37: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 83: ""This refers to your letter of ""+$F{requestLetterDate}+"" requesting the Maritime Industry Authority (MARINA) for the temporary Philippine registration under the bareboat chartering scheme of the ""+$F{yearBuilt}+""-built, ""+$F{dwt}+""-dwt, ""+$F{vesselType}+"" ship, “""+$F{vesselType2}+"" ""+$F{vesselName}+""”.  This is within the context of Presidential Decree No. 760, as amended, Executive Order No. 667 and MARINA Circular No. 182, as amended.  From your letter, the ship will be chartered from_______________ of ""+$F{country}+"" at the rate of US$""+$F{monthlyHireRate}+"" /dwt/month for a period of ""+$F{duration}+"" years.<br/><br/>""+
+Line 38: <field name=""dwt"" class=""java.lang.String""/>
+Line 83: ""This refers to your letter of ""+$F{requestLetterDate}+"" requesting the Maritime Industry Authority (MARINA) for the temporary Philippine registration under the bareboat chartering scheme of the ""+$F{yearBuilt}+""-built, ""+$F{dwt}+""-dwt, ""+$F{vesselType}+"" ship, “""+$F{vesselType2}+"" ""+$F{vesselName}+""”.  This is within the context of Presidential Decree No. 760, as amended, Executive Order No. 667 and MARINA Circular No. 182, as amended.  From your letter, the ship will be chartered from_______________ of ""+$F{country}+"" at the rate of US$""+$F{monthlyHireRate}+"" /dwt/month for a period of ""+$F{duration}+"" years.<br/><br/>""+"
+"
+OSS_CERTIFICATE_OF_CIVIL_LIABILITY_CONVENTION.jrxml
+","Line 68: <field name=""formerName"" class=""java.lang.String""/>
+Line 69: <field name=""formerOwner"" class=""java.lang.String""/>
+Line 72: <field name=""imo"" class=""java.lang.String""/>
+Line 70: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 65: <field name=""homeport"" class=""java.lang.String""/>
+Line 40: <parameter name=""otherInfo.portOfRegistry"" class=""java.lang.String""/>
+Line 235: <textFieldExpression><![CDATA[$P{otherInfo.portOfRegistry}]]></textFieldExpression>
+Line 67: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 66: <field name=""placeBuilt"" class=""java.lang.String""/>
+Line 71: <field name=""callSign"" class=""java.lang.String""/>
+Line 74: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 75: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 76: <field name=""depthInM"" class=""java.lang.String""/>
+Line 77: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 78: <field name=""netRegisterTonnage"" class=""java.lang.String""/>"
+"
+OSS_CERTIFICATE_OF_DELETION.jrxml
+","Line 50: <field name=""imo"" class=""java.lang.String""/>
+Line 554: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 49: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 547: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 54: <field name=""portOfRegistry"" class=""java.lang.String""/>
+Line 589: <textFieldExpression><![CDATA[$F{portOfRegistry}]]></textFieldExpression>
+Line 19: <parameter name=""builder"" class=""java.lang.String""/>
+Line 60: <field name=""builder"" class=""java.lang.String""/>
+Line 596: <textFieldExpression><![CDATA[$P{builder}]]></textFieldExpression>
+Line 39: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 666: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 36: <field name=""placeBuilt"" class=""java.lang.String""/>
+Line 673: <textFieldExpression><![CDATA[$F{placeBuilt}]]></textFieldExpression>
+Line 51: <field name=""callSign"" class=""java.lang.String""/>
+Line 561: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 55: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 603: <textFieldExpression><![CDATA[$F{lengthInM}]]></textFieldExpression>
+Line 56: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 610: <textFieldExpression><![CDATA[$F{breadthInM}]]></textFieldExpression>
+Line 57: <field name=""depthInM"" class=""java.lang.String""/>
+Line 617: <textFieldExpression><![CDATA[$F{depthInM}]]></textFieldExpression>
+Line 59: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 631: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 18: <parameter name=""netTonnage"" class=""java.lang.Double""/>
+Line 58: <field name=""netTonnage"" class=""java.lang.String""/>
+Line 624: <textFieldExpression><![CDATA[$P{netTonnage}]]></textFieldExpression>
+Line 15: <parameter name=""horsepower"" class=""java.lang.Double""/>
+Line 43: <field name=""horsepower"" class=""java.lang.String""/>
+Line 645: <textFieldExpression><![CDATA[$P{horsepower}]]></textFieldExpression>"
+"
+OSS_CERTIFICATE_OF_PHILIPPINE_REGISTRY.jrxml
+","Line 136: <parameter name=""vesselUpdateInfo.formerName"" class=""java.lang.String""/>
+Line 979: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.formerName}!=null && !$P{vesselUpdateInfo.formerName}.isEmpty()?$P{vesselUpdateInfo.formerName}:""N/A""]]></textFieldExpression>
+Line 137: <parameter name=""vesselUpdateInfo.formerOwner"" class=""java.lang.String""/>
+Line 1101: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.formerOwner}!=null && !$P{vesselUpdateInfo.formerOwner}.isEmpty()?$P{vesselUpdateInfo.formerOwner}:""N/A""]]></textFieldExpression>
+Line 125: <parameter name=""vesselUpdateInfo.imo"" class=""java.lang.String""/>
+Line 965: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.imo}!=null?$P{vesselUpdateInfo.imo}:""N/A""]]></textFieldExpression>
+Line 123: <parameter name=""vesselUpdateInfo.officialNumber"" class=""java.lang.String""/>
+Line 951: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.officialNumber}!=null?$P{vesselUpdateInfo.officialNumber}:""N/A""]]></textFieldExpression>
+Line 133: <parameter name=""vesselUpdateInfo.homeport.shortAddress"" class=""java.lang.String""/>
+Line 986: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.homeport.shortAddress}!=null?$P{vesselUpdateInfo.homeport.shortAddress}:""N/A""]]></textFieldExpression>
+Line 126: <parameter name=""vesselUpdateInfo.type.value"" class=""java.lang.String""/>
+Line 972: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.type.value}!=null?$P{vesselUpdateInfo.type.value}:""N/A""]]></textFieldExpression>
+Line 110: <parameter name=""builder"" class=""java.lang.String""/>
+Line 114: <parameter name=""vesselUpdateInfo.builder"" class=""java.lang.String""/>
+Line 1137: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.builder}!=null && !$P{vesselUpdateInfo.builder}.isEmpty()?$P{vesselUpdateInfo.builder}:""N/A""]]></textFieldExpression>
+Line 135: <parameter name=""vesselUpdateInfo.yearBuilt"" class=""java.lang.Integer""/>
+Line 995: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.yearBuilt}!=null?$P{vesselUpdateInfo.yearBuilt}:""N/A""]]></textFieldExpression>
+Line 134: <parameter name=""vesselUpdateInfo.placeBuilt"" class=""java.lang.String""/>
+Line 1004: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.placeBuilt}!=null && !$P{vesselUpdateInfo.placeBuilt}.isEmpty()?$P{vesselUpdateInfo.placeBuilt}:""N/A""]]></textFieldExpression>
+Line 124: <parameter name=""vesselUpdateInfo.callSign"" class=""java.lang.String""/>
+Line 958: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.callSign}!=null?$P{vesselUpdateInfo.callSign}:""N/A""]]></textFieldExpression>
+Line 140: <parameter name=""vesselUpdateInfo.yearConverted"" class=""java.lang.Integer""/>
+Line 1078: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.yearConverted}!=null?$P{vesselUpdateInfo.yearConverted}:""N/A""]]></textFieldExpression>
+Line 141: <parameter name=""vesselUpdateInfo.placeConverted"" class=""java.lang.String""/>
+Line 1085: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.placeConverted}!=null && !$P{vesselUpdateInfo.placeConverted}.isEmpty()?$P{vesselUpdateInfo.placeConverted}:""N/A""]]></textFieldExpression>
+Line 139: <parameter name=""vesselUpdateInfo.lengthInMDouble"" class=""java.lang.Double""/>
+Line 1020: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.lengthInMDouble} != null
+Line 1022: String.format(""%,.2f"", $P{vesselUpdateInfo.lengthInMDouble})
+Line 139: <parameter name=""vesselUpdateInfo.lengthInMDouble"" class=""java.lang.Double""/>
+Line 1020: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.lengthInMDouble} != null
+Line 1022: String.format(""%,.2f"", $P{vesselUpdateInfo.lengthInMDouble})
+Line 129: <parameter name=""vesselUpdateInfo.breadthInMDouble"" class=""java.lang.Double""/>
+Line 1119: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.breadthInMDouble} != null
+Line 1121: String.format(""%,.2f"", $P{vesselUpdateInfo.breadthInMDouble})
+Line 129: <parameter name=""vesselUpdateInfo.breadthInMDouble"" class=""java.lang.Double""/>
+Line 1119: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.breadthInMDouble} != null
+Line 1121: String.format(""%,.2f"", $P{vesselUpdateInfo.breadthInMDouble})
+Line 130: <parameter name=""vesselUpdateInfo.depthInMDouble"" class=""java.lang.Double""/>
+Line 1033: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.depthInMDouble} != null
+Line 1035: String.format(""%,.2f"", $P{vesselUpdateInfo.depthInMDouble})
+Line 130: <parameter name=""vesselUpdateInfo.depthInMDouble"" class=""java.lang.Double""/>
+Line 1033: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.depthInMDouble} != null
+Line 1035: String.format(""%,.2f"", $P{vesselUpdateInfo.depthInMDouble})
+Line 131: <parameter name=""vesselUpdateInfo.grossTonnage"" class=""java.lang.Double""/>
+Line 1047: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.grossTonnage} != null
+Line 1049: new java.text.DecimalFormat(""#,##0.00"").format($P{vesselUpdateInfo.grossTonnage})
+Line 132: <parameter name=""vesselUpdateInfo.netRegisterTonnageDouble"" class=""java.lang.Double""/>
+Line 1058: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.netRegisterTonnageDouble} != null
+Line 1060: new java.text.DecimalFormat(""#,##0.00"").format($P{vesselUpdateInfo.netRegisterTonnageDouble})
+Line 132: <parameter name=""vesselUpdateInfo.netRegisterTonnageDouble"" class=""java.lang.Double""/>
+Line 1058: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.netRegisterTonnageDouble} != null
+Line 1060: new java.text.DecimalFormat(""#,##0.00"").format($P{vesselUpdateInfo.netRegisterTonnageDouble})
+Line 138: <parameter name=""vesselUpdateInfo.hullMaterial.value"" class=""java.lang.String""/>
+Line 1011: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.hullMaterial.value}!=null?$P{vesselUpdateInfo.hullMaterial.value}:""N/A""]]></textFieldExpression>
+Line 92: <field name=""horsepower"" class=""java.lang.Double""/>
+Line 102: <field name=""horsepower"" class=""java.lang.Double""/>
+Line 106: <parameter name=""vesselUpdateInfo.horsepower"" class=""java.lang.Double""/>
+Line 162: <field name=""horsepower"" class=""java.lang.String""/>
+Line 775: <textFieldExpression><![CDATA[$F{horsepower}!=null?new java.text.DecimalFormat(""#,##0.00"").format($F{horsepower}):""N/A""]]></textFieldExpression>
+Line 128: <parameter name=""vesselUpdateInfo.tradingArea.value"" class=""java.lang.String""/>
+Line 1092: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.tradingArea.value}!=null?$P{vesselUpdateInfo.tradingArea.value}:""N/A""]]></textFieldExpression>
+Line 105: <parameter name=""vesselUpdateInfo.noOfDecks"" class=""java.lang.String""/>
+Line 1110: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.noOfDecks}!=null?$P{vesselUpdateInfo.noOfDecks}:""N/A""]]></textFieldExpression>
+Line 107: <parameter name=""vesselUpdateInfo.noOfMasts"" class=""java.lang.String""/>
+Line 1130: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.noOfMasts}!=null?$P{vesselUpdateInfo.noOfMasts}:""N/A""]]></textFieldExpression>"
+"
+OSS_CERTIFICATION_NO_LIENS.jrxml
+","Line 23: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 370: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$P{shipName}]]></textFieldExpression>
+Line 22: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 370: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$P{shipName}]]></textFieldExpression>
+Line 27: <parameter name=""officialNumber"" class=""java.lang.String"">
+Line 45: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 394: <textFieldExpression><![CDATA[$P{officialNumber} != null && !$P{officialNumber}.equals("""") ? $P{officialNumber} : ""N/A""]]></textFieldExpression>
+Line 24: <parameter name=""type.value"" class=""java.lang.String"">
+Line 382: <textFieldExpression><![CDATA[$P{type.value} != null && !$P{type.value}.equals("""") ? $P{type.value} : ""N/A""]]></textFieldExpression>
+Line 48: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 438: <textFieldExpression><![CDATA[($F{yearBuilt} != null && !$F{yearBuilt}.replaceAll(""_"", """").equals("""") ? $F{yearBuilt} : ""N/A"") +"" / "" + ($F{placeBuilt} != null && !$F{placeBuilt}.replaceAll(""_"", """").equals("""") ? $F{placeBuilt} : ""N/A"")]]></textFieldExpression>
+Line 49: <field name=""placeBuilt"" class=""java.lang.String""/>
+Line 438: <textFieldExpression><![CDATA[($F{yearBuilt} != null && !$F{yearBuilt}.replaceAll(""_"", """").equals("""") ? $F{yearBuilt} : ""N/A"") +"" / "" + ($F{placeBuilt} != null && !$F{placeBuilt}.replaceAll(""_"", """").equals("""") ? $F{placeBuilt} : ""N/A"")]]></textFieldExpression>
+Line 18: <parameter name=""grossTonnage"" class=""java.lang.Double""/>
+Line 46: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 406: <textFieldExpression><![CDATA[($P{grossTonnage} != null
+Line 408: new java.text.DecimalFormat(""#,##0.00"").format($P{grossTonnage})
+Line 17: <parameter name=""netTonnage"" class=""java.lang.Double""/>
+Line 422: <textFieldExpression><![CDATA[($P{netTonnage} != null
+Line 424: new java.text.DecimalFormat(""#,##0.00"").format($P{netTonnage})
+Line 47: <field name=""netRegisterTonnage"" class=""java.lang.String""/>"
+"
+OSS_CHANGE_OF SHIP_NAME.jrxml
+","Line 14: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 13: <parameter name=""vesselUpdateInfo.formerName"" class=""java.lang.String""/>
+Line 35: <field name=""formerName"" class=""java.lang.String""/>
+Line 93: <textFieldExpression><![CDATA[""This is to certify that the ship, <b>""+($P{vesselUpdateInfo.newShipName} != null && $P{vesselUpdateInfo.newShipName}.equals($F{vesselName}) ? ($P{vesselUpdateInfo.formerName}!=null?$P{vesselUpdateInfo.formerName}.toUpperCase():""N/A"") : $F{vesselName}.toUpperCase())
+Line 18: <parameter name=""officialNumber"" class=""java.lang.String""/>
+Line 94: +""</b>, a ""+($P{yearBuilt}!=null? $P{yearBuilt}:""N/A"")+""-built, ""+($P{dwt}!=null ?$P{dwt}:""N/A"")+"" deadweight and ""+($P{grossTonnage}!=null?$P{grossTonnage}:""N/A"")+"" gross tonnage, provided with Official Number ""+($P{officialNumber}!=null?""<u>""+$P{officialNumber}+""</u>"":""N/A"")+"", which is temporarily registered under the Philippine flag and operated by <b>""+$F{companyName}.toUpperCase()+""</b> will change its name to <b>""+$P{vesselUpdateInfo.newShipName}.toUpperCase()+""</b> effective on ""+$F{fromDate}+"".  This change of name of ship has been duly recorded in this Office.<br/><br/>""+
+Line 15: <parameter name=""yearBuilt"" class=""java.lang.Integer""/>
+Line 94: +""</b>, a ""+($P{yearBuilt}!=null? $P{yearBuilt}:""N/A"")+""-built, ""+($P{dwt}!=null ?$P{dwt}:""N/A"")+"" deadweight and ""+($P{grossTonnage}!=null?$P{grossTonnage}:""N/A"")+"" gross tonnage, provided with Official Number ""+($P{officialNumber}!=null?""<u>""+$P{officialNumber}+""</u>"":""N/A"")+"", which is temporarily registered under the Philippine flag and operated by <b>""+$F{companyName}.toUpperCase()+""</b> will change its name to <b>""+$P{vesselUpdateInfo.newShipName}.toUpperCase()+""</b> effective on ""+$F{fromDate}+"".  This change of name of ship has been duly recorded in this Office.<br/><br/>""+
+Line 17: <parameter name=""grossTonnage"" class=""java.lang.Double""/>
+Line 94: +""</b>, a ""+($P{yearBuilt}!=null? $P{yearBuilt}:""N/A"")+""-built, ""+($P{dwt}!=null ?$P{dwt}:""N/A"")+"" deadweight and ""+($P{grossTonnage}!=null?$P{grossTonnage}:""N/A"")+"" gross tonnage, provided with Official Number ""+($P{officialNumber}!=null?""<u>""+$P{officialNumber}+""</u>"":""N/A"")+"", which is temporarily registered under the Philippine flag and operated by <b>""+$F{companyName}.toUpperCase()+""</b> will change its name to <b>""+$P{vesselUpdateInfo.newShipName}.toUpperCase()+""</b> effective on ""+$F{fromDate}+"".  This change of name of ship has been duly recorded in this Office.<br/><br/>""+
+Line 16: <parameter name=""dwt"" class=""java.lang.String""/>
+Line 94: +""</b>, a ""+($P{yearBuilt}!=null? $P{yearBuilt}:""N/A"")+""-built, ""+($P{dwt}!=null ?$P{dwt}:""N/A"")+"" deadweight and ""+($P{grossTonnage}!=null?$P{grossTonnage}:""N/A"")+"" gross tonnage, provided with Official Number ""+($P{officialNumber}!=null?""<u>""+$P{officialNumber}+""</u>"":""N/A"")+"", which is temporarily registered under the Philippine flag and operated by <b>""+$F{companyName}.toUpperCase()+""</b> will change its name to <b>""+$P{vesselUpdateInfo.newShipName}.toUpperCase()+""</b> effective on ""+$F{fromDate}+"".  This change of name of ship has been duly recorded in this Office.<br/><br/>""+"
+"
+OSS_CONTINUOUS_SYNOPSIS_RECORD.jrxml
+","Line 21: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 405: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$P{shipName}]]></textFieldExpression>
+Line 6: <parameter name=""vesselUpdateInfo.shipName"" class=""java.lang.String""/>
+Line 22: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 405: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$P{shipName}]]></textFieldExpression>
+Line 51: <field name=""imo"" class=""java.lang.String""/>
+Line 870: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 7: <parameter name=""vesselUpdateInfo.portOfRegistry"" class=""java.lang.String""/>
+Line 25: <parameter name=""otherInfo.portOfRegistry"" class=""java.lang.String""/>
+Line 452: <textFieldExpression><![CDATA[$P{otherInfo.portOfRegistry} != null ? $P{otherInfo.portOfRegistry} : ""N/A""]]></textFieldExpression>
+Line 4: <parameter name=""vesselUpdateInfo.flagState"" class=""java.lang.String""/>
+Line 24: <parameter name=""otherInfo.flagState"" class=""java.lang.String""/>
+Line 311: <textFieldExpression><![CDATA[$P{otherInfo.flagState} != null ? $P{otherInfo.flagState} : ""N/A""]]></textFieldExpression>"
+"
+OSS_EXTENSION_OF_SHIPS_TEMPORARY_PHILIPPINE_REGISTRATION_FOR_LESS_THAN_ONE_YEAR.jrxml
+","Line 27: <parameter name=""vesselUpdateInfo.rigType.value"" class=""java.lang.String""/>
+Line 122: ($P{vesselUpdateInfo.rigType.value} != null ? ($P{vesselUpdateInfo.rigType.value} + "" "") : """") + ""“"" +
+Line 167: ($P{vesselUpdateInfo.rigType.value} != null ? ($P{vesselUpdateInfo.rigType.value} + "" "") : """") + ""“"" +
+Line 5: <parameter name=""vesselUpdateInfo.shipName"" class=""java.lang.String""/>
+Line 123: $P{vesselUpdateInfo.shipName}.toUpperCase() + ""”</b> within the context of Presidential Decree No. 760, as amended, Executive Order No. 667 and MARINA Memorandum Circular (MC) No. OS-2023-01. We understand that the ship will be chartered again from <b>"" + $F{dateIssued_ddMMMMyyyy} +
+Line 168: $P{vesselUpdateInfo.shipName}.toUpperCase() + ""”</b> shall be extended <b>from "" + $F{fromDate} + "" to "" + $F{toDate} + "" only;</b><br>""]]></textFieldExpression>
+Line 23: <parameter name=""vesselUpdateInfo.type.value"" class=""java.lang.String""/>
+Line 121: ""-dwt, "" + $P{vesselUpdateInfo.type.value}.toLowerCase() + "", <b>"" +
+Line 24: <parameter name=""yearBuilt"" class=""java.lang.Integer""/>
+Line 118: ($P{yearBuilt} != null ? $P{yearBuilt} : ""____________"") +
+Line 21: <parameter name=""dwt"" class=""java.lang.String""/>
+Line 120: (($P{dwt} != null && !$P{dwt}.isEmpty()) ? $P{dwt} : ""____________"") +
+Line 121: ""-dwt, "" + $P{vesselUpdateInfo.type.value}.toLowerCase() + "", <b>"" +
+Line 125: $P{otherInfo.usDwtMonth} + ""/dwt/month. We were likewise informed that the ship is due for sale and for subsequent delivery to new owners.<br>""]]></textFieldExpression>"
+"
+OSS_LETTER_OF_CONSENT_FOR_THE_REGISTRATION_OF_SHIP_UNDER_PHILIPPINE_FLAG.jrxml
+","Line 5: <parameter name=""vesselUpdateInfo.shipName"" class=""java.lang.String""/>
+Line 112: $P{vesselUpdateInfo.shipName}.toUpperCase() + ""”</b> under the <b>"" + $F{companyName}.toUpperCase() + "".</b> We understand that said Letter of Consent is being required by the <u>"" +
+Line 139: ""<b>MV “"" + $P{vesselUpdateInfo.shipName}.toUpperCase() + ""”</b> under <b>"" + $F{companyName}.toUpperCase() + ""</b>, provided, however, that all the pre-approval documents as required under the said MC have been complied.<br><br>"" +"
+"
+OSS_LTC_DEFECTIVE.jrxml
+","Line 27: <field name=""formerName"" class=""java.lang.String""/>
+Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 28: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 30: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 29: <field name=""dwt"" class=""java.lang.String""/>"
+"
+OSS_LTC_LIFERAFT.jrxml
+","Line 27: <field name=""formerName"" class=""java.lang.String""/>
+Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 28: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 30: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 29: <field name=""dwt"" class=""java.lang.String""/>"
+"
+OSS_MINIMUM_SAFE_MANNING_CERTIFICATE.jrxml
+","Line 23: <field name=""shipName"" class=""java.lang.String""/>
+Line 24: <field name=""imo"" class=""java.lang.String""/>
+Line 908: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 30: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 915: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 28: <field name=""portOfRegistry"" class=""java.lang.String""/>
+Line 943: <textFieldExpression><![CDATA[$F{portOfRegistry}]]></textFieldExpression>
+Line 90: ""&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This Certificate applies only to the Master, Officers, Deck Ratings and Engine Ratings and provided that two (2) officers onboard shall continuously have valid General Operator's Certificate (GOC) and at least one (1) officer shall continuously have a valid Certificate of Proficiency for Ship Security Officer pursuant to the 2006 Amendment to the STCW Convention, Regulation VI/5.<br/><br/>""+
+Line 33: <field name=""callSign"" class=""java.lang.String""/>
+Line 901: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 26: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 922: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 27: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 929: <textFieldExpression><![CDATA[$F{kilowatt}]]></textFieldExpression>"
+"
+OSS_SPECIAL_PERMIT_FOR_TEMPORARY_UTILIZATION_OF_DOMESTIC_SHIP_TO_OVERSEAS_AMENDMENT.jrxml
+","Line 5: <parameter name=""vesselUpdateInfo.shipName"" class=""java.lang.String""/>
+Line 117: "" in view of the "" + $P{otherInfo.specialPermitReason} + "" <b>MV “"" + $P{vesselUpdateInfo.shipName}.toUpperCase() + ""”</b>. "" + ""The application was emailed by <b>"" +
+Line 119: Double.toString($P{vesselUpdateInfo.grossTonnage}) + ""-gross tonnage ship, <b>MV “"" + $P{vesselUpdateInfo.shipName}.toUpperCase() + ""”</b>, documented for domestic trade. Pursuant to Presidential Decree No. 474 and MARINA Memorandum Circular No. 2013-04, as amended by Memorandum Circular No. OS-2020-01, series of 2020, <b>PERMISSION IS HEREBY GRANTED</b> to the ship to temporarily sail from <b>"" + $P{otherInfo.vesselRoutes} +
+Line 205: ""<b>MV “"" + $P{vesselUpdateInfo.shipName}.toUpperCase() + ""”</b> shall sail from <b>"" +
+Line 514: <textFieldExpression><![CDATA[""<i>SP "" +  $P{vesselUpdateInfo.shipName} + "".....</i>Page "" + $V{PAGE_NUMBER}]]></textFieldExpression>
+Line 23: <parameter name=""vesselUpdateInfo.grossTonnage"" class=""java.lang.Double""/>
+Line 119: Double.toString($P{vesselUpdateInfo.grossTonnage}) + ""-gross tonnage ship, <b>MV “"" + $P{vesselUpdateInfo.shipName}.toUpperCase() + ""”</b>, documented for domestic trade. Pursuant to Presidential Decree No. 474 and MARINA Memorandum Circular No. 2013-04, as amended by Memorandum Circular No. OS-2020-01, series of 2020, <b>PERMISSION IS HEREBY GRANTED</b> to the ship to temporarily sail from <b>"" + $P{otherInfo.vesselRoutes} +"
+"
+OSS_SPECIAL_PERMIT_FOR_TEMPORARY_UTILIZATION_OF_DOMESTIC_SHIP_TO_OVERSEAS_NEW_OR_RENEWAL.jrxml
+","Line 5: <parameter name=""vesselUpdateInfo.shipName"" class=""java.lang.String""/>
+Line 117: ""<b>MV “"" + $P{vesselUpdateInfo.shipName}.toUpperCase() + ""”</b>, "" +
+Line 202: ""<b>MV “"" + $P{vesselUpdateInfo.shipName}.toUpperCase() + ""”</b> shall be valid "" +
+Line 486: <textFieldExpression><![CDATA[""<i>SP "" +  $P{vesselUpdateInfo.shipName} + "".....</i>Page "" + $V{PAGE_NUMBER}]]></textFieldExpression>
+Line 23: <parameter name=""vesselUpdateInfo.grossTonnage"" class=""java.lang.Double""/>
+Line 116: Double.toString($P{vesselUpdateInfo.grossTonnage}) + ""-gross tonnage ship, "" +"
+"
+OSS_SUPERNUMERARY.jrxml
+","Line 362: <textFieldExpression><![CDATA[""That the Filipino officers shall remain in complete command of the ship and their salaries/wages be in accordance with the scales approved by the Philippine Overseas Employment Administration;""]]></textFieldExpression>
+Line 32: <field name=""nationalityofsupernumerary"" class=""java.lang.String""/>
+Line 517: <textFieldExpression><![CDATA[$F{nationalityofsupernumerary}]]></textFieldExpression>"
+"
+PASSENGER_SHIP_SAFETY_CERTIFICATE_PSSC.jrxml
+","Line 38: <field name=""imo"" class=""java.lang.String""/>
+Line 634: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 569: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 35: <field name=""homeport"" class=""java.lang.String""/>
+Line 582: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 36: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 595: <textFieldExpression><![CDATA[$F{yearBuilt}]]></textFieldExpression>
+Line 41: <field name=""callSign"" class=""java.lang.String""/>
+Line 686: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 28: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 647: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 29: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 699: <textFieldExpression><![CDATA[$F{netRegisterTonnage}]]></textFieldExpression>
+Line 39: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 660: <textFieldExpression><![CDATA[$F{kilowatt}]]></textFieldExpression>"
+"
+PERMIT_TO_OPERATE.jrxml
+","Line 87: <field name=""imo"" class=""java.lang.String""/>
+Line 64: <field name=""serialNumber"" class=""java.lang.String""/>
+Line 533: <textFieldExpression><![CDATA[$F{serialNumber} != null ? $F{serialNumber} : ""N/A""]]></textFieldExpression>
+Line 116: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 256: <textFieldExpression><![CDATA[($F{officialNumber}.equals( ""____________"" ) || $F{officialNumber} == null) ? ""N/A"" : $F{officialNumber}]]></textFieldExpression>
+Line 77: <parameter name=""homeport.shortAddress"" class=""java.lang.String""/>
+Line 89: <field name=""homeport"" class=""java.lang.String""/>
+Line 272: <textFieldExpression><![CDATA[$P{homeport.shortAddress} != null ? $P{homeport.shortAddress} : ""N/A""]]></textFieldExpression>
+Line 88: <field name=""callSign"" class=""java.lang.String""/>
+Line 263: <textFieldExpression><![CDATA[($F{callSign}.equals( ""____________"" ) || $F{callSign} == null) ? ""N/A"" : $F{callSign}]]></textFieldExpression>
+Line 91: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 294: <textFieldExpression><![CDATA[($F{lengthInM}.equals( ""____________"" ) || $F{lengthInM} == null) ? ""N/A"" : $F{lengthInM}]]></textFieldExpression>
+Line 92: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 301: <textFieldExpression><![CDATA[($F{breadthInM}.equals( ""____________"" ) || $F{breadthInM} == null) ? ""N/A"" : $F{breadthInM}]]></textFieldExpression>
+Line 93: <field name=""depthInM"" class=""java.lang.String""/>
+Line 310: <textFieldExpression><![CDATA[($F{depthInM}.equals( ""____________"" ) || $F{depthInM} == null) ? ""N/A"" : $F{depthInM}]]></textFieldExpression>
+Line 65: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 95: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 565: <textFieldExpression><![CDATA[$F{kilowatt} != null ? $F{kilowatt} : ""N/A""]]></textFieldExpression>"
+"
+PIONEER_STATUS_APPROVAL.jrxml
+","Line 15: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 98: ""Pursuant to the Authority granted under PD 474 and Executive Order 125, as amended, the application of ""+$P{applicant.companyName}+"" for the grant of Pioneer Status under MARINA Memorandum Circular DS-2021- 03 as filed with MARINA for the ship <b>""+$P{shipName}.toUpperCase()+""</b> intended to operate in the route ""+$P{otherInfo.route}+"" is hereby <b><u>GRANTED</u></b>.<br/><br/>""+
+Line 106: ""However, based on the documents submitted, the ship \""""+$P{shipName}+""\"" is owned by ""+$P{applicant.companyName}+"" but chartered by ""+$P{otherInfo.charterer}+"" through a Bareboat Charter Contract dated ""+$P{otherInfo.contractDate}+"" valid for ""+$P{otherInfo.validityNoOfYears}+"" years.<br/><br/>""+
+Line 110: ""Hence, the grant of the incentives and privileges to the company for the ship \""""+$P{shipName}+""\"" intended to operate in the route ""+$P{otherInfo.route}+"" shall be effective until the date of expiry of the Bareboat Charter Contract but not to exceed six years or only <b><u>until ""+$P{otherInfo.dateValidity}+"".</u></b><br/><br/>""+"
+"
+RECREATIONAL_BOAT_CERTIFICATE.jrxml
+","Line 144: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 667: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 104: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 532: ""&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WHEREFORE, <u>"" + $P{shipName} + ""</u> is hereby entered in the Recreational Boat Registry and is entitled to the rights appurtenant thereto and the protection of the Government of the Republic of the Philippines.<br><br>"" +
+Line 668: ($P{shipName} != null && !$P{shipName}.isEmpty() ? $P{shipName}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 109: <parameter name=""formerName"" class=""java.lang.String""/>
+Line 368: <textFieldExpression><![CDATA[($P{formerName} != null && !$P{formerName}.isEmpty() ? $P{formerName} : ""N/A"")]]></textFieldExpression>
+Line 110: <parameter name=""formerOwner"" class=""java.lang.String""/>
+Line 390: <textFieldExpression><![CDATA[($P{formerOwner} != null && !$P{formerOwner}.isEmpty() ? $P{formerOwner} : ""N/A"")]]></textFieldExpression>
+Line 108: <parameter name=""imo"" class=""java.lang.String""/>
+Line 116: <parameter name=""vesselUpdateInfo.imo"" class=""java.lang.String""/>
+Line 691: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.imo} != null && !$P{vesselUpdateInfo.imo}.isEmpty() ? $P{vesselUpdateInfo.imo} : ""N/A"")]]></textFieldExpression>
+Line 97: <field name=""serialNumber"" class=""java.lang.String""/>
+Line 127: <parameter name=""serialNumberString"" class=""java.lang.String""/>
+Line 135: <parameter name=""engines[0].serialNumber"" class=""java.lang.String""/>
+Line 770: <textFieldExpression><![CDATA[$P{serialNumberString}]]></textFieldExpression>
+Line 106: <parameter name=""officialNumber"" class=""java.lang.String""/>
+Line 726: <textFieldExpression><![CDATA[($P{officialNumber} != null && !$P{officialNumber}.isEmpty() ? $P{officialNumber} : ""N/A"")]]></textFieldExpression>
+Line 114: <parameter name=""homeport.shortAddress"" class=""java.lang.String""/>
+Line 267: <textFieldExpression><![CDATA[($P{homeport.shortAddress} != null && !$P{homeport.shortAddress}.isEmpty() ? $P{homeport.shortAddress} : ""N/A"")]]></textFieldExpression>
+Line 111: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 276: <textFieldExpression><![CDATA[($P{type.value} != null && !$P{type.value}.isEmpty() ? $P{type.value} : ""N/A"")]]></textFieldExpression>
+Line 115: <parameter name=""builder"" class=""java.lang.String""/>
+Line 350: <textFieldExpression><![CDATA[($P{builder} != null && !$P{builder}.isEmpty() ? $P{builder} : ""N/A"")]]></textFieldExpression>
+Line 118: <parameter name=""yearBuilt"" class=""java.lang.Integer""/>
+Line 341: <textFieldExpression><![CDATA[($P{yearBuilt} != null ? $P{yearBuilt} : ""N/A"")]]></textFieldExpression>
+Line 117: <parameter name=""placeBuilt"" class=""java.lang.String""/>
+Line 359: <textFieldExpression><![CDATA[($P{placeBuilt} != null && !$P{placeBuilt}.isEmpty() ? $P{placeBuilt} : ""N/A"")]]></textFieldExpression>
+Line 107: <parameter name=""callSign"" class=""java.lang.String""/>
+Line 146: <parameter name=""vesselUpdateInfo.callSign"" class=""java.lang.String""/>
+Line 702: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.callSign} != null && !$P{vesselUpdateInfo.callSign}.isEmpty() ? $P{vesselUpdateInfo.callSign} : ""N/A"")]]></textFieldExpression>
+Line 119: <parameter name=""lengthInMDouble"" class=""java.lang.Double""/>
+Line 438: <textFieldExpression><![CDATA[($P{lengthInMDouble} != null
+Line 440: new java.text.DecimalFormat(""#,##0.00"").format($P{lengthInMDouble})
+Line 119: <parameter name=""lengthInMDouble"" class=""java.lang.Double""/>
+Line 438: <textFieldExpression><![CDATA[($P{lengthInMDouble} != null
+Line 440: new java.text.DecimalFormat(""#,##0.00"").format($P{lengthInMDouble})
+Line 122: <parameter name=""breadthInMDouble"" class=""java.lang.Double""/>
+Line 465: <textFieldExpression><![CDATA[($P{breadthInMDouble} != null
+Line 467: new java.text.DecimalFormat(""#,##0.00"").format($P{breadthInMDouble})
+Line 122: <parameter name=""breadthInMDouble"" class=""java.lang.Double""/>
+Line 465: <textFieldExpression><![CDATA[($P{breadthInMDouble} != null
+Line 467: new java.text.DecimalFormat(""#,##0.00"").format($P{breadthInMDouble})
+Line 124: <parameter name=""depthInMDouble"" class=""java.lang.Double""/>
+Line 492: <textFieldExpression><![CDATA[($P{depthInMDouble} != null
+Line 494: new java.text.DecimalFormat(""#,##0.00"").format($P{depthInMDouble})
+Line 124: <parameter name=""depthInMDouble"" class=""java.lang.Double""/>
+Line 492: <textFieldExpression><![CDATA[($P{depthInMDouble} != null
+Line 494: new java.text.DecimalFormat(""#,##0.00"").format($P{depthInMDouble})
+Line 105: <parameter name=""grossTonnage"" class=""java.lang.Double""/>
+Line 412: <textFieldExpression><![CDATA[($P{grossTonnage} != null
+Line 414: new java.text.DecimalFormat(""#,##0.00"").format($P{grossTonnage})
+Line 123: <parameter name=""netTonnage"" class=""java.lang.Double""/>
+Line 129: <parameter name=""dwt"" class=""java.lang.String""/>
+Line 121: <parameter name=""hullMaterial.value"" class=""java.lang.String""/>
+Line 285: <textFieldExpression><![CDATA[($P{hullMaterial.value} != null && !$P{hullMaterial.value}.isEmpty() ? $P{hullMaterial.value} : ""N/A"")]]></textFieldExpression>
+Line 98: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 102: <parameter name=""kilowattString"" class=""java.lang.String""/>
+Line 134: <parameter name=""engines[0].kilowatt"" class=""java.lang.Double""/>
+Line 826: <textFieldExpression><![CDATA[$P{kilowattString}]]></textFieldExpression>
+Line 113: <parameter name=""tradingArea.value"" class=""java.lang.String""/>
+Line 131: <parameter name=""stemType.value"" class=""java.lang.String""/>
+Line 132: <parameter name=""sternType.value"" class=""java.lang.String""/>
+Line 125: <parameter name=""noOfDecks"" class=""java.lang.String""/>
+Line 120: <parameter name=""noOfMasts"" class=""java.lang.String""/>"
+"
+RECREATIONAL_BOAT_CERTIFICATE_OF_OWNERSHIP.jrxml
+","Line 50: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 703: <textFieldExpression><![CDATA[($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 14: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 704: ($P{shipName} != null && !$P{shipName}.isEmpty() ? $P{shipName}.toUpperCase() : ""N/A"")]]></textFieldExpression>
+Line 19: <parameter name=""formerName"" class=""java.lang.String""/>
+Line 20: <parameter name=""formerOwner"" class=""java.lang.String""/>
+Line 18: <parameter name=""imo"" class=""java.lang.String""/>
+Line 51: <parameter name=""vesselUpdateInfo.imo"" class=""java.lang.String""/>
+Line 724: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.imo} != null && !$P{vesselUpdateInfo.imo}.isEmpty() ? $P{vesselUpdateInfo.imo} : ""N/A"")]]></textFieldExpression>
+Line 40: <parameter name=""serialNumberString"" class=""java.lang.String""/>
+Line 468: <textFieldExpression><![CDATA[$P{serialNumberString}]]></textFieldExpression>
+Line 17: <parameter name=""officialNumber"" class=""java.lang.String""/>
+Line 756: <textFieldExpression><![CDATA[($P{officialNumber} != null && !$P{officialNumber}.isEmpty() ? $P{officialNumber} : ""N/A"")]]></textFieldExpression>
+Line 21: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 232: <textFieldExpression><![CDATA[($P{type.value} != null && !$P{type.value}.isEmpty() ? $P{type.value} : ""N/A"")]]></textFieldExpression>
+Line 23: <parameter name=""builder"" class=""java.lang.String""/>
+Line 265: <textFieldExpression><![CDATA[($P{builder} != null && !$P{builder}.isEmpty() ? $P{builder} : ""N/A"")]]></textFieldExpression>
+Line 25: <parameter name=""yearBuilt"" class=""java.lang.Integer""/>
+Line 311: <textFieldExpression><![CDATA[($P{yearBuilt} != null ? $P{yearBuilt} : ""N/A"")]]></textFieldExpression>
+Line 24: <parameter name=""placeBuilt"" class=""java.lang.String""/>
+Line 275: <textFieldExpression><![CDATA[($P{placeBuilt} != null && !$P{placeBuilt}.isEmpty() ? $P{placeBuilt} : ""N/A"")]]></textFieldExpression>
+Line 15: <parameter name=""callSign"" class=""java.lang.String""/>
+Line 45: <parameter name=""vesselUpdateInfo.callSign"" class=""java.lang.String""/>
+Line 734: <textFieldExpression><![CDATA[($P{vesselUpdateInfo.callSign} != null && !$P{vesselUpdateInfo.callSign}.isEmpty() ? $P{vesselUpdateInfo.callSign} : ""N/A"")]]></textFieldExpression>
+Line 26: <parameter name=""lengthInMDouble"" class=""java.lang.Double""/>
+Line 369: <textFieldExpression><![CDATA[($P{lengthInMDouble} != null
+Line 371: new java.text.DecimalFormat(""#,##0.00"").format($P{lengthInMDouble})
+Line 26: <parameter name=""lengthInMDouble"" class=""java.lang.Double""/>
+Line 369: <textFieldExpression><![CDATA[($P{lengthInMDouble} != null
+Line 371: new java.text.DecimalFormat(""#,##0.00"").format($P{lengthInMDouble})
+Line 29: <parameter name=""breadthInMDouble"" class=""java.lang.Double""/>
+Line 395: <textFieldExpression><![CDATA[($P{breadthInMDouble} != null
+Line 397: new java.text.DecimalFormat(""#,##0.00"").format($P{breadthInMDouble})
+Line 29: <parameter name=""breadthInMDouble"" class=""java.lang.Double""/>
+Line 395: <textFieldExpression><![CDATA[($P{breadthInMDouble} != null
+Line 397: new java.text.DecimalFormat(""#,##0.00"").format($P{breadthInMDouble})
+Line 31: <parameter name=""depthInMDouble"" class=""java.lang.Double""/>
+Line 421: <textFieldExpression><![CDATA[($P{depthInMDouble} != null
+Line 423: new java.text.DecimalFormat(""#,##0.00"").format($P{depthInMDouble})
+Line 31: <parameter name=""depthInMDouble"" class=""java.lang.Double""/>
+Line 421: <textFieldExpression><![CDATA[($P{depthInMDouble} != null
+Line 423: new java.text.DecimalFormat(""#,##0.00"").format($P{depthInMDouble})
+Line 16: <parameter name=""grossTonnage"" class=""java.lang.Double""/>
+Line 320: <textFieldExpression><![CDATA[($P{grossTonnage} != null
+Line 322: new java.text.DecimalFormat(""#,##0.00"").format($P{grossTonnage})
+Line 30: <parameter name=""netTonnage"" class=""java.lang.Double""/>
+Line 34: <parameter name=""dwt"" class=""java.lang.String""/>
+Line 28: <parameter name=""hullMaterial.value"" class=""java.lang.String""/>
+Line 346: <textFieldExpression><![CDATA[($P{hullMaterial.value} != null && !$P{hullMaterial.value}.isEmpty() ? $P{hullMaterial.value} : ""N/A"")]]></textFieldExpression>
+Line 39: <parameter name=""kilowattString"" class=""java.lang.String""/>
+Line 526: <textFieldExpression><![CDATA[$P{kilowattString}]]></textFieldExpression>
+Line 22: <parameter name=""tradingArea.value"" class=""java.lang.String""/>
+Line 36: <parameter name=""stemType.value"" class=""java.lang.String""/>
+Line 37: <parameter name=""sternType.value"" class=""java.lang.String""/>
+Line 32: <parameter name=""noOfDecks"" class=""java.lang.String""/>
+Line 27: <parameter name=""noOfMasts"" class=""java.lang.String""/>"
+"
+RECREATIONAL_BOAT_SAFETY_CERTIFICATE_RBSC.jrxml
+","Line 19: <parameter name=""vesselUpdateInfo.imo"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 73: <field name=""imo"" class=""java.lang.String""/>
+Line 402: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.imo}]]></textFieldExpression>
+Line 23: <parameter name=""vesselUpdateInfo.officialNumber"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 66: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 334: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.officialNumber}]]></textFieldExpression>
+Line 18: <parameter name=""vesselUpdateInfo.homeport"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 70: <field name=""homeport"" class=""java.lang.String""/>
+Line 347: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.homeport}]]></textFieldExpression>
+Line 16: <parameter name=""vesselUpdateInfo.classification.value"" class=""java.lang.String""/>
+Line 71: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 15: <parameter name=""vesselUpdateInfo.callSign"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 75: <field name=""callSign"" class=""java.lang.String""/>
+Line 441: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.callSign}]]></textFieldExpression>
+Line 20: <parameter name=""vesselUpdateInfo.lengthInM"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 82: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 415: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.lengthInM}]]></textFieldExpression>
+Line 17: <parameter name=""vesselUpdateInfo.grossTonnage"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 63: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 64: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 22: <parameter name=""vesselUpdateInfo.hullMaterial.value"" class=""java.lang.String""/>
+Line 467: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.hullMaterial.value}]]></textFieldExpression>
+Line 13: <parameter name=""otherInfo.kilowatt"" class=""java.lang.String""/>
+Line 21: <parameter name=""vesselUpdateInfo.kilowatt"" class=""java.lang.Double"" isForPrompting=""false""/>
+Line 428: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.kilowatt}]]></textFieldExpression>
+Line 24: <parameter name=""vesselUpdateInfo.dateKeelLaid"" class=""java.lang.String"" isForPrompting=""false""/>
+Line 360: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.dateKeelLaid}]]></textFieldExpression>"
+"
+SAFE_MANNING_CERTIFICATE_SMC.jrxml
+","Line 39: <field name=""imo"" class=""java.lang.String""/>
+Line 333: <textFieldExpression><![CDATA[$F{imo}]]></textFieldExpression>
+Line 32: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 294: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 36: <field name=""homeport"" class=""java.lang.String""/>
+Line 307: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 37: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 42: <field name=""callSign"" class=""java.lang.String""/>
+Line 385: <textFieldExpression><![CDATA[$F{callSign}]]></textFieldExpression>
+Line 29: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 346: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>
+Line 30: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 40: <field name=""kilowatt"" class=""java.lang.String""/>
+Line 359: <textFieldExpression><![CDATA[$F{kilowatt}]]></textFieldExpression>"
+"
+SPECIAL_PERMIT_APPROVAL.jrxml
+","Line 200: <textFieldExpression><![CDATA[""That the ship and its officers and crew shall strictly comply with the Customs, Immigration and Quarantine (CIQ) rules and regulations relative to the ship’s entry into and exits from any port in the Philippines;""]]></textFieldExpression>"
+"
+SPECIAL_PERMIT_TO_NAVIGATE_SPN.jrxml
+","Line 38: <field name=""imo"" class=""java.lang.String""/>
+Line 31: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 35: <field name=""homeport"" class=""java.lang.String""/>
+Line 36: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 41: <field name=""callSign"" class=""java.lang.String""/>
+Line 44: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 28: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 29: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 39: <field name=""kilowatt"" class=""java.lang.String""/>"
+"
+SRS_CERTIFICATE_OF_ACCREDITATION.jrxml
+","Line 430: <textFieldExpression><![CDATA[""Not engage in any activities that may conflict with their independence of judgement and integrity in relation to their service, such as but not limited to a Company/Entity and/or Surveyor covered by this Circular who is also the owner of the vessel and/or directly affiliated to a shipyard/ shipbuilder/ boatbuilder who constructed the vessel.""]]></textFieldExpression>"
+"
+SRS_CERTIFICATE_OF_COMPLIANCE_FOR_PASSENGER_SHIPS_BELOW_20GT.jrxml
+","Line 45: <parameter name=""vesselUpdateInfo.type.value"" class=""java.lang.String"">
+Line 230: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.type.value}]]></textFieldExpression>
+Line 574: <textFieldExpression><![CDATA[""Ship officers and crew shall wear the prescribed uniform while on their official duty.""]]></textFieldExpression>
+Line 102: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 103: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 104: <field name=""depthInM"" class=""java.lang.String""/>"
+"
+SRS_CERTIFICATE_OF_COMPLIANCE_FOR_PASSENGER_VESSELS.jrxml
+","Line 80: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 189: ($P{rigType.value} != null ? ($P{rigType.value} + "" "") : """") +
+Line 45: <parameter name=""vesselUpdateInfo.type.value"" class=""java.lang.String"">
+Line 263: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.type.value}]]></textFieldExpression>
+Line 718: <textFieldExpression><![CDATA[""Ship officers and crew shall wear the prescribed uniform while on their official duty.""]]></textFieldExpression>
+Line 107: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 108: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 109: <field name=""depthInM"" class=""java.lang.String""/>"
+"
+SRS_INTERNATIONAL_LOAD_LINE_CERTIFICATE.jrxml
+","Line 167: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 408: <textFieldExpression><![CDATA[$P{rigType.value} + "" "" + $P{shipName}.toUpperCase()]]></textFieldExpression>
+Line 150: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 408: <textFieldExpression><![CDATA[$P{rigType.value} + "" "" + $P{shipName}.toUpperCase()]]></textFieldExpression>
+Line 95: <defaultValueExpression><![CDATA[""https://www.imorules.com/GUID-B7E14479-3E60-4C7C-A828-A0FFCE5D91E5-low.png""]]></defaultValueExpression>
+Line 151: <parameter name=""imo"" class=""java.lang.String""/>
+Line 36: <parameter name=""officialNumber"" class=""java.lang.String"">
+Line 176: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 375: <textFieldExpression><![CDATA[$P{officialNumber}]]></textFieldExpression>
+Line 39: <parameter name=""homeport"" class=""java.lang.String"">
+Line 177: <field name=""homeport"" class=""java.lang.String""/>
+Line 425: <textFieldExpression><![CDATA[$P{homeport}]]></textFieldExpression>
+Line 42: <parameter name=""lengthInM"" class=""java.lang.String""/>
+Line 178: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 392: <textFieldExpression><![CDATA[$P{lengthInM} + "" M""]]></textFieldExpression>"
+"
+SRS_LICENSE_FOR_BOAT_BUILDERS_REPAIRERS_FOR_CLASS_A_AND_B.jrxml
+","Line 20: <parameter name=""shipyardUpdateInfo.classification.value"" class=""java.lang.String""/>
+Line 501: <textFieldExpression><![CDATA[""The original License shall be displayed in a conspicuous place in the main office and photocopy of the certificate shall be posted at its place of business.""]]></textFieldExpression>
+Line 664: ""9.2&nbsp;&nbsp;Names of new Director or other principal officer within thirty (30) calendar days after the appointment; and<br>"" +
+Line 453: <textFieldExpression><![CDATA[""MARINA-Registered boatbuilder/repairer shall issue Builder’s Certificate on Boats constructed by them and corresponding to their License.""]]></textFieldExpression>
+Line 461: <textFieldExpression><![CDATA[""A registered boatbuilder shall inform/ submit to the Administration the following:""]]></textFieldExpression>
+Line 613: <textFieldExpression><![CDATA[""All boatbuilders shall maintain a record book, registered by the Administration inclusive of details as to the type, particulars and ownership of such boats, and all boats being repaired to be inspected by the Administration.""]]></textFieldExpression>
+Line 655: <textFieldExpression><![CDATA[""For new construction and upon approval of ship’s plans and specification, a hull identification number (Hull ID) shall be issued in a format prescribed by the Administration which shall be displayed near the boat being constructed by the boatbuilder.""]]></textFieldExpression>
+Line 53: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 54: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 55: <field name=""depthInM"" class=""java.lang.String""/>"
+"
+SRS_LICENSE_FOR_SHIPBUILDERS_AND_OR_SHIP_REPAIRERS.jrxml
+","Line 7: <parameter name=""shipyardUpdateInfo.classification.value"" class=""java.lang.String""/>
+Line 352: ""(""+$P{shipyardUpdateInfo.classification.value}+"")""]]></textFieldExpression>
+Line 582: <textFieldExpression><![CDATA[""The original License shall be displayed in a conspicuous place in the main office and photocopy of the certificate shall be posted at its place of business.""]]></textFieldExpression>
+Line 722: <textFieldExpression><![CDATA[""Names of new Director or other principal officer within thirty (30) calendar days after the appointment; and,""]]></textFieldExpression>
+Line 40: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 41: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 42: <field name=""depthInM"" class=""java.lang.String""/>"
+"
+SRS_LICENSE_TO_OPERATE_SHIPBREAKING_SHIP_RECYCLING.jrxml
+","Line 16: <parameter name=""shipyardUpdateInfo.classification.value"" class=""java.lang.String""/>
+Line 641: <textFieldExpression><![CDATA[""The original License shall be displayed in a conspicuous place in the main office and photocopy of the certificate shall be posted at its place of business.""]]></textFieldExpression>
+Line 781: <textFieldExpression><![CDATA[""Names of new Director or other principal officer within thirty (30) calendar days after the appointment; and,""]]></textFieldExpression>
+Line 54: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 55: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 56: <field name=""depthInM"" class=""java.lang.String""/>"
+"
+SRS_LICENSE_TO_OPERATE_SHIP_REPAIR_AFLOAT.jrxml
+","Line 625: <textFieldExpression><![CDATA[""The original License Certificate shall be displayed in a conspicuous place in the main office and certified true copy of the certificate shall be posted at its place of business.""]]></textFieldExpression>
+Line 897: <textFieldExpression><![CDATA[""Names of new Director or other principal officer within thirty (30) Calendar days after the appointment;""]]></textFieldExpression>
+Line 937: <textFieldExpression><![CDATA[""Annual accomplishment report duly accomplished by a responsible officer of a MARINA- Licensed Afloat Ship Repairer to be submitted to the Administration every annual endorsement. A standard form shall be prescribed by the Administration for this report. The Annual Report shall serve as pre- requisites for the endorsement and renewal of the required license.""]]></textFieldExpression>
+Line 977: <textFieldExpression><![CDATA[""Names of new Director or other principal officer within thirty (30) Calendar days after the appointment;""]]></textFieldExpression>
+Line 1049: <textFieldExpression><![CDATA[""Annual accomplishment report duly accomplished by a responsible officer of a MARINA- Licensed Afloat Ship Repairer to be submitted to the Administration every annual endorsement. A standard form shall be prescribed by the Administration for this report. The Annual Report shall serve as pre- requisites for the endorsement and renewal of the required license.""]]></textFieldExpression>
+Line 50: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 51: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 52: <field name=""depthInM"" class=""java.lang.String""/>"
+"
+SRS_LOAD_LINE_CERTIFICATE.jrxml
+","Line 161: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 404: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$P{shipName}.toUpperCase()]]></textFieldExpression>
+Line 152: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 404: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$P{shipName}.toUpperCase()]]></textFieldExpression>
+Line 98: <defaultValueExpression><![CDATA[""https://www.imorules.com/GUID-B7E14479-3E60-4C7C-A828-A0FFCE5D91E5-low.png""]]></defaultValueExpression>
+Line 153: <parameter name=""imo"" class=""java.lang.String""/>
+Line 39: <parameter name=""officialNumber"" class=""java.lang.String"">
+Line 173: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 374: <textFieldExpression><![CDATA[($P{officialNumber}!=null? $P{officialNumber}: ""N/A"")]]></textFieldExpression>
+Line 42: <parameter name=""homeport"" class=""java.lang.String"">
+Line 174: <field name=""homeport"" class=""java.lang.String""/>
+Line 419: <textFieldExpression><![CDATA[($P{homeport}!=null? $P{homeport}: ""N/A"")]]></textFieldExpression>
+Line 45: <parameter name=""lengthInM"" class=""java.lang.String""/>
+Line 175: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 389: <textFieldExpression><![CDATA[($P{lengthInM}!=null? ($P{lengthInM} + "" M""): ""N/A"")]]></textFieldExpression>"
+"
+SRS_LOAD_LINE_CERTIFICATE_REISSUANCE.jrxml
+","Line 146: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 359: <textFieldExpression><![CDATA[$P{shipName}]]></textFieldExpression>
+Line 91: <defaultValueExpression><![CDATA[""https://www.imorules.com/GUID-B7E14479-3E60-4C7C-A828-A0FFCE5D91E5-low.png""]]></defaultValueExpression>
+Line 147: <parameter name=""imo"" class=""java.lang.String""/>
+Line 329: <textFieldExpression><![CDATA[$P{imo}]]></textFieldExpression>
+Line 32: <parameter name=""officialNumber"" class=""java.lang.String"">
+Line 160: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 35: <parameter name=""homeport"" class=""java.lang.String"">
+Line 161: <field name=""homeport"" class=""java.lang.String""/>
+Line 374: <textFieldExpression><![CDATA[$P{homeport}]]></textFieldExpression>
+Line 38: <parameter name=""lengthInM"" class=""java.lang.String""/>
+Line 162: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 344: <textFieldExpression><![CDATA[$P{lengthInM}]]></textFieldExpression>"
+"
+SRS_MAXIMUM_LOAD_MARKING_CERTIFICATE.jrxml
+","Line 27: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 262: <textFieldExpression><![CDATA[$P{rigType.value} + "" "" + $P{shipName}.toUpperCase()]]></textFieldExpression>
+Line 13: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 262: <textFieldExpression><![CDATA[$P{rigType.value} + "" "" + $P{shipName}.toUpperCase()]]></textFieldExpression>
+Line 69: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 230: <textFieldExpression><![CDATA[$F{officialNumber}]]></textFieldExpression>
+Line 67: <field name=""homeport"" class=""java.lang.String""/>
+Line 279: <textFieldExpression><![CDATA[$F{homeport}]]></textFieldExpression>
+Line 54: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 246: <textFieldExpression><![CDATA[$F{lengthInM} + "" m""]]></textFieldExpression>
+Line 55: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 56: <field name=""depthInM"" class=""java.lang.String""/>
+Line 66: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 375: <textFieldExpression><![CDATA[$F{grossTonnage}]]></textFieldExpression>"
+"
+SRS_PERMIT_TO_CONSTRUCT.jrxml
+","Line 89: ""Non-compliance and/or violation of any of the above conditions shall be subject to fines and penalties that may be imposed by this Authority pursuant to Memorandum Circular No.120, as amended and is without prejudice to any criminal/civil and/or administrative case that may be filed against the applicant boatbuilder and the owner of subject vessel.<br/><br/>""+"
+"
+SRS_REGISTRATION_OF_BOATBUILDERS_BOAT_REPAIRER.jrxml
+","Line 443: <textFieldExpression><![CDATA[""The original License shall be displayed in a conspicuous place in the main office and photocopy of the certificate shall be posted at its place of business.""]]></textFieldExpression>
+Line 613: <textFieldExpression><![CDATA[""Names of new Director or other principal officer within thirty (30) calendar days after the appointment; and""]]></textFieldExpression>
+Line 229: <textFieldExpression><![CDATA[""To engage in the business of manufacturing of boats/boatbuilder and importing, exporting, manufacturing, selling, distributing, marketing at wholesale/retail insofar as may be permitted by law all kinds of spare parts, warer crafts, rescue equipments of every kind and description such as but not limited to marine equipment to act as manufacturer’s representative, commission merchant, factor or agent relative thereto.""]]></textFieldExpression>
+Line 531: <textFieldExpression><![CDATA[""MARINA-Registered boatbuilder/repairer shall issue Builder’s Certificate on Boats constructed by them and corresponding to their License.""]]></textFieldExpression>
+Line 547: <textFieldExpression><![CDATA[""A registered boatbuilder shall inform/ submit to the Administration the following:""]]></textFieldExpression>
+Line 563: <textFieldExpression><![CDATA[""All boatbuilders shall maintain a record book, registered by the Administration inclusive of details as to the type, particulars and ownership of such boats, and all boats being repaired to be inspected by the Administration.""]]></textFieldExpression>
+Line 581: <textFieldExpression><![CDATA[""For new construction and upon approval of ship’s plans and specification, a hull identification number (Hull ID) shall be issued in a format prescribed by the Administration which shall be displayed near the boat being constructed by the boatbuilder.""]]></textFieldExpression>
+Line 41: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 42: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 43: <field name=""depthInM"" class=""java.lang.String""/>"
+"
+SRS_REGISTRATION_OF_SHIPBREAKER_SHIP_RECYCLER.jrxml
+","Line 658: <textFieldExpression><![CDATA[""The original License shall be displayed in a conspicuous place in the main office and photocopy of the certificate shall be posted at its place of business.""]]></textFieldExpression>
+Line 985: <textFieldExpression><![CDATA[""Names of new Director or other principal officer within thirty (30) calendar days after the appointment; and,""]]></textFieldExpression>
+Line 59: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 61: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 62: <field name=""depthInM"" class=""java.lang.String""/>"
+"
+SRS_REGISTRATION_OF_SHIPBUILDERS_AND_OR_SHIP_REPAIRER.jrxml
+","Line 515: <textFieldExpression><![CDATA[""The original License shall be displayed in a conspicuous place in the main office and photocopy of the certificate shall be posted at its place of business.""]]></textFieldExpression>
+Line 698: ""9.2&nbsp;&nbsp;Names of new Director or other principal officer within thirty (30) calendar days after the appointment; and<br>"" +
+Line 459: <textFieldExpression><![CDATA[""MARINA-Registered boatbuilder/repairer shall issue Builder’s Certificate on Boats constructed by them and corresponding to their License.""]]></textFieldExpression>
+Line 469: <textFieldExpression><![CDATA[""A registered boatbuilder shall inform/ submit to the Administration the following:""]]></textFieldExpression>
+Line 639: <textFieldExpression><![CDATA[""All boatbuilders shall maintain a record book, registered by the Administration inclusive of details as to the type, particulars and ownership of such boats, and all boats being repaired to be inspected by the Administration.""]]></textFieldExpression>
+Line 687: <textFieldExpression><![CDATA[""For new construction and upon approval of ship’s plans and specification, a hull identification number (Hull ID) shall be issued in a format prescribed by the Administration which shall be displayed near the boat being constructed by the boatbuilder.""]]></textFieldExpression>
+Line 75: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 76: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 77: <field name=""depthInM"" class=""java.lang.String""/>"
+"
+SRS_SHIPBREAKING_SHIPRECYCLING_PLANS_APPROVAL.jrxml
+","Line 38: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 39: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 40: <field name=""depthInM"" class=""java.lang.String""/>"
+"
+SRS_SHIPBUILDING_BOATBUILDING_PERMIT.jrxml
+","Line 112: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 130: <parameter name=""vesselUpdateInfo.serviceType.value"" class=""java.lang.String""/>
+Line 238: <textFieldExpression><![CDATA[""The proposed acquisition cost Php "" + $P{otherInfo.shipBoatCostPhp} + "" for the "" + $P{vesselUpdateInfo.serviceType.value}.toLowerCase() + "" is considered reasonable;""]]></textFieldExpression>
+Line 113: <parameter name=""type.value"" class=""java.lang.String""/>
+Line 905: <textFieldExpression><![CDATA[""The vessel plans shall be submitted to this office for approval per provisions of P.D. 1059 and MC # 2015-07.""]]></textFieldExpression>
+Line 429: ""Non-compliance and/or violation of any of the above conditions shall be subject to fines and penalties that may be imposed by this Authority pursuant to Memorandum Circular No.120, as amended and is without prejudice to any criminal/civil and/or administrative case that may be filed against the applicant boatbuilder and the owner of subject vessel.<br><br>"" +
+Line 115: <parameter name=""lengthOverallInM"" class=""java.lang.String""/>
+Line 543: ($P{lengthOverallInM} == null ? """" : $P{lengthOverallInM} + "" M"") + ""<br>"" +
+Line 116: <parameter name=""breadthInM"" class=""java.lang.String""/>
+Line 544: ($P{breadthInM} == null ? """" : $P{breadthInM} + "" M"") + ""<br>"" +
+Line 117: <parameter name=""depthInM"" class=""java.lang.String""/>
+Line 545: ($P{depthInM} == null ? """" : $P{depthInM} + "" M"") + ""<br>""]]></textFieldExpression>
+Line 114: <parameter name=""hullMaterial.value"" class=""java.lang.String""/>"
+"
+SRS_STABILITY_CERTIFICATE.jrxml
+","Line 25: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 302: <textFieldExpression><![CDATA[($P{rigType.value}!=null? $P{rigType.value}+' ': """") + $F{vesselName}.toUpperCase()]]></textFieldExpression>
+Line 32: <parameter name=""officialNumber"" class=""java.lang.String"">
+Line 124: <field name=""officialNumber"" class=""java.lang.String""/>
+Line 368: <textFieldExpression><![CDATA[$F{officialNumber}!=null? $F{officialNumber}: ""N/A""]]></textFieldExpression>
+Line 22: <parameter name=""homeport"" class=""java.lang.String"">
+Line 123: <field name=""homeport"" class=""java.lang.String""/>
+Line 318: <textFieldExpression><![CDATA[$F{homeport}!=null? $F{homeport} : ""N/A""]]></textFieldExpression>
+Line 110: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 111: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 112: <field name=""depthInM"" class=""java.lang.String""/>
+Line 26: <parameter name=""grossTonnage"" class=""java.lang.String"">
+Line 122: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 286: <textFieldExpression><![CDATA[$F{grossTonnage}!=null? $F{grossTonnage} : ""N/A""]]></textFieldExpression>"
+"
+SRS_TONNAGE_MEASUREMENT_CERTIFICATE.jrxml
+","Line 187: <parameter name=""rigType.value"" class=""java.lang.String""/>
+Line 505: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$V{shipName}.toUpperCase()]]></textFieldExpression>
+Line 1468: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$V{shipName}.toUpperCase()]]></textFieldExpression>
+Line 120: <parameter name=""vesselUpdateInfo.shipName"" class=""java.lang.String""/>
+Line 186: <parameter name=""shipName"" class=""java.lang.String""/>
+Line 265: <variable name=""shipName"" class=""java.lang.String"">
+Line 266: <variableExpression><![CDATA[$P{vesselUpdateInfo.newShipName}!=null? $P{vesselUpdateInfo.newShipName}.toUpperCase() : $P{vesselUpdateInfo.shipName}.toUpperCase()]]></variableExpression>
+Line 505: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$V{shipName}.toUpperCase()]]></textFieldExpression>
+Line 1468: <textFieldExpression><![CDATA[($P{rigType.value}!=null ? $P{rigType.value}: """")+"" ""+$V{shipName}.toUpperCase()]]></textFieldExpression>
+Line 174: <parameter name=""vesselUpdateInfo.serialNumberSlash"" class=""java.lang.String""/>
+Line 180: <parameter name=""serialNumberSlash"" class=""java.lang.String""/>
+Line 1859: $P{vesselUpdateInfo.noOfMainEngine}!=null && $P{vesselUpdateInfo.noOfMainEngine}>0?$P{vesselUpdateInfo.serialNumberSlash}:""N/A""
+Line 1860: ) : ($P{noOfMainEngine}!=null && $P{noOfMainEngine}>0?$P{serialNumberSlash}:""N/A"")]]></textFieldExpression>
+Line 149: <parameter name=""vesselUpdateInfo.serviceType.value"" class=""java.lang.String""/>
+Line 1501: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.serviceType.value}]]></textFieldExpression>
+Line 119: <parameter name=""vesselUpdateInfo.type.value"" class=""java.lang.String""/>
+Line 477: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.type.value} != null? $P{vesselUpdateInfo.type.value}: ""N/A""]]></textFieldExpression>
+Line 1479: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.type.value}]]></textFieldExpression>
+Line 135: <parameter name=""vesselUpdateInfo.portOfRegistry"" class=""java.lang.String""/>
+Line 250: <field name=""portOfRegistry"" class=""java.lang.String""/>
+Line 492: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.portOfRegistry}!=null? $P{vesselUpdateInfo.portOfRegistry}.toUpperCase() : ""N/A""]]></textFieldExpression>
+Line 1545: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.portOfRegistry}]]></textFieldExpression>
+Line 155: <parameter name=""vesselUpdateInfo.builder"" class=""java.lang.String""/>
+Line 1556: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.builder}!=null? $P{vesselUpdateInfo.builder}: ""N/A""]]></textFieldExpression>
+Line 136: <parameter name=""vesselUpdateInfo.yearBuilt"" class=""java.lang.Integer""/>
+Line 247: <field name=""yearBuilt"" class=""java.lang.String""/>
+Line 464: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.yearBuilt} !=null? $P{vesselUpdateInfo.yearBuilt}: ""N/A""]]></textFieldExpression>
+Line 156: <parameter name=""vesselUpdateInfo.placeBuilt"" class=""java.lang.String""/>
+Line 1567: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.placeBuilt}!=null?$P{vesselUpdateInfo.placeBuilt}: ""N/A""]]></textFieldExpression>
+Line 137: <parameter name=""vesselUpdateInfo.lengthInMDouble"" class=""java.lang.Double""/>
+Line 138: <parameter name=""vesselUpdateInfo.lengthInM"" class=""java.lang.String""/>
+Line 234: <field name=""lengthInM"" class=""java.lang.String""/>
+Line 556: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.lengthInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.lengthInMDouble})+"" M"" : ""N/A""]]></textFieldExpression>
+Line 2006: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.lengthInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.lengthInMDouble}): ""N/A""]]></textFieldExpression>
+Line 137: <parameter name=""vesselUpdateInfo.lengthInMDouble"" class=""java.lang.Double""/>
+Line 556: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.lengthInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.lengthInMDouble})+"" M"" : ""N/A""]]></textFieldExpression>
+Line 2006: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.lengthInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.lengthInMDouble}): ""N/A""]]></textFieldExpression>
+Line 166: <parameter name=""vesselUpdateInfo.lengthOverallInMDouble"" class=""java.lang.Double""/>
+Line 167: <parameter name=""vesselUpdateInfo.lengthOverallInM"" class=""java.lang.String""/>
+Line 166: <parameter name=""vesselUpdateInfo.lengthOverallInMDouble"" class=""java.lang.Double""/>
+Line 146: <parameter name=""vesselUpdateInfo.breadthInMDouble"" class=""java.lang.Double""/>
+Line 147: <parameter name=""vesselUpdateInfo.breadthInM"" class=""java.lang.String""/>
+Line 235: <field name=""breadthInM"" class=""java.lang.String""/>
+Line 571: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.breadthInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.breadthInMDouble})+"" M"": ""N/A""]]></textFieldExpression>
+Line 1945: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.breadthInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.breadthInMDouble}):""N/A""]]></textFieldExpression>
+Line 146: <parameter name=""vesselUpdateInfo.breadthInMDouble"" class=""java.lang.Double""/>
+Line 571: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.breadthInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.breadthInMDouble})+"" M"": ""N/A""]]></textFieldExpression>
+Line 1945: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.breadthInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.breadthInMDouble}):""N/A""]]></textFieldExpression>
+Line 144: <parameter name=""vesselUpdateInfo.moldedDepthInMDouble"" class=""java.lang.Double""/>
+Line 145: <parameter name=""vesselUpdateInfo.moldedDepthInM"" class=""java.lang.String""/>
+Line 541: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.moldedDepthInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.moldedDepthInMDouble}) +"" M"": ""N/A""]]></textFieldExpression>
+Line 2017: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.moldedDepthInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.moldedDepthInMDouble}):""N/A""]]></textFieldExpression>
+Line 144: <parameter name=""vesselUpdateInfo.moldedDepthInMDouble"" class=""java.lang.Double""/>
+Line 541: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.moldedDepthInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.moldedDepthInMDouble}) +"" M"": ""N/A""]]></textFieldExpression>
+Line 2017: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.moldedDepthInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.moldedDepthInMDouble}):""N/A""]]></textFieldExpression>
+Line 139: <parameter name=""vesselUpdateInfo.depthInMDouble"" class=""java.lang.Double""/>
+Line 140: <parameter name=""vesselUpdateInfo.depthInM"" class=""java.lang.String""/>
+Line 236: <field name=""depthInM"" class=""java.lang.String""/>
+Line 139: <parameter name=""vesselUpdateInfo.depthInMDouble"" class=""java.lang.Double""/>
+Line 131: <parameter name=""vesselUpdateInfo.moldedDraughtInMDouble"" class=""java.lang.Double""/>
+Line 132: <parameter name=""vesselUpdateInfo.moldedDraughtInM"" class=""java.lang.String""/>
+Line 797: <textFieldExpression><![CDATA[""<b>MOULDED DRAUGHT</b><br/>(Regulation 4(2))<br><u>"" +($P{vesselUpdateInfo.moldedDraughtInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.moldedDraughtInMDouble})+"" m"": ""N/A"") + ""</u>""]]></textFieldExpression>
+Line 1969: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.moldedDraughtInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.moldedDraughtInMDouble}):""N/A""]]></textFieldExpression>
+Line 131: <parameter name=""vesselUpdateInfo.moldedDraughtInMDouble"" class=""java.lang.Double""/>
+Line 797: <textFieldExpression><![CDATA[""<b>MOULDED DRAUGHT</b><br/>(Regulation 4(2))<br><u>"" +($P{vesselUpdateInfo.moldedDraughtInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.moldedDraughtInMDouble})+"" m"": ""N/A"") + ""</u>""]]></textFieldExpression>
+Line 1969: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.moldedDraughtInMDouble}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.moldedDraughtInMDouble}):""N/A""]]></textFieldExpression>
+Line 141: <parameter name=""vesselUpdateInfo.grossTonnage"" class=""java.lang.Double""/>
+Line 191: <parameter name=""grossTonnageSpaces[0].nameOfSpace"" class=""java.lang.String""/>
+Line 248: <field name=""grossTonnage"" class=""java.lang.String""/>
+Line 260: <field name=""vesselUpdateInfo.grossTonnage"" class=""java.lang.Double""/>
+Line 656: ""<b>"" + ($P{vesselUpdateInfo.grossTonnage}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.grossTonnage}):""N/A"") + ""</b>""]]></textFieldExpression>
+Line 118: <parameter name=""vesselUpdateInfo.netTonnage"" class=""java.lang.Double""/>
+Line 190: <parameter name=""netTonnageSpaces[0].nameOfSpace"" class=""java.lang.String""/>
+Line 670: ""<b>"" + ($P{vesselUpdateInfo.netTonnage}!=null? String.format(""%,.2f"",$P{vesselUpdateInfo.netTonnage}):""N/A"") + ""</b>""]]></textFieldExpression>
+Line 249: <field name=""netRegisterTonnage"" class=""java.lang.String""/>
+Line 160: <parameter name=""vesselUpdateInfo.hullMaterial.value"" class=""java.lang.String""/>
+Line 1600: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.hullMaterial.value}!=null? $P{vesselUpdateInfo.hullMaterial.value}: ""N/A""]]></textFieldExpression>
+Line 175: <parameter name=""vesselUpdateInfo.kilowattSlash"" class=""java.lang.String""/>
+Line 181: <parameter name=""kilowattSlash"" class=""java.lang.String""/>
+Line 1788: $P{vesselUpdateInfo.noOfMainEngine}!=null && $P{vesselUpdateInfo.noOfMainEngine}>0?$P{vesselUpdateInfo.kilowattSlash}:""N/A""
+Line 1790: $P{noOfMainEngine}!=null && $P{noOfMainEngine}>0?$P{kilowattSlash}:""N/A""
+Line 142: <parameter name=""vesselUpdateInfo.tradingArea.value"" class=""java.lang.String""/>
+Line 1490: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.tradingArea.value}]]></textFieldExpression>
+Line 164: <parameter name=""vesselUpdateInfo.stemType.value"" class=""java.lang.String""/>
+Line 1696: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.stemType.value}!=null?$P{vesselUpdateInfo.stemType.value}:""N/A""]]></textFieldExpression>
+Line 163: <parameter name=""vesselUpdateInfo.sternType.value"" class=""java.lang.String""/>
+Line 1707: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.sternType.value}!=null?$P{vesselUpdateInfo.sternType.value}:""N/A""]]></textFieldExpression>
+Line 154: <parameter name=""vesselUpdateInfo.dateKeelLaid"" class=""java.lang.String""/>
+Line 1534: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.dateKeelLaid}!=null? new SimpleDateFormat(""MMMM dd, yyyy"").format(new java.text.SimpleDateFormat(""yyyy-MM-dd"").parse($P{vesselUpdateInfo.dateKeelLaid})) : ""N/A""]]></textFieldExpression>
+Line 158: <parameter name=""vesselUpdateInfo.launchDate"" class=""java.lang.String""/>
+Line 1589: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.launchDate}!=null?new SimpleDateFormat(""MMMM dd, yyyy"").format(new java.text.SimpleDateFormat(""yyyy-MM-dd"").parse($P{vesselUpdateInfo.launchDate})):""N/A""]]></textFieldExpression>
+Line 159: <parameter name=""vesselUpdateInfo.deliveryDate"" class=""java.lang.String""/>
+Line 1578: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.deliveryDate}!=null? new SimpleDateFormat(""MMMM dd, yyyy"").format(new java.text.SimpleDateFormat(""yyyy-MM-dd"").parse($P{vesselUpdateInfo.deliveryDate})) : ""N/A""]]></textFieldExpression>
+Line 161: <parameter name=""vesselUpdateInfo.noOfDecks"" class=""java.lang.String""/>
+Line 1611: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.noOfDecks}!=null?$P{vesselUpdateInfo.noOfDecks}:""N/A""]]></textFieldExpression>
+Line 165: <parameter name=""vesselUpdateInfo.noOfMasts"" class=""java.lang.String""/>
+Line 1622: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.noOfMasts}!=null?$P{vesselUpdateInfo.noOfMasts}:""N/A""]]></textFieldExpression>
+Line 162: <parameter name=""vesselUpdateInfo.noOfKingPosts"" class=""java.lang.String""/>
+Line 1633: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.noOfKingPosts}!=null?$P{vesselUpdateInfo.noOfKingPosts}:""N/A""]]></textFieldExpression>
+Line 168: <parameter name=""vesselUpdateInfo.noOfAuxiliaryEngine"" class=""java.lang.Integer""/>
+Line 1884: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.noOfAuxiliaryEngine}!=null ?$P{vesselUpdateInfo.noOfAuxiliaryEngine}:""N/A""]]></textFieldExpression>
+Line 143: <parameter name=""vesselUpdateInfo.auxiliaryEngineMake"" class=""java.lang.String""/>
+Line 1908: <textFieldExpression><![CDATA[$P{vesselUpdateInfo.auxiliaryEngineMake}!=null?$P{vesselUpdateInfo.auxiliaryEngineMake}:""N/A""]]></textFieldExpression>"

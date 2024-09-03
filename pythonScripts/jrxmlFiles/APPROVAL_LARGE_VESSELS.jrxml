@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Bareboat Charter IN - Pre-termination" pageWidth="595" pageHeight="842" columnWidth="487" leftMargin="54" rightMargin="54" topMargin="43" bottomMargin="36" uuid="ebf79efe-9b49-4b30-bd94-617872cb9b57">
+	<parameter name="headerImage" class="java.lang.String"/>
+	<parameter name="footerImage" class="java.lang.String"/>
+	<parameter name="certificateQR" class="java.lang.String"/>
+	<parameter name="otherInfo.ccTo" class="java.lang.String"/>
+	<parameter name="otherInfo.countryOfCompanySellerOwnerName" class="java.lang.String"/>
+	<parameter name="otherInfo.certificateNoOfDeletionBuilderSCertificate" class="java.lang.String"/>
+	<parameter name="otherInfo.countryFlagStateCompanyOfIssuedCertificateOfDeletionBuilderSCertificate" class="java.lang.String"/>
+	<parameter name="otherInfo.utilization" class="java.lang.String"/>
+	<parameter name="otherInfo.companySellerOwnerName" class="java.lang.String"/>
+	<parameter name="otherInfo.companySellerOwnerRepresentativeName" class="java.lang.String"/>
+	<parameter name="otherInfo.memorandumOfAgreementMoaDate" class="java.lang.String"/>
+	<parameter name="otherInfo.memorandumOfAgreementMoaPlaceNotarized" class="java.lang.String"/>
+	<parameter name="otherInfo.memorandumOfAgreementMoaPlaceAuthenticated" class="java.lang.String"/>
+	<parameter name="otherInfo.boardOfResolutionPowerOfAttorneyDate" class="java.lang.String"/>
+	<parameter name="otherInfo.boardOfResolutionPowerOfAttorneyPlaceNotarized" class="java.lang.String"/>
+	<parameter name="otherInfo.boardOfResolutionPowerOfAttorneyPlaceAuthenticated" class="java.lang.String"/>
+	<parameter name="otherInfo.certificateNoOfCompanyBusinessRegistrationSeller" class="java.lang.String"/>
+	<parameter name="otherInfo.certificateOfCompanyBusinessRegistrationDate" class="java.lang.String"/>
+	<parameter name="otherInfo.certificateOfCompanyBusinessRegistrationPlaceNotarized" class="java.lang.String"/>
+	<parameter name="otherInfo.certificateOfCompanyBusinessRegistrationPlaceAuthenticated" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="currDate" class="java.lang.String"/>
+	<field name="representativeName" class="java.lang.String"/>
+	<field name="representativePosition" class="java.lang.String"/>
+	<field name="companyName" class="java.lang.String"/>
+	<field name="companyAddress" class="java.lang.String"/>
+	<field name="vesselName" class="java.lang.String"/>
+	<field name="signatoryName" class="java.lang.String"/>
+	<field name="signatoryPosition" class="java.lang.String"/>
+	<field name="yearBuilt" class="java.lang.String"/>
+	<field name="grossTonnage" class="java.lang.String"/>
+	<field name="vesselType" class="java.lang.String"/>
+	<field name="country" class="java.lang.String"/>
+	<field name="yearsValid" class="java.lang.String"/>
+	<field name="monthlyHireRate" class="java.lang.String"/>
+	<field name="charterAgreementDate" class="java.lang.String"/>
+	<field name="fromDate" class="java.lang.String"/>
+	<field name="toDate" class="java.lang.String"/>
+	<field name="charterer" class="java.lang.String"/>
+	<field name="seller" class="java.lang.String"/>
+	<field name="issuancePlace" class="java.lang.String"/>
+	<field name="sellerCompanyCertificate" class="java.lang.String"/>
+	<field name="signatorySignature" class="java.lang.String"/>
+	<variable name="underline" class="java.lang.String">
+		<variableExpression><![CDATA["____________"]]></variableExpression>
+		<initialValueExpression><![CDATA["____________"]]></initialValueExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="65">
+			<image scaleImage="FillFrame" hAlign="Center">
+				<reportElement x="0" y="4" width="487" height="60" uuid="2b682cc9-5ecb-42d8-83b4-9dc8a2137550"/>
+				<imageExpression><![CDATA[$P{headerImage}]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="530" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="0" y="10" width="210" height="21" uuid="a8818b89-1e94-4ff7-a625-eaff963813c5"/>
+				<textElement markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{currDate}+"<br/><br/><br/>"+
+
+"<b>"+$F{representativeName}+"</b><br/>"+
+$F{representativePosition}+"<br/>"+
+"<b>"+$F{companyName}+"</b><br/>"+
+$F{companyAddress}+"<br/><br/>"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="0" y="31" width="481" height="21" uuid="4f5f6a32-9518-49dc-8538-585e6b0d9d0c"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Dear Mr./Ms. "+$F{representativeName}+":<br/><br/>"+
+
+"Please be informed that your request for authority to acquire through importation of one (1) unit "+$F{yearBuilt}+" "+$F{grossTonnage}+" "+$F{vesselType}+" named, <b>“"+$F{vesselName}+"”</b> from the Seller, "+$P{otherInfo.companySellerOwnerName}+" of "+$P{otherInfo.countryOfCompanySellerOwnerName}+", is hereby <b><u>GRANTED</u></b>, subject to strict compliance with the following conditions:"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="0" y="292" width="481" height="21" uuid="d299e37e-b685-4e68-8dec-af4cebdaff9e"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>This authority shall be valid for a period of NINETY (90) DAYS from receipt of this approval by the applicant-company, which shall be deemed automatically cancelled if not availed of within the said period.</b><br/><br/>"+
+
+"Non-compliance/violation of any or all of the above-mentioned conditions shall subject the company to fines and penalties imposed under the applicable circulars, laws, rules and regulations and MARINA Circular No. 120 and their amendments.<br/><br/>"+
+
+"Please be guided accordingly.<br/><br/><br/>"+
+
+"Very truly yours,<br/><br/><br/><br/>"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="0" y="313" width="481" height="14" uuid="8aae0586-e4e5-482f-b629-ffba9ad0a1e4">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>"+$F{signatoryName}.toUpperCase()+"</b><br/>"+
+$F{signatoryPosition}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="0" y="52" width="30" height="8" uuid="f2459161-f9f2-4689-8103-24b16ff4fd02"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="0" y="148" width="80" height="8" uuid="830d8ec4-f5ec-4bcd-8031-f15cd177cf88"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="0" y="228" width="80" height="8" uuid="3cf20b5e-a2e0-480b-91f3-bcecc125f57d"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="30" y="52" width="451" height="8" uuid="0e2ad36e-18e2-47be-8733-ff4dbee783be"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<u>As to the applicant-company</u>:"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="30" y="148" width="451" height="8" uuid="65460349-b420-41cb-9b4c-420f460b4581"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<u>As to the "+$F{vesselType}+" named, <b>“"+$F{vesselName}+"”</b></u>"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="30" y="228" width="451" height="8" uuid="f7b55eab-54fb-45ad-a442-f57bba1253ec"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["That the following documents shall be submitted to the DSS, MRO within the prescribed validity of this Authority to Import (ATI):"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="60" width="30" height="8" uuid="9f1b0adf-d387-45be-b03e-b44cd9c57b4e"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.1."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="68" width="35" height="8" uuid="afd7d76a-57f7-47c0-a187-ec4f359a1796"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.2."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="76" width="35" height="8" uuid="5b81efae-872b-400e-be4f-3cc55dc7f674">
+					<printWhenExpression><![CDATA[!$P{otherInfo.utilization}.equals( "Domestic Shipping" )]]></printWhenExpression>
+				</reportElement>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.3."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="84" width="35" height="8" uuid="2136b8fb-6146-4fe6-99ed-5b16003d10ca"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.4."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="92" width="35" height="8" uuid="6ce2cbaf-b9b4-46ea-a481-050eaa1a24c1"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.5."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="100" width="35" height="8" uuid="fed278a9-7bb4-4ad9-be6c-688761f20239"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.6."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="108" width="35" height="8" uuid="c0c6fe38-0949-44ca-8e24-7570a87c994d"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.7."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="116" width="35" height="8" uuid="02e0b249-ea39-4ca7-a0ec-85e6260b26c3"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.8."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="124" width="35" height="8" uuid="f3e1ef0b-f0d0-4061-a996-d2585d1c04a0"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.9."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="132" width="35" height="8" uuid="71892839-c37d-4242-a2e6-83b35d2e4a1d"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.10."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="140" width="35" height="8" uuid="3eabe084-c927-4a28-b642-090db8ec3c8a"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["1.11."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="60" width="426" height="8" uuid="80d57ef1-2df0-412d-8f87-a18ef894f574"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To file and secure with this Authority an Application for Amendment of its Certificate of Public Convenience (CPC) to include the subject ship in the company’s fleet, prior to its deployment in the domestic trade; <i>(This condition is only applicable for ships engage in domestic shipping operation)</i>"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="68" width="426" height="8" uuid="d0b9dc8b-4cd4-450e-9135-082d43424763"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To maintain accreditation under MARINA Circular No. 2006-003 and to continuously comply with its provisions, such as, capitalization requirement during the operation of the subject ship in the domestic trade; <i>(This condition is only applicable for ships engage in domestic shipping operation)</i>"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="76" width="426" height="8" uuid="db759ab3-f11b-4ec6-8dde-1d00debf290e">
+					<printWhenExpression><![CDATA[!$P{otherInfo.utilization}.equals( "Domestic Shipping" )]]></printWhenExpression>
+				</reportElement>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["That the "+$F{vesselType}+" shall be used exclusively for "+$P{otherInfo.utilization}+" only and shall not be used for domestic shipping operation; <i>(This condition is applicable for ships engaging on company/personal use only)</i>"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="84" width="426" height="8" uuid="ec812c6b-6dec-42cc-8c70-d06d87ce088d"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To maintain at all times a ship’s class throughout her operation in the domestic trade;"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="108" width="426" height="8" uuid="e1d5a7cc-9d69-434c-862c-e92965b429dd"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["That the company shall request issuance of “Clearance” from the Domestic Shipping Sector (DSS), this Authority, relative to the compliance with the submission of post-approval documents, prior to the subject ship’s permanent registration under Philippine flag to be filed in the MARINA Regional Office (MRO);"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="100" width="426" height="8" uuid="575025a5-2b0f-43ee-9700-c620dec15050"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To comply with the rules governing the mandatory marine insurance to cover liabilities arising from pollution and wreck removal under MARINA Circular No. 2009-22 once suspension of its implementation is lifted;"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="116" width="426" height="8" uuid="c65bd867-3245-4751-9605-ece2fd020659"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To be held liable for payment of fines and penalties under pertinent MARINA Circulars specifically the revocation of the Letter-Approval or disqualification to register the imported ships upon findings of fake/spurious submission of documents;"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="92" width="426" height="8" uuid="687eebdb-56cb-43c5-80f5-42b648177908"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To continuously comply with the International Safety Management (ISM) Code, as implemented by this Authority under MARINA Memorandum Circular No. 2015-11;"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="140" width="426" height="8" uuid="f0c0632e-65fa-491a-87f9-622601dbfa3a"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To comply with all applicable laws, circulars, rules and regulations, maritime safety regulations as regards to hull, machinery, navigational, lifesaving and fire-fighting equipment."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="132" width="426" height="8" uuid="53e1f85a-3e21-428b-b789-df47422e33ca"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Comply with all laws, rules and regulations governing the operation of Philippine-registered ships; and,"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="124" width="426" height="8" uuid="8a0f40bd-b719-49ec-aac4-c354287d59ec"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To comply with all relevant rules and regulations of the Bureau of Customs and other concerned government agencies; and,"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="196" width="426" height="8" uuid="2d6fd2bc-b440-4c57-ab71-826e2a233127"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To be classed by a government-recognized or an accredited classification society prior to issuance of safety-related certificates or prior to operation in the domestic trade."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="172" width="426" height="8" uuid="c6eb3cd8-1a5d-4961-a2e8-d85acd8d436d"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To subject the ship to inspection by a MARINA surveyor for the following purposes, prior to her registration under Philippine flag:"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="164" width="426" height="8" uuid="c6ddfe1c-165b-40a0-bb45-65990356c0a2"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To submit safety related documents to be required by the Port State Control;"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="156" width="426" height="8" uuid="2f857dca-298c-4020-a237-48ef4cbc1b34"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Pursuant to M.C. 2015-07, the company shall submit the ship plans to the Shipyard Regulation Sector (SRS) for review and approval in case there will be a conversion, alteration, modification of the ship;"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="156" width="35" height="8" uuid="52232084-8bdb-4807-9899-3aea87cec60d"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.1."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="164" width="35" height="8" uuid="18da6631-86eb-4708-b480-f70c09c0444f"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.2."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="172" width="35" height="8" uuid="460121ef-ebfc-41df-a936-271975059f8b"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.3."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="196" width="55" height="8" uuid="1ffce302-660e-48f4-b80a-5b2d1cde4898"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.4."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="236" width="35" height="8" uuid="c096be10-e67b-41d9-8fff-0c9e6123bf3d"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.1."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="244" width="35" height="8" uuid="809edc94-acd0-436d-8b24-923352fc2c48"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.2."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="252" width="35" height="8" uuid="5d64d926-6216-404c-a3c9-1c0fc6c385f0"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.3."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="260" width="35" height="8" uuid="7c694317-8e49-441f-be92-96a887de14df"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.4."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="268" width="35" height="8" uuid="9e7226af-f4e7-4266-8d87-dc8c6baf130d"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.5."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="276" width="35" height="8" uuid="c0d67d9a-cc6a-4ca1-b454-3084ff4e5d3c"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.6."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="284" width="35" height="8" uuid="4f21b9bf-6163-4a2b-885e-e85f18b3470a"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["3.7."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="236" width="426" height="8" uuid="030f2deb-16b4-4d01-9646-21b24b3a2638"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Original and one (1) copy to be certified as true copy by the DSS, MRO of the ship’s Protocol of Delivery and Acceptance and "+$P{otherInfo.certificateNoOfDeletionBuilderSCertificate}+" from "+$P{otherInfo.countryFlagStateCompanyOfIssuedCertificateOfDeletionBuilderSCertificate}+", prior to issuance of DSS Clearance from ship’s permanent registration under Philippine flag;"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="244" width="426" height="8" uuid="561204a3-bf60-4fab-ac2e-c20db53a94a2"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Original and one (1) copy to be certified as true copy by the DSS, MRO of the Memorandum of Agreement (MOA) dated "+($P{otherInfo.memorandumOfAgreementMoaDate}!=null?$P{otherInfo.memorandumOfAgreementMoaDate}:$V{underline})+", executed and signed by and between "+$P{otherInfo.companySellerOwnerName}+" and "+$F{companyName}+", duly notarized by a Notary Public in "+($P{otherInfo.memorandumOfAgreementMoaPlaceNotarized}!=null?$P{otherInfo.memorandumOfAgreementMoaPlaceNotarized}:$V{underline})+" and authenticated by the Philippine Consulate/Embassy in "+($P{otherInfo.memorandumOfAgreementMoaPlaceAuthenticated}!=null?$P{otherInfo.memorandumOfAgreementMoaPlaceAuthenticated}:$V{underline})+", (original shall be presented for verification purposes);"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="252" width="426" height="8" uuid="9586826d-a2fe-4bb7-baa3-51194745e70d"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Original and one (1) copy to be certified as true copy by the DSS, MRO of the Board Resolution / Power of Attorney, executed and signed by, "+$P{otherInfo.companySellerOwnerName}+", dated "+($P{otherInfo.boardOfResolutionPowerOfAttorneyDate}!=null?$P{otherInfo.boardOfResolutionPowerOfAttorneyDate}:$V{underline})+", authorizing "+$P{otherInfo.companySellerOwnerRepresentativeName}+" to act for and in behalf of the company relative to the sale and delivery of the subject ship, notarized by a Notary Public in "+($P{otherInfo.boardOfResolutionPowerOfAttorneyPlaceNotarized}!=null?$P{otherInfo.boardOfResolutionPowerOfAttorneyPlaceNotarized}:$V{underline})+" and authenticated by the Philippine Consulate/Embassy in "+($P{otherInfo.boardOfResolutionPowerOfAttorneyPlaceAuthenticated}!=null?$P{otherInfo.boardOfResolutionPowerOfAttorneyPlaceAuthenticated}:$V{underline})+", (original shall be presented for verification purposes);"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="260" width="426" height="8" uuid="ad1686ca-162e-49ba-8d95-652eea69dae4"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Original and one (1) copy to be certified as true copy by the DSS, MRO of the Company Business Registration of "+$P{otherInfo.companySellerOwnerName}+" with Certificate No. "+($P{otherInfo.certificateNoOfCompanyBusinessRegistrationSeller}!=null?$P{otherInfo.certificateNoOfCompanyBusinessRegistrationSeller}:$V{underline})+" dated "+($P{otherInfo.certificateOfCompanyBusinessRegistrationDate}!=null?$P{otherInfo.certificateOfCompanyBusinessRegistrationDate}:$V{underline})+", duly notarized by a Notary Public in "+($P{otherInfo.certificateOfCompanyBusinessRegistrationPlaceNotarized}!=null?$P{otherInfo.certificateOfCompanyBusinessRegistrationPlaceNotarized}:$V{underline})+" and authenticated by the Philippine Consulate/Embassy in "+($P{otherInfo.certificateOfCompanyBusinessRegistrationPlaceAuthenticated}!=null?$P{otherInfo.certificateOfCompanyBusinessRegistrationPlaceAuthenticated}:$V{underline})+", (original shall be presented for verification purposes);"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="268" width="426" height="8" uuid="1e64da2a-8a72-404e-b9ee-3d0e7649e56f"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Original and one (1) copy to be certified as true copy by the DSS, MRO the Certification that the ship was inspected/surveyed by a MARINA surveyor for purposes of verifying her condition prior to release from the custody of the Bureau of Customs and prior to issuance of DSS clearance for the ship’s permanent registration under Philippine flag;"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="276" width="426" height="8" uuid="5d8fd29c-067a-45e7-8124-7b12e5ac1bd5"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Proof of payment of customs duties and taxes, bearing the final assessment of the Bureau of Customs, and other taxes due the subject ship, prior to issuance of DSS clearance for the ship’s permanent registration under Philippine flag (original shall be presented for verification purposes); and,"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="284" width="426" height="8" uuid="051bd9dc-6a0c-41fe-9abe-d4a6b6a6272a"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Original and one (1) copy to be certified as true copy by the DSS, MRO of the Declaration of Entry, stamped received by the Bureau of Customs (BOC) prior to issuance of DSS clearance for the ship’s permanent registration under Philippine flag (original shall be presented for verification purposes)."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="0" y="329" width="50" height="7" uuid="1d165ec6-865c-4895-8e4a-74c34d74ec54"/>
+				<box topPadding="36"/>
+				<textElement markup="html">
+					<font fontName="Arial-CE" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CC:"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="50" y="329" width="200" height="147" uuid="b1f56a1e-3167-4a0b-bc81-65335279f91d"/>
+				<box topPadding="36"/>
+				<textElement markup="html">
+					<font fontName="Arial-CE" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{otherInfo.ccTo}]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="220" width="55" height="8" uuid="c352446b-db90-46c9-88f1-e112ba53f47a"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.7."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="204" width="55" height="8" uuid="9c577fd6-a3f0-4029-a72d-0191ef2ec91a"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.5."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="25" y="212" width="55" height="8" uuid="bc1d10d8-df73-4293-9af7-a1f1af9aabb0"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.6."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="204" width="426" height="8" uuid="4db1be67-7cb1-4c84-8414-b387c6ebd797"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Not to be sold/transferred to any other company/entity without prior MARINA approval;"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="212" width="426" height="8" uuid="9819c185-89cb-4869-a83e-da7b9f569f03"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To be completely manned by Filipino officers and crew except where a supernumerary is allowed by the proper authorities, and each shall comply with the relevant regulations of the IMO Convention on STCW;"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="55" y="220" width="426" height="8" uuid="95dea150-e19f-451c-b5a8-26bf7935ded2"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To undergo survey and inspection in consonance with MARINA’s rules and requirements and shall always have valid safety documents/ certificates during her operation in the domestic trade; and"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="45" y="180" width="35" height="8" uuid="b6ae9a90-c228-496e-a380-ae0a495bcda6"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.3.1."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="45" y="188" width="45" height="8" uuid="6dd026da-6321-4da0-8518-0c0ed4ab2bc1"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["2.3.2."]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="80" y="180" width="401" height="8" uuid="a83a96ee-1575-4a35-8925-099953c234e1"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To verify her condition upon arrival in any Philippine port and prior to release from the custody of the Bureau of Customs;"]]></textFieldExpression>
+			</textField>
+			<textField textAdjust="StretchHeight">
+				<reportElement positionType="Float" x="80" y="188" width="401" height="8" uuid="eec6aec5-586b-4a52-9c60-02dcc2bec652"/>
+				<box topPadding="12"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial-CE" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["To determine her area of operation in the domestic trade;"]]></textFieldExpression>
+			</textField>
+			<frame>
+				<reportElement positionType="Float" x="273" y="313" width="208" height="137" uuid="19765c23-d177-4146-96a9-0c337df688c8"/>
+				<image>
+					<reportElement x="109" y="38" width="96" height="96" uuid="878ee03e-bcef-4662-ae1b-2e0d3602feb3">
+						<property name="com.jaspersoft.studio.unit.width" value="px"/>
+						<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					</reportElement>
+					<imageExpression><![CDATA[$P{certificateQR}]]></imageExpression>
+				</image>
+			</frame>
+			<image scaleImage="RetainShape" hAlign="Center" vAlign="Middle" isUsingCache="false" onErrorType="Blank">
+				<reportElement positionType="Float" x="0" y="313" width="90" height="28" uuid="0850952c-d61c-4e81-90f5-c7f82a62bfda">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box leftPadding="0"/>
+				<imageExpression><![CDATA[!$F{signatorySignature}.equals("") ? $F{signatorySignature} : null]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="80" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<image scaleImage="FillFrame" hAlign="Center" vAlign="Middle" isUsingCache="false" evaluationTime="Page">
+				<reportElement x="-2" y="0" width="489" height="54" uuid="776bb3fc-9422-4ba5-af8a-2f9c9d38f3bc">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{footerImage}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="390" y="54" width="96" height="16" uuid="6aa851a0-60c3-4552-8cd6-33e556248da1"/>
+				<textElement textAlignment="Right" verticalAlignment="Bottom">
+					<font fontName="Arial-CE" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page " + $V{PAGE_NUMBER} + " of 4"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>
