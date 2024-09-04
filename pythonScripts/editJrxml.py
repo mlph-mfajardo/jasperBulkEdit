@@ -113,7 +113,7 @@ for filename in os.listdir(jrxml_dir):
 
             # Replace all occurrences of search strings in the line
             for search_string in search_strings:
-                if search_string in modified_line:
+                if search_string in modified_line and "vesselUpdateInfo." + search_string not in modified_line: #Should not replace if its already in "vesselUpdateInfo.search_string
                     modified_line = modified_line.replace(search_string, f"vesselUpdateInfo.{search_string}")
                     found = True
 
